@@ -1,458 +1,458 @@
-Group,DISTRICT,distname,cntyname,regnname,REGION,English,Math,Reading,Science,Compos,Above_Crit_Rate,Exnees_Mskd,Crit_Mskd,Part_Rate,Grads_Mskd
-All Students,001902,Cayuga ISD,Anderson County,Kilgore,07,19,20.8,19.7,19.8,20.2,,6,<5,16.2,37
-All Students,001903,Elkhart ISD,Anderson County,Kilgore,07,,,,,,,<5,<5,,74
-All Students,001904,Frankston ISD,Anderson County,Kilgore,07,16.3,19.3,19,18.5,18.3,,6,<5,10.7,56
-All Students,001906,Neches ISD,Anderson County,Kilgore,07,17.8,20,20.8,20.7,19.9,,11,<5,61.1,18
-All Students,001907,Palestine ISD,Anderson County,Kilgore,07,17.2,20.1,20.1,20.2,19.7,,9,<5,6.5,139
-All Students,001908,Westwood ISD,Anderson County,Kilgore,07,19,20.9,19.3,20,20,,26,<5,25.5,102
-All Students,001909,Slocum ISD,Anderson County,Kilgore,07,22.9,25.9,23.1,23.1,23.7,,7,<5,25,28
-All Students,002901,Andrews ISD,Andrews County,Midland,18,19.4,21.2,21.2,20.8,20.8,27.3,44,12,18.6,237
-All Students,003902,Hudson ISD,Angelina County,Kilgore,07,18.1,22.8,20.6,21.3,20.7,,11,<5,7.1,154
-All Students,003903,Lufkin ISD,Angelina County,Kilgore,07,16.8,20.1,17.9,19.2,18.6,18.4,103,19,20.6,499
-All Students,003904,Huntington ISD,Angelina County,Kilgore,07,20,22.3,20.3,20.6,21,20.7,29,6,23.6,123
-All Students,003905,Diboll ISD,Angelina County,Kilgore,07,18.3,20.2,19.6,19.5,19.5,25,60,15,52.2,115
-All Students,003906,Zavalla ISD,Angelina County,Kilgore,07,23.4,20.8,23.2,22.8,22.6,,<10,<5,,29
-All Students,003907,Central ISD,Angelina County,Kilgore,07,,,,,,,<5,<5,,123
-All Students,004901,Aransas County ISD,Aransas County,Corpus Christi,02,19.7,20.8,20.8,20.8,20.7,27,63,17,31.3,201
-All Students,005901,Archer City ISD,Archer County,Wichita Falls,09,19.6,20.7,20.9,20.3,20.5,,21,<5,53.8,39
-All Students,005902,Holliday ISD,Archer County,Wichita Falls,09,22.9,23.3,23.7,22.5,23.3,47.7,44,21,75.9,58
-All Students,005904,Windthorst ISD,Archer County,Wichita Falls,09,21.8,22.3,22.5,22.5,22.4,42.3,26,11,63.4,41
-All Students,006902,Claude ISD,Armstrong County,Amarillo,16,21.4,22,22.7,20.9,21.9,37.5,24,9,70.6,34
-All Students,007901,Charlotte ISD,Atascosa County,San Antonio,20,15.6,17.3,16.5,18.1,17,,20,<5,58.8,34
-All Students,007902,Jourdanton ISD,Atascosa County,San Antonio,20,20.6,20.5,21.3,21.2,21,30.2,43,13,53.8,80
-All Students,007904,Lytle ISD,Atascosa County,San Antonio,20,17.1,18.6,18.5,18.6,18.3,8,75,6,60.5,124
-All Students,007905,Pleasanton ISD,Atascosa County,San Antonio,20,19.2,20.6,20.4,20.9,20.4,27.1,48,13,24.5,196
-All Students,007906,Poteet ISD,Atascosa County,San Antonio,20,14.9,18.3,17.6,17.5,17.2,,33,<5,28.9,114
-All Students,008901,Bellville ISD,Austin County,Huntsville,06,21,22.8,23.3,23.1,22.7,45,40,18,24.4,164
-All Students,008902,Sealy ISD,Austin County,Huntsville,06,18.7,20.4,19.3,19.5,19.6,10.8,83,9,46.1,180
-All Students,008903,Brazos ISD,Austin County,Huntsville,06,20,23.1,21.1,20,21.1,,10,<10,18.9,53
-All Students,009901,Muleshoe ISD,Bailey County,Lubbock,17,16.6,20.1,18.5,19.3,18.8,11.1,45,5,63.4,71
-All Students,010901,Medina ISD,Bandera County,San Antonio,20,19.1,23.7,20.5,21.5,21.3,,11,<5,33.3,33
-All Students,010902,Bandera ISD,Bandera County,San Antonio,20,19.8,21.5,20.5,20.9,20.8,20.3,69,14,40.1,172
-All Students,011901,Bastrop ISD,Bastrop County,Austin,13,18.6,20.7,19.7,20.3,20,26,77,20,15,515
-All Students,011902,Elgin ISD,Bastrop County,Austin,13,16.6,18.2,18,18.1,17.8,9.4,85,8,32,266
-All Students,011904,Smithville ISD,Bastrop County,Austin,13,19.4,21.8,21.5,20.7,21,21.7,46,10,43.4,106
-All Students,012901,Seymour ISD,Baylor County,Wichita Falls,09,21.8,23.5,22.9,21.8,22.6,45,20,9,57.1,35
-All Students,013901,Beeville ISD,Bee County,Corpus Christi,02,18.2,19.9,19.8,20.2,19.6,20.6,107,22,49.1,218
-All Students,013903,Pettus ISD,Bee County,Corpus Christi,02,16.4,19.3,16.4,16.8,17.4,,21,<5,53.8,39
-All Students,013905,Skidmore-Tynan ISD,Bee County,Corpus Christi,02,18.7,20.6,20.6,20.7,20.3,19.2,26,5,43.3,60
-All Students,014801,Richard Milburn Alter High School,Bell County,Waco,12,,,,,,,<5,<5,,78
-All Students,014804,Orenda Charter School,Bell County,Waco,12,23.8,22.8,21.3,20.5,22.3,,<5,<5,,63
-All Students,014901,Academy ISD,Bell County,Waco,12,22.4,24.5,23.9,23.3,23.6,57.1,21,12,29.2,72
-All Students,014902,Bartlett ISD,Bell County,Austin,13,,,,,,,<5,<5,,29
-All Students,014903,Belton ISD,Bell County,Waco,12,21.8,22.8,22.9,22.6,22.6,39.9,138,55,23.4,590
-All Students,014905,Holland ISD,Bell County,Waco,12,18.7,20,18.1,19.5,19.2,,20,<5,58.8,34
-All Students,014906,Killeen ISD,Bell County,Waco,12,18.8,20.4,20.1,20.1,20,22.3,355,79,18.6,1909
-All Students,014907,Rogers ISD,Bell County,Waco,12,21.6,20.1,22.4,21.1,21.3,,14,<5,20.9,67
-All Students,014908,Salado ISD,Bell County,Waco,12,22.5,25.1,25.1,23.9,24.4,,28,<20,29.2,96
-All Students,014909,Temple ISD,Bell County,Waco,12,20.1,22.6,21.6,21.5,21.6,33.8,68,23,13.3,512
-All Students,014910,Troy ISD,Bell County,Waco,12,19.4,20.6,20.6,19.4,20.1,18.2,55,10,57.9,95
-All Students,015802,George Gervin Academy,Bexar County,San Antonio,20,13.8,13,15.8,15.3,14.5,,<5,<5,,60
-All Students,015807,Southwest Preparatory School,Bexar County,San Antonio,20,,,,,,,<5,<5,,174
-All Students,015815,Radiance Academy Of Learning,Bexar County,San Antonio,20,,,,,,,<5,<5,,25
-All Students,015816,Academy Of Careers And Technologie,Bexar County,San Antonio,20,15.5,15.6,17.5,16.5,16.1,,8,<5,27.6,29
-All Students,015817,San Antonio Can High School,Bexar County,San Antonio,20,16.2,17,21.2,19.8,18.6,,5,<5,6.5,77
-All Students,015822,Jubilee Academic Center,Bexar County,San Antonio,20,,,,,,,<5,<5,,33
-All Students,015827,School Of Science And Technology,Bexar County,San Antonio,20,24.6,27.6,25.1,25.9,25.8,62.5,16,10,43.2,37
-All Students,015828,Harmony Science Acad (San Antonio),Bexar County,San Antonio,20,21,22.6,21,20.8,21.6,,5,<5,27.8,18
-All Students,015830,Brooks Academy Of Science And Engi,Bexar County,San Antonio,20,23.2,22.8,23.8,22.2,23,,5,<5,11.6,43
-All Students,015901,Alamo Heights ISD,Bexar County,San Antonio,20,23.3,24.5,23.8,23.3,23.9,51.3,195,100,52.1,374
-All Students,015904,Harlandale ISD,Bexar County,San Antonio,20,16.5,18.7,18.1,18.1,17.9,11.2,241,27,28,860
-All Students,015905,Edgewood ISD,Bexar County,San Antonio,20,14.2,17.3,16.1,16.6,16.1,3.2,187,6,38.9,481
-All Students,015906,Randolph Field ISD,Bexar County,San Antonio,20,21.5,22.2,22.6,22.3,22.3,33.3,33,11,44,75
-All Students,015907,San Antonio ISD,Bexar County,San Antonio,20,15.5,17.9,17,17.3,17,6.9,1052,73,39,2696
-All Students,015908,South San Antonio ISD,Bexar County,San Antonio,20,16.2,18.4,17.7,17.8,17.7,,58,<10,12.9,448
-All Students,015909,Somerset ISD,Bexar County,San Antonio,20,16.4,18.3,18,18.7,18,,37,<5,19.6,189
-All Students,015910,North East ISD,Bexar County,San Antonio,20,20.9,22.4,22,21.9,21.9,39,1199,468,27.1,4425
-All Students,015911,East Central ISD,Bexar County,San Antonio,20,18,20.1,19.5,19.8,19.5,15.2,164,25,27.8,589
-All Students,015912,Southwest ISD,Bexar County,San Antonio,20,16.1,19.7,18.2,18.6,18.3,8.3,72,6,11,655
-All Students,015913,Lackland ISD,Bexar County,San Antonio,20,21.4,22,22.9,21.2,22,30.3,33,10,84.6,39
-All Students,015914,Ft Sam Houston ISD,Bexar County,San Antonio,20,21.4,22.1,21.6,21.5,21.7,32.4,34,11,52.3,65
-All Students,015915,Northside ISD,Bexar County,San Antonio,20,19.8,22,21.2,21.3,21.2,33.5,1321,443,21.9,6020
-All Students,015916,Judson ISD,Bexar County,San Antonio,20,17.4,19.3,19.1,19.1,18.9,14.7,217,32,15.9,1369
-All Students,015917,Southside ISD,Bexar County,San Antonio,20,15.9,19.1,17.3,19.1,18,8.4,83,7,28.1,295
-All Students,016901,Johnson City ISD,Blanco County,Austin,13,17.3,19.5,19.3,19.5,19.2,,6,<5,12,50
-All Students,016902,Blanco ISD,Blanco County,Austin,13,19.3,19.1,20,19.8,19.6,21.3,47,10,70.1,67
-All Students,017901,Borden County ISD,Borden County,Lubbock,17,21.2,24.4,19.6,21.5,21.8,,10,<5,83.3,12
-All Students,018901,Clifton ISD,Bosque County,Waco,12,20.9,22.6,22.3,22.4,22.2,34.3,35,12,48.6,72
-All Students,018902,Meridian ISD,Bosque County,Waco,12,19.4,21,20.4,19.6,20.2,18.5,27,5,79.4,34
-All Students,018904,Valley Mills ISD,Bosque County,Waco,12,21,20.9,23.2,20.9,21.7,,9,<5,21.4,42
-All Students,018905,Walnut Springs ISD,Bosque County,Waco,12,14.7,18,16.7,17.2,16.7,,6,<5,46.2,13
-All Students,018906,Iredell ISD,Bosque County,Waco,12,16.7,20,20,19.3,19,,<5,<5,,8
-All Students,018907,Kopperl ISD,Bosque County,Waco,12,26.3,28,28,22.7,26.3,,<5,<5,,17
-All Students,018908,Cranfills Gap ISD,Bosque County,Waco,12,15,20,20.7,21.3,19.3,,<5,<5,,10
-All Students,019901,Dekalb ISD,Bowie County,Mt Pleasant,08,18.4,20.3,19,20.3,19.6,17.9,39,7,62.9,62
-All Students,019902,Hooks ISD,Bowie County,Mt Pleasant,08,18.4,19.5,19.7,20.6,19.7,20,55,11,70.5,78
-All Students,019903,Maud ISD,Bowie County,Mt Pleasant,08,17.9,19.6,18.9,19.3,19,,25,<5,65.8,38
-All Students,019905,New Boston ISD,Bowie County,Mt Pleasant,08,18.2,18.9,19.7,19.1,19.1,11.6,69,8,76.7,90
-All Students,019906,Redwater ISD,Bowie County,Mt Pleasant,08,20.2,21.1,21.1,20.9,21,27.9,61,17,67.8,90
-All Students,019907,Texarkana ISD,Bowie County,Mt Pleasant,08,19.9,20.3,20.7,20.8,20.6,27,300,81,63,476
-All Students,019908,Liberty-Eylau ISD,Bowie County,Mt Pleasant,08,17,18.7,18,18.4,18.1,9.6,114,11,67.9,168
-All Students,019909,Simms ISD,Bowie County,Mt Pleasant,08,18.1,18.5,18.2,17.4,18.1,,30,<5,65.2,46
-All Students,019912,Pleasant Grove ISD,Bowie County,Mt Pleasant,08,20.9,21.5,21.7,21.6,21.6,33.7,83,28,70.9,117
-All Students,020901,Alvin ISD,Brazoria County,Houston,04,19.2,21.2,20.2,20.5,20.4,27.6,192,53,18.8,1021
-All Students,020902,Angleton ISD,Brazoria County,Houston,04,20,21.6,21.4,21.5,21.2,32,25,8,6.2,404
-All Students,020904,Danbury ISD,Brazoria County,Houston,04,18.3,21.7,19,20.3,20,,<5,<5,,41
-All Students,020905,Brazosport ISD,Brazoria County,Houston,04,21,22.6,22.2,22.5,22.2,39.9,168,67,21.4,785
-All Students,020906,Sweeny ISD,Brazoria County,Houston,04,18.9,21.9,20.6,20.8,20.7,23.3,30,7,21.3,141
-All Students,020907,Columbia-Brazoria ISD,Brazoria County,Houston,04,19.1,21.2,19.8,20.3,20.2,25,24,6,13,185
-All Students,020908,Pearland ISD,Brazoria County,Houston,04,20.3,22.1,21.4,21.6,21.4,,262,<100,20.9,1252
-All Students,021803,Brazos School For Inquiry & Creati,Brazos County,Huntsville,06,,,,,,,<5,<5,,27
-All Students,021804,Harmony Science Acad (College Stat,Brazos County,Huntsville,06,,,,,,,<5,<5,,<5
-All Students,021901,College Station ISD,Brazos County,Huntsville,06,22.4,24.3,22.9,23.1,23.3,46.8,171,80,24.7,691
-All Students,021902,Bryan ISD,Brazos County,Huntsville,06,17.6,21,19.5,19.9,19.6,18.4,223,41,27,825
-All Students,022004,Terlingua CSD,Brewster County,Midland,18,19.7,22.3,22.3,20.7,21.3,,<5,<5,,5
-All Students,022901,Alpine ISD,Brewster County,Midland,18,19.3,22.4,20.6,20,20.7,,29,<15,38.7,75
-All Students,022902,Marathon ISD,Brewster County,Midland,18,15.8,17,18.3,17.3,17.3,,<5,<5,,<10
-All Students,023902,Silverton ISD,Briscoe County,Amarillo,16,22,24.2,22.6,23.2,23.2,,<10,<5,,11
-All Students,024901,Brooks County ISD,Brooks County,Corpus Christi,02,16.7,18.6,17.8,19.5,18.3,,<35,<5,,86
-All Students,025901,Bangs ISD,Brown County,San Angelo,15,18.8,20,19.9,19.8,19.8,16.2,37,6,52.9,70
-All Students,025902,Brownwood ISD,Brown County,San Angelo,15,19.3,21.6,21.4,20.9,20.9,24,75,18,33.2,226
-All Students,025904,Blanket ISD,Brown County,San Angelo,15,16,20.2,17.1,19,18.3,,9,<5,81.8,11
-All Students,025905,May ISD,Brown County,San Angelo,15,15,17.4,15.5,18.3,16.8,,8,<5,57.1,14
-All Students,025906,Zephyr ISD,Brown County,San Angelo,15,19.8,20.7,22.7,21.3,21.2,,6,<5,75,8
-All Students,025908,Brookesmith ISD,Brown County,San Angelo,15,15.8,16.5,17.8,19,17.3,,<5,<5,,9
-All Students,025909,Early ISD,Brown County,San Angelo,15,20,21.7,20.8,21.1,21.1,29.2,48,14,60.8,79
-All Students,026901,Caldwell ISD,Burleson County,Huntsville,06,19.1,21.4,20.9,21.2,20.8,24.3,37,9,31.6,117
-All Students,026903,Snook ISD,Burleson County,Huntsville,06,21,25,24,23.4,23.4,,<10,<5,,33
-All Students,027903,Burnet CISD,Burnet County,Austin,13,18.7,19.9,19.5,20,19.6,22.2,63,14,26.5,238
-All Students,027904,Marble Falls ISD,Burnet County,Austin,13,20.4,21.2,21.1,21.4,21.1,23,87,20,37.5,232
-All Students,028902,Lockhart ISD,Caldwell County,Austin,13,17.3,19.3,18.2,18.2,18.4,10.6,104,11,31.4,331
-All Students,028903,Luling ISD,Caldwell County,Austin,13,16.5,19.8,18,19.6,18.6,,13,<5,13.7,95
-All Students,028906,Prairie Lea ISD,Caldwell County,Austin,13,21.1,20.3,22.4,20.6,21.3,,7,<5,50,14
-All Students,029901,Calhoun County ISD,Calhoun County,Victoria,03,20.2,21.8,21.1,21,21,35.3,17,6,6,285
-All Students,030901,Cross Plains ISD,Callahan County,Abilene,14,22.8,22,23.5,21.8,22.7,35,20,7,74.1,27
-All Students,030902,Clyde CISD,Callahan County,Abilene,14,20.6,21.3,21,20.9,21.1,,36,<15,40,90
-All Students,030903,Baird ISD,Callahan County,Abilene,14,15.3,17.3,16.2,18.2,16.9,,9,<5,45,20
-All Students,030906,Eula ISD,Callahan County,Abilene,14,22.5,21.9,22.4,21.3,22.2,31.3,16,5,69.6,23
-All Students,031901,Brownsville ISD,Cameron County,Edinburg,01,16.9,19.6,18.3,18.7,18.5,12.1,372,45,14,2649
-All Students,031903,Harlingen CISD,Cameron County,Edinburg,01,16.7,19,18.1,18.5,18.2,11.6,464,54,42.6,1090
-All Students,031905,La Feria ISD,Cameron County,Edinburg,01,15.9,18.6,17.8,18.2,17.8,,131,<15,58.5,224
-All Students,031906,Los Fresnos CISD,Cameron County,Edinburg,01,17.6,19.9,19.4,19.3,19.2,18.7,123,23,21.1,582
-All Students,031909,Point Isabel ISD,Cameron County,Edinburg,01,19.1,20.8,20.5,20.2,20.3,,15,<5,11.9,126
-All Students,031911,Rio Hondo ISD,Cameron County,Edinburg,01,15.2,18.2,17,18,17.2,,73,<5,46.8,156
-All Students,031912,San Benito CISD,Cameron County,Edinburg,01,16.3,18.3,17.8,17.9,17.7,8.9,180,16,28,644
-All Students,031913,Santa Maria ISD,Cameron County,Edinburg,01,12.6,16.3,15.2,14,14.7,,9,<5,,<40
-All Students,031914,Santa Rosa ISD,Cameron County,Edinburg,01,13.1,16.4,15.2,16.1,15.3,,60,<5,89.6,67
-All Students,031916,South Texas ISD,Cameron County,Edinburg,01,20.3,22.5,21.4,21.4,21.5,31.4,315,99,68.2,462
-All Students,032902,Pittsburg ISD,Camp County,Mt Pleasant,08,18.2,20.3,18.8,20.7,19.6,22,41,9,28.9,142
-All Students,033901,Groom ISD,Carson County,Amarillo,16,21.5,21.7,20.6,20.5,21.2,,11,<5,84.6,13
-All Students,033902,Panhandle ISD,Carson County,Amarillo,16,19.3,19.8,21,20.7,20.4,20.5,39,8,72.2,54
-All Students,033904,White Deer ISD,Carson County,Amarillo,16,17.1,19.8,18.5,19.3,18.8,,22,<5,75.9,29
-All Students,034901,Atlanta ISD,Cass County,Mt Pleasant,08,18.9,19.4,19.8,19.5,19.6,17.1,70,12,66.7,105
-All Students,034902,Avinger ISD,Cass County,Mt Pleasant,08,18,18.3,18,18.3,18.4,,8,<5,57.1,14
-All Students,034903,Hughes Springs ISD,Cass County,Mt Pleasant,08,18.2,19.6,19.2,19.6,19.3,14.9,47,7,73.4,64
-All Students,034905,Linden-Kildare CISD,Cass County,Mt Pleasant,08,17.9,18.8,19,20,19,14.3,42,6,70,60
-All Students,034906,McLeod ISD,Cass County,Mt Pleasant,08,19.5,22.5,21.8,21.7,21.5,,19,<5,67.9,28
-All Students,034907,Queen City ISD,Cass County,Mt Pleasant,08,19.6,19.8,20.5,20.2,20.2,28,50,14,61,82
-All Students,034909,Bloomburg ISD,Cass County,Mt Pleasant,08,17,19,20.3,19.4,18.9,,12,<5,92.3,13
-All Students,035901,Dimmitt ISD,Castro County,Amarillo,16,17.2,19.5,18.2,18.2,18.4,,42,<10,66.7,63
-All Students,035902,Hart ISD,Castro County,Amarillo,16,13.2,17.8,15.6,15.4,15.7,,11,<5,,<15
-All Students,035903,Nazareth ISD,Castro County,Amarillo,16,25.8,22.2,23.1,21.3,23.2,,<15,<10,,12
-All Students,036901,Anahuac ISD,Chambers County,Houston,04,16.4,19.3,20.2,18.9,18.9,,24,<5,28.2,85
-All Students,036902,Barbers Hill ISD,Chambers County,Houston,04,20.4,22.9,21.3,21.8,21.8,33.3,63,21,23.3,270
-All Students,036903,East Chambers ISD,Chambers County,Houston,04,21.1,20.6,21.2,20.5,21,36.4,22,8,25.6,86
-All Students,037901,Alto ISD,Cherokee County,Kilgore,07,16.2,19,17.5,18.8,18.1,,24,<5,53.3,45
-All Students,037904,Jacksonville ISD,Cherokee County,Kilgore,07,17.2,18.9,19,19.2,18.7,16.5,139,23,53.7,259
-All Students,037907,Rusk ISD,Cherokee County,Kilgore,07,21.6,22.3,23.2,22.7,22.6,48,25,12,25.8,97
-All Students,037908,New Summerfield ISD,Cherokee County,Kilgore,07,10.5,15.4,14,15.2,13.7,,11,<5,33.3,33
-All Students,038901,Childress ISD,Childress County,Amarillo,16,18.1,21.6,20.1,20.6,20.3,25.6,43,11,63.2,68
-All Students,039901,Byers ISD,Clay County,Wichita Falls,09,19,20,20.3,17.7,19.3,,<5,<5,,<5
-All Students,039902,Henrietta ISD,Clay County,Wichita Falls,09,22.5,22,23.3,22.7,22.8,41.7,24,10,32.4,74
-All Students,039903,Petrolia ISD,Clay County,Wichita Falls,09,20.3,21.4,20.3,21.9,21.1,,13,<5,31,42
-All Students,039904,Bellevue ISD,Clay County,Wichita Falls,09,,,,,,,<5,<5,,8
-All Students,039905,Midway ISD,Clay County,Wichita Falls,09,20.5,23.8,23.8,21.3,22.3,,<5,<5,,9
-All Students,040901,Morton ISD,Cochran County,Lubbock,17,13.9,17.5,16.1,16.4,16.2,,17,<5,70.8,24
-All Students,040902,Whiteface CISD,Cochran County,Lubbock,17,17.4,19.2,18.8,18.1,18.5,,13,<5,76.5,17
-All Students,041901,Bronte ISD,Coke County,San Angelo,15,19.5,22.2,18.8,19.9,20.3,26.9,26,7,81.3,32
-All Students,041902,Robert Lee ISD,Coke County,San Angelo,15,19,20.7,20,20.3,20.1,,12,<5,57.1,21
-All Students,042901,Coleman ISD,Coleman County,San Angelo,15,19.4,20.8,20.3,20.8,20.5,17.9,39,7,81.3,48
-All Students,042903,Santa Anna ISD,Coleman County,San Angelo,15,17.3,18.5,16.8,16,17.3,,<5,<5,,15
-All Students,042905,Panther Creek CISD,Coleman County,San Angelo,15,20.8,22.8,22.9,22.5,22.3,50,12,6,109.1,11
-All Students,042906,Novice ISD,Coleman County,San Angelo,15,,,,,,,<5,<5,,<5
-All Students,043901,Allen ISD,Collin County,Richardson,10,23.3,24.8,24,23.6,24.1,54.2,548,297,45.1,1215
-All Students,043902,Anna ISD,Collin County,Richardson,10,19.6,21.4,20.7,20.6,20.8,25,36,9,28.1,128
-All Students,043903,Celina ISD,Collin County,Richardson,10,21.7,23.5,22.6,22.7,22.8,44.4,124,55,85.5,145
-All Students,043904,Farmersville ISD,Collin County,Richardson,10,20.4,22.8,22.6,22.2,22.2,44,25,11,26.6,94
-All Students,043905,Frisco ISD,Collin County,Richardson,10,22.8,24,23.5,23.4,23.6,48.6,1012,492,51.6,1962
-All Students,043907,McKinney ISD,Collin County,Richardson,10,23,24.1,23.9,23.5,23.7,53.8,682,367,46.5,1467
-All Students,043908,Melissa ISD,Collin County,Richardson,10,21.6,22.7,23,22.6,22.6,,53,<30,50,106
-All Students,043910,Plano ISD,Collin County,Richardson,10,24.7,26.6,25.4,25.1,25.6,66.7,1786,1191,49.1,3634
-All Students,043911,Princeton ISD,Collin County,Richardson,10,19.5,22.1,20.5,21.6,21.1,22.6,31,7,16.5,188
-All Students,043912,Prosper ISD,Collin County,Richardson,10,22.6,24.2,23.1,23.2,23.4,46.2,173,80,65.3,265
-All Students,043914,Wylie ISD,Collin County,Richardson,10,20.9,23,22.1,22.5,22.2,40.4,270,109,38.2,707
-All Students,043917,Blue Ridge ISD,Collin County,Richardson,10,20,21.5,21.8,21,21.2,,21,<10,42.9,49
-All Students,043918,Community ISD,Collin County,Richardson,10,19,21.9,20.4,21.2,20.8,23.3,30,7,34.1,88
-All Students,043919,Lovejoy ISD,Collin County,Richardson,10,23.7,24.7,24.5,23.8,24.3,54.8,166,91,68.6,242
-All Students,044902,Wellington ISD,Collingsworth County,Amarillo,16,17.3,19.1,18.4,19.2,18.6,,33,<5,91.7,36
-All Students,045902,Columbus ISD,Colorado County,Victoria,03,19.5,21.8,19.5,20.2,20.4,24.7,81,20,62.8,129
-All Students,045903,Rice CISD,Colorado County,Victoria,03,16.5,19.8,18.2,18.4,18.3,16.7,60,10,82.2,73
-All Students,045905,Weimar ISD,Colorado County,Victoria,03,21.2,22.9,21.8,21.8,22,,25,<15,53.2,47
-All Students,046901,New Braunfels ISD,Comal County,Austin,13,20.5,22.6,21.6,22.1,21.9,35.2,122,43,22,555
-All Students,046902,Comal ISD,Comal County,Austin,13,20.6,22.8,22,22,22,38.6,339,131,30.4,1116
-All Students,047901,Comanche ISD,Comanche County,Abilene,14,18.8,20.9,18.7,20.1,19.7,17.9,28,5,43.1,65
-All Students,047902,De Leon ISD,Comanche County,Abilene,14,18.5,20.2,19.8,19.1,19.5,,25,<5,56.8,44
-All Students,047903,Gustine ISD,Comanche County,Abilene,14,15,18.5,16.5,18,17,,<5,<5,,10
-All Students,047905,Sidney ISD,Comanche County,Abilene,14,19.8,19,23.3,20,20.5,,<5,<5,,9
-All Students,048901,Eden CISD,Concho County,San Angelo,15,17.6,19.1,17.6,17.7,18.2,,15,<5,75,20
-All Students,048903,Paint Rock ISD,Concho County,San Angelo,15,20.5,22.8,19.3,18,20.3,,<5,<5,,<10
-All Students,049901,Gainesville ISD,Cooke County,Fort Worth,11,18.7,20.3,20.1,20.5,20,10.6,47,5,36.7,128
-All Students,049902,Muenster ISD,Cooke County,Fort Worth,11,23.5,24.8,24.5,23.2,24.1,53.8,26,14,66.7,39
-All Students,049903,Valley View ISD,Cooke County,Fort Worth,11,18.7,21,20.8,19.9,20.3,,13,<5,31.7,41
-All Students,049904,Gainesville State School,Cooke County,Fort Worth,11,15.3,15.3,16.3,18.7,16.7,,<5,<5,,<5
-All Students,049905,Callisburg ISD,Cooke County,Fort Worth,11,20,20.7,20.5,19.8,20.3,,6,<5,8.1,74
-All Students,049906,Era ISD,Cooke County,Fort Worth,11,16.4,17.9,17.8,16.6,17.4,,8,<5,38.1,21
-All Students,049907,Lindsay ISD,Cooke County,Fort Worth,11,22.9,23.3,23.5,23.2,23.3,39.1,23,9,54.8,42
-All Students,050901,Evant ISD,Coryell County,Waco,12,18.4,19.1,19,21,19.5,,8,<5,44.4,18
-All Students,050902,Gatesville ISD,Coryell County,Waco,12,19.9,20.8,21.5,21.3,21,26.6,94,25,48.2,195
-All Students,050904,Oglesby ISD,Coryell County,Waco,12,,,,,,,<5,<5,,7
-All Students,050909,Jonesboro ISD,Coryell County,Waco,12,20,21.8,22.5,21.2,21.7,,6,<5,42.9,14
-All Students,050910,Copperas Cove ISD,Coryell County,Waco,12,19.2,20.2,20.3,20.6,20.2,13.6,59,8,12.1,486
-All Students,051901,Paducah ISD,Cottle County,Lubbock,17,14.4,16.7,17.3,18.3,16.9,,7,<5,50,14
-All Students,052901,Crane ISD,Crane County,Midland,18,16.4,19.5,19.3,19.3,18.8,,38,<10,50.7,75
-All Students,053001,Crockett County Consolidated CSD,Crockett County,San Angelo,15,16,19.4,17.3,17.8,17.8,,24,<5,58.5,41
-All Students,054901,Crosbyton CISD,Crosby County,Lubbock,17,17.2,19.4,18.8,18.6,18.6,,14,<5,58.3,24
-All Students,054902,Lorenzo ISD,Crosby County,Lubbock,17,15.1,16.5,17.1,16.6,16.5,,15,<5,83.3,18
-All Students,054903,Ralls ISD,Crosby County,Lubbock,17,18.4,22.5,20.5,19.8,20.5,,15,<5,44.1,34
-All Students,055901,Culberson County-Allamoore ISD,Culberson County,Midland,18,13.6,17.6,16.5,16.5,16.1,,20,<5,62.5,32
-All Students,056901,Dalhart ISD,Dallam County,Amarillo,16,18.4,19.2,20.1,19.5,19.5,15.7,83,13,67.5,123
-All Students,056902,Texline ISD,Dallam County,Amarillo,16,17,16.2,19,18.8,18,,6,<5,,<5
-All Students,057802,Pegasus School Of Liberal Arts And,Dallas County,Richardson,10,19.6,21.7,19,19.7,20.1,,12,<5,37.5,32
-All Students,057803,Uplift Education - North Hills Pre,Dallas County,Richardson,10,26.4,26.5,25.7,24.7,26.1,76.4,55,42,62.5,88
-All Students,057804,Dallas Can Academy Charter,Dallas County,Richardson,10,11.1,15.3,13.4,14.6,13.8,,42,<5,6,695
-All Students,057806,Advantage Academy,Dallas County,Richardson,10,17,19.8,19,19.5,19,,<5,<5,,52
-All Students,057807,Life School,Dallas County,Richardson,10,16.8,18.6,17.5,17.7,17.7,,45,<5,33.8,133
-All Students,057808,Universal Academy,Dallas County,Richardson,10,16,19.1,16.6,16,16.9,,10,<5,45.5,22
-All Students,057815,Faith Family Academy Of Oak Cliff,Dallas County,Richardson,10,,,,,,,<5,<5,,34
-All Students,057819,Jean Massieu Academy,Dallas County,Richardson,10,,,,,,,<5,<5,,<10
-All Students,057825,Honors Academy,Dallas County,Richardson,10,,,,,,,<5,<5,,106
-All Students,057828,Winfree Academy Charter Schools,Dallas County,Richardson,10,17,16.5,15.3,18,16.8,,<5,<5,,375
-All Students,057831,Gateway Charter Academy,Dallas County,Richardson,10,12.5,15.8,14.1,15.6,14.5,,8,<5,,<5
-All Students,057838,Uplift Education - Peak Preparator,Dallas County,Richardson,10,15.2,19.5,15.8,17.1,17,,28,<5,71.8,39
-All Students,057840,Richland Collegiate High School,Dallas County,Richardson,10,22.2,24.2,23,22.9,23.2,40.5,74,30,39.4,188
-All Students,057842,Uplift Education - Williams Prepar,Dallas County,Richardson,10,15.2,19.6,16.6,18.1,17.4,,21,<5,58.3,36
-All Students,057843,Uplift Education - Hampton Prepara,Dallas County,Richardson,10,14.4,17.3,15.3,16.5,16.1,,17,<5,130.8,13
-All Students,057903,Carrollton-Farmers Branch ISD,Dallas County,Richardson,10,20.8,22.3,21.7,21.7,21.8,36.1,443,160,27.4,1617
-All Students,057904,Cedar Hill ISD,Dallas County,Richardson,10,18.2,19.3,18.9,19.4,19.1,16.7,335,56,63.4,528
-All Students,057905,Dallas ISD,Dallas County,Richardson,10,15.5,18.3,17,17.6,17.2,10.2,3112,317,42.8,7275
-All Students,057906,Desoto ISD,Dallas County,Richardson,10,17,18.4,18,18.1,18,9.8,266,26,44.1,603
-All Students,057907,Duncanville ISD,Dallas County,Richardson,10,17.9,19.2,19,19.1,19,14.9,241,36,32,753
-All Students,057909,Garland ISD,Dallas County,Richardson,10,19.8,21.3,21,20.8,20.9,28.2,953,269,24.6,3869
-All Students,057910,Grand Prairie ISD,Dallas County,Richardson,10,17.6,20,19.1,19.6,19.2,18.2,407,74,25.9,1569
-All Students,057911,Highland Park ISD,Dallas County,Richardson,10,26.6,27.2,26.4,25.7,26.6,75.6,389,294,80.5,483
-All Students,057912,Irving ISD,Dallas County,Richardson,10,17.6,19.9,19.4,19.4,19.2,14.4,264,38,13.7,1922
-All Students,057913,Lancaster ISD,Dallas County,Richardson,10,14.6,16.7,16.1,16.6,16.1,5.8,103,6,30.8,334
-All Students,057914,Mesquite ISD,Dallas County,Richardson,10,17.9,19.8,19,19.4,19.1,15.5,567,88,24.1,2348
-All Students,057916,Richardson ISD,Dallas County,Richardson,10,21.2,23.4,22.3,22.3,22.4,40.8,894,365,43.4,2058
-All Students,057919,Sunnyvale ISD,Dallas County,Richardson,10,20.8,21.5,21.4,20.6,21.2,,36,<15,40.4,89
-All Students,057922,Coppell ISD,Dallas County,Richardson,10,24.5,26.3,24.7,24.4,25.1,62,511,317,65.7,778
-All Students,058902,Dawson ISD,Dawson County,Lubbock,17,14.2,18.7,15.3,16.8,16.5,,6,<5,66.7,9
-All Students,058905,Klondike ISD,Dawson County,Lubbock,17,19.6,20,21.8,20.7,20.6,,9,<5,52.9,17
-All Students,058906,Lamesa ISD,Dawson County,Lubbock,17,18.1,18.4,20.4,19.3,19.1,12.2,41,5,47.1,87
-All Students,058909,Sands CISD,Dawson County,Lubbock,17,23,25.5,24,23.5,24.3,,<5,<5,,13
-All Students,059901,Hereford ISD,Deaf Smith County,Amarillo,16,16.8,19.1,18.4,18.6,18.3,11.2,125,14,56.1,223
-All Students,060902,Cooper ISD,Delta County,Mt Pleasant,08,19.5,19.6,20.5,20.1,20.1,16.7,36,6,70.6,51
-All Students,060914,Fannindel ISD,Delta County,Mt Pleasant,08,18.7,23,21.2,20.3,21,,6,<5,75,8
-All Students,061501,University Of North Texas,Denton County,Fort Worth,11,31.1,33.3,31.3,31,31.8,,108,<110,,<5
-All Students,061802,Texas Education Centers,Denton County,Fort Worth,11,20.3,15.5,19.8,17.5,18.3,,<5,<5,,36
-All Students,061901,Denton ISD,Denton County,Fort Worth,11,19.6,20.8,21.1,20.6,20.7,29,365,106,29.7,1229
-All Students,061902,Lewisville ISD,Denton County,Fort Worth,11,22.9,24.5,23.7,23.3,23.7,51.8,1411,731,41,3439
-All Students,061903,Pilot Point ISD,Denton County,Fort Worth,11,20.3,21.5,21.6,21,21.2,30.9,55,17,57.3,96
-All Students,061905,Krum ISD,Denton County,Fort Worth,11,22.9,23.2,25.2,22.8,23.7,64.7,17,11,22.4,76
-All Students,061906,Ponder ISD,Denton County,Fort Worth,11,20.9,22.9,22.9,22.1,22.4,47.1,17,8,21,81
-All Students,061907,Aubrey ISD,Denton County,Fort Worth,11,20.2,22.2,22,21.6,21.6,33.3,36,12,34.3,105
-All Students,061908,Sanger ISD,Denton County,Fort Worth,11,19.9,21.2,21.4,21.9,21.2,26.1,46,12,27.1,170
-All Students,061910,Argyle ISD,Denton County,Fort Worth,11,22.6,24.9,23.4,23.1,23.6,49,104,51,64.2,162
-All Students,061911,Northwest ISD,Denton County,Fort Worth,11,22.1,23.1,23,22.8,22.8,45.1,293,132,33,889
-All Students,061912,Lake Dallas ISD,Denton County,Fort Worth,11,21.5,22.9,21.7,21.6,22,,59,<25,22.7,260
-All Students,061914,Little Elm ISD,Denton County,Fort Worth,11,17.9,19.5,19.2,19.8,19.2,15.4,117,18,34.5,339
-All Students,062901,Cuero ISD,Dewitt County,Victoria,03,20.6,21.3,21.1,21,21.1,28.4,67,19,53.6,125
-All Students,062902,Nordheim ISD,Dewitt County,Victoria,03,,,,,,,<5,<5,,9
-All Students,062903,Yoakum ISD,Dewitt County,Victoria,03,19.6,19.5,20.5,19.7,20.1,19.6,51,10,57.3,89
-All Students,062904,Yorktown ISD,Dewitt County,Victoria,03,18,20.2,21.2,20.2,20.2,,6,<5,16.2,37
-All Students,063903,Spur ISD,Dickens County,Lubbock,17,16.4,18.6,17.3,16,17.3,,11,<5,100,11
-All Students,063906,Patton Springs ISD,Dickens County,Lubbock,17,18.4,20,17.6,20.6,19.4,,<10,<5,,<5
-All Students,064903,Carrizo Springs CISD,Dimmit County,San Antonio,20,16.8,19.6,17.2,18.3,18.1,,51,<5,37.5,136
-All Students,065901,Clarendon ISD,Donley County,Amarillo,16,19.2,19.8,19.7,20,19.8,20,30,6,73.2,41
-All Students,065902,Hedley ISD,Donley County,Amarillo,16,19.3,20,20.8,20.6,20.2,,9,<5,60,15
-All Students,066901,Benavides ISD,Duval County,Corpus Christi,02,15.1,18.6,16.7,18.6,17.5,,22,<5,71,31
-All Students,066902,San Diego ISD,Duval County,Corpus Christi,02,15.3,18,17.3,17.6,17.1,,48,<5,59.3,81
-All Students,066903,Freer ISD,Duval County,Corpus Christi,02,15.4,17.6,17.5,17.7,17.2,,29,<5,50,58
-All Students,067902,Cisco ISD,Eastland County,Abilene,14,20.5,21.9,20.5,21.1,21.1,,22,<5,33.3,66
-All Students,067903,Eastland ISD,Eastland County,Abilene,14,18.7,19.8,20.5,21,20.1,,13,<5,19.7,66
-All Students,067904,Gorman ISD,Eastland County,Abilene,14,,,,,,,<5,<5,,20
-All Students,067907,Ranger ISD,Eastland County,Abilene,14,17.5,20.5,19.3,19,19.1,,12,<5,41.4,29
-All Students,067908,Rising Star ISD,Eastland County,Abilene,14,17,19.3,18.5,19.2,18.5,,6,<5,60,10
-All Students,068801,Richard Milburn Academy (Ector Cou,Ector County,Midland,18,18.8,20,20.3,20,20,,<5,<5,,216
-All Students,068901,Ector County ISD,Ector County,Midland,18,19.3,21.4,20.5,20.6,20.6,26,177,46,14.7,1203
-All Students,069901,Rocksprings ISD,Edwards County,San Angelo,15,14.8,17.8,19.8,17.7,17.7,,12,<5,,<20
-All Students,069902,Nueces Canyon CISD,Edwards County,San Angelo,15,17.1,18.3,18.7,18.9,18.3,,23,<5,82.1,28
-All Students,070801,Waxahachie Faith Family Academy,Ellis County,Richardson,10,,,,,,,<5,<5,,16
-All Students,070901,Avalon ISD,Ellis County,Richardson,10,,,,,,,<5,<5,,19
-All Students,070903,Ennis ISD,Ellis County,Richardson,10,18,19.7,19.2,19.1,19.1,13,161,21,49.1,328
-All Students,070905,Ferris ISD,Ellis County,Richardson,10,16.9,19.3,17.5,20,18.6,,15,<5,9.6,157
-All Students,070907,Italy ISD,Ellis County,Richardson,10,15.6,18.4,18.5,19.2,18,,20,<5,55.6,36
-All Students,070908,Midlothian ISD,Ellis County,Richardson,10,21,22.8,22.2,21.8,22,34,265,90,53.4,496
-All Students,070909,Milford ISD,Ellis County,Richardson,10,15.7,19.7,16.5,18.2,17.7,,6,<5,75,8
-All Students,070910,Palmer ISD,Ellis County,Richardson,10,18.9,20.7,20.2,20.3,20.1,,18,<5,28.6,63
-All Students,070911,Red Oak ISD,Ellis County,Richardson,10,19,20.8,20.5,20.7,20.4,24.2,186,45,44.7,416
-All Students,070912,Waxahachie ISD,Ellis County,Richardson,10,19.8,21.2,20.8,20.3,20.6,26.9,156,42,30.2,517
-All Students,070915,Maypearl ISD,Ellis County,Richardson,10,20.1,20.1,22.7,21.5,21.1,37.5,16,6,22.2,72
-All Students,071801,Burnham Wood Charter School Distri,El Paso County,El Paso,19,19.2,21.7,21.5,22,21.2,30.4,23,7,135.3,17
-All Students,071804,El Paso Academy,El Paso County,El Paso,19,,,,,,,<5,<5,,110
-All Students,071806,Harmony Science Acad (El Paso),El Paso County,El Paso,19,28,25.7,24.7,27.3,26.7,,<5,<5,,22
-All Students,071901,Clint ISD,El Paso County,El Paso,19,15.4,19.1,16.4,17.7,17.3,,184,<15,27.4,671
-All Students,071902,El Paso ISD,El Paso County,El Paso,19,16.8,19.4,18.1,18.7,18.4,13,2184,284,52.5,4163
-All Students,071903,Fabens ISD,El Paso County,El Paso,19,14.2,19.4,15.5,16.4,16.6,,38,<5,,<145
-All Students,071904,San Elizario ISD,El Paso County,El Paso,19,14.8,18.6,16,17.8,17,5.3,133,7,55.9,238
-All Students,071905,Ysleta ISD,El Paso County,El Paso,19,16.6,19.3,18,18.3,18.2,12.3,341,42,11.2,3036
-All Students,071906,Anthony ISD,El Paso County,El Paso,19,15.5,17.6,17.6,18.3,17.3,,47,<5,97.9,48
-All Students,071907,Canutillo ISD,El Paso County,El Paso,19,14.6,17.9,16.1,17.4,16.6,5.3,113,6,27.2,415
-All Students,071908,Tornillo ISD,El Paso County,El Paso,19,14.5,19.5,15.6,18.1,17.1,,28,<5,50,56
-All Students,071909,Socorro ISD,El Paso County,El Paso,19,16.6,19.5,17.7,18.6,18.2,11.3,652,74,23.5,2774
-All Students,072801,Premier High Schools,Erath County,Fort Worth,11,16.3,18.3,18.1,18.4,17.9,9.5,137,13,12.3,1110
-All Students,072802,Erath Excels Academy Inc,Erath County,Fort Worth,11,18,18,18.7,16.5,17.8,,6,<5,12,50
-All Students,072902,Dublin ISD,Erath County,Fort Worth,11,18.7,21,20.7,19.6,20.1,28.6,28,8,38.9,72
-All Students,072903,Stephenville,Erath County,Fort Worth,11,21.6,23.5,23.5,22.6,22.9,45.4,119,54,58.6,203
-All Students,072908,Huckabay ISD,Erath County,Fort Worth,11,21.1,23.1,22,22.3,22.3,40,15,6,93.8,16
-All Students,072909,Lingleville ISD,Erath County,Fort Worth,11,17.9,19.6,17.8,18.9,18.6,,11,<5,68.8,16
-All Students,073901,Chilton ISD,Falls County,Waco,12,15.7,18.3,17.8,17.3,17.3,,24,<5,68.6,35
-All Students,073903,Marlin ISD,Falls County,Waco,12,14.4,18,17.9,15.7,16.7,,7,<5,9.9,71
-All Students,073905,Rosebud-Lott ISD,Falls County,Waco,12,19.8,22.2,20.7,21.6,21.1,28.6,21,6,36.8,57
-All Students,074903,Bonham ISD,Fannin County,Richardson,10,20.2,21.7,21.5,22,21.4,22.5,40,9,34.2,117
-All Students,074904,Dodd City ISD,Fannin County,Richardson,10,24.9,24.4,23.9,22.9,24.1,,7,<10,70,10
-All Students,074905,Ector ISD,Fannin County,Richardson,10,17.5,19.6,17.3,19.1,18.6,,10,<5,45.5,22
-All Students,074907,Honey Grove ISD,Fannin County,Richardson,10,19.3,19.9,19.9,19.4,19.8,17.2,29,5,63,46
-All Students,074909,Leonard ISD,Fannin County,Richardson,10,20.1,20.7,21.6,21,20.9,30,30,9,65.2,46
-All Students,074911,Savoy ISD,Fannin County,Richardson,10,20.1,21.4,21.5,21,21,,8,<5,32,25
-All Students,074912,Trenton ISD,Fannin County,Richardson,10,18.7,20.2,20.7,20,20.1,,17,<5,43.6,39
-All Students,074917,Sam Rayburn ISD,Fannin County,Richardson,10,18.6,20.3,19.8,20.2,19.8,24,25,6,64.1,39
-All Students,075901,Flatonia ISD,Fayette County,Austin,13,18.1,21,19,19.1,19.5,,26,<10,83.9,31
-All Students,075902,La Grange ISD,Fayette County,Austin,13,19,21.4,20.7,20.9,20.7,34.8,23,8,20.7,111
-All Students,075903,Schulenburg ISD,Fayette County,Austin,13,19,21.2,19.9,20.5,20.3,24.1,29,7,58,50
-All Students,075906,Fayetteville ISD,Fayette County,Austin,13,21.6,24,21,23.6,22.8,,<10,<5,,18
-All Students,076903,Roby CISD,Fisher County,Abilene,14,18.5,21.3,20.1,21.4,20.5,22.7,22,5,73.3,30
-All Students,076904,Rotan ISD,Fisher County,Abilene,14,20.1,19,20.8,19.6,20.1,,17,<5,81,21
-All Students,077901,Floydada ISD,Floyd County,Lubbock,17,17.1,20,19,19,19,15,40,6,80,50
-All Students,077902,Lockney ISD,Floyd County,Lubbock,17,16,19.1,18.3,18.7,18.3,,27,<5,84.4,32
-All Students,078901,Crowell ISD,Foard County,Wichita Falls,09,16,18.6,18.8,16.3,17.4,,14,<5,58.3,24
-All Students,079901,Lamar CISD,Fort Bend County,Houston,04,19.2,21,20.6,20.7,20.5,28.7,506,145,37.8,1339
-All Students,079906,Needville ISD,Fort Bend County,Houston,04,20,21.8,21.9,21.2,21.3,26.4,53,14,31.9,166
-All Students,079907,Fort Bend ISD,Fort Bend County,Houston,04,21.2,23.5,21.9,22,22.3,40.3,1672,674,33.3,5027
-All Students,079910,Stafford MSD,Fort Bend County,Houston,04,16.5,18.9,18.2,17.9,18,19.7,71,14,32.1,221
-All Students,080901,Mount Vernon ISD,Franklin County,Mt Pleasant,08,19.9,19.7,20.1,19.2,19.8,20.4,49,10,48,102
-All Students,081902,Fairfield ISD,Freestone County,Waco,12,18,20.4,18.9,19.5,19.4,20.4,54,11,54.5,99
-All Students,081904,Teague ISD,Freestone County,Waco,12,17,18.7,18.8,18.6,18.5,12,50,6,68.5,73
-All Students,081905,Wortham ISD,Freestone County,Waco,12,16.3,18.6,17,17.3,17.5,,15,<5,46.9,32
-All Students,082902,Dilley ISD,Frio County,San Antonio,20,15.1,17.6,17.2,17.2,16.8,,35,<5,52.2,67
-All Students,082903,Pearsall ISD,Frio County,San Antonio,20,16.6,18.5,18.3,18.7,18.2,9.8,61,6,47.3,129
-All Students,083901,Seagraves ISD,Gaines County,Lubbock,17,16.6,19.6,20.3,19.7,19.2,,11,<5,37.9,29
-All Students,083902,Loop ISD,Gaines County,Lubbock,17,21.3,23.4,20.4,21.4,21.9,,7,<5,63.6,11
-All Students,083903,Seminole ISD,Gaines County,Lubbock,17,20,22.2,21.8,20.5,21.2,34.5,29,10,18.8,154
-All Students,084901,Dickinson ISD,Galveston County,Houston,04,16.6,19.6,18.6,19.2,18.6,17.3,81,14,14.6,556
-All Students,084902,Galveston ISD,Galveston County,Houston,04,18.2,20,19.4,19.3,19.4,21.6,97,21,24.7,392
-All Students,084903,High Island ISD,Galveston County,Beaumont,05,,,,,,,<5,<5,,19
-All Students,084904,La Marque ISD,Galveston County,Houston,04,14.7,17.1,16.3,16.6,16.3,,53,<5,44.2,120
-All Students,084906,Texas City ISD,Galveston County,Houston,04,16.9,18.5,17.6,18.2,17.8,,30,<5,8.6,350
-All Students,084908,Hitchcock ISD,Galveston County,Houston,04,16.9,18.5,19.6,18.8,18.5,,13,<5,20,65
-All Students,084909,Santa Fe ISD,Galveston County,Houston,04,19.7,21.6,18.6,19.6,20,21.7,23,5,6.9,331
-All Students,084910,Clear Creek ISD,Galveston County,Houston,04,22.5,24.3,23.5,23.3,23.5,49.5,874,433,32.4,2700
-All Students,084911,Friendswood ISD,Galveston County,Houston,04,24,25.6,24.8,23.9,24.7,60.4,192,116,39.6,485
-All Students,085902,Post ISD,Garza County,Lubbock,17,16.8,18.7,19.3,19.3,18.7,,26,<5,55.3,47
-All Students,085903,Southland ISD,Garza County,Lubbock,17,18.2,21,20.1,20,19.9,,9,<5,69.2,13
-All Students,086901,Fredericksburg ISD,Gillespie County,Austin,13,21.1,22.5,22,22,22,40.2,82,33,37.4,219
-All Students,086902,Harper ISD,Gillespie County,Austin,13,20.8,21.8,22.9,21,21.7,36.8,38,14,79.2,48
-All Students,087901,Glasscock County ISD,Glasscock County,Midland,18,16.9,21.6,19.3,21.1,19.8,,18,<5,94.7,19
-All Students,088902,Goliad ISD,Goliad County,Victoria,03,16.8,19.7,18.4,18.6,18.5,,47,<5,43.1,109
-All Students,089901,Gonzales ISD,Gonzales County,Austin,13,18.3,20.8,18.6,19.3,19.4,11.7,60,7,41.4,145
-All Students,089903,Nixon-Smiley CISD,Gonzales County,Austin,13,17.2,19,19.9,19.9,19.1,,32,<5,47.1,68
-All Students,089905,Waelder ISD,Gonzales County,Austin,13,,,,,,,<5,<5,,15
-All Students,090902,Lefors ISD,Gray County,Amarillo,16,16.5,16.6,18.4,17,17.3,,8,<5,88.9,9
-All Students,090903,McLean ISD,Gray County,Amarillo,16,19.9,20.9,22.6,19.4,20.9,,15,<5,107.1,14
-All Students,090904,Pampa ISD,Gray County,Amarillo,16,19.6,20.6,20.4,20.7,20.5,20.2,89,18,39.6,225
-All Students,091901,Bells ISD,Grayson County,Richardson,10,20.6,21.8,21.8,20.4,21.4,31.6,19,6,33.3,57
-All Students,091902,Collinsville ISD,Grayson County,Richardson,10,20.8,21.7,22.1,21.8,21.8,34.4,32,11,72.7,44
-All Students,091903,Denison ISD,Grayson County,Richardson,10,20.1,22.2,22,21.9,21.7,34.4,128,44,44.1,290
-All Students,091905,Howe ISD,Grayson County,Richardson,10,20.2,21.8,21.1,21.1,21.2,24,25,6,39.7,63
-All Students,091906,Sherman ISD,Grayson County,Richardson,10,21.4,21.2,22.1,21.5,21.6,32,100,32,26,385
-All Students,091908,Van Alstyne ISD,Grayson County,Richardson,10,21.6,22,22.6,22.3,22.3,,59,<30,52.2,113
-All Students,091909,Whitesboro ISD,Grayson County,Richardson,10,20.1,20.7,21,20.9,20.9,25.5,51,13,52.6,97
-All Students,091910,Whitewright ISD,Grayson County,Richardson,10,22.1,22.7,21.1,21.4,21.9,,18,<5,35.3,51
-All Students,091913,Pottsboro ISD,Grayson County,Richardson,10,21.3,22.8,22.6,23.8,22.8,42.3,26,11,31.3,83
-All Students,091914,S And S CISD,Grayson County,Richardson,10,18.8,19.5,20.5,19.6,19.8,20,40,8,69,58
-All Students,091917,Gunter ISD,Grayson County,Richardson,10,21.4,23.4,23,21.7,22.5,32.5,40,13,66.7,60
-All Students,091918,Tom Bean ISD,Grayson County,Richardson,10,21.5,22.9,22.1,21.4,22.1,32,25,8,42.4,59
-All Students,092801,East Texas Charter Schools,Gregg County,Kilgore,07,16,18.5,20.5,17.8,18.5,,<5,<5,,66
-All Students,092901,Gladewater ISD,Gregg County,Kilgore,07,17.4,20.2,19.3,18.3,18.8,,13,<5,11.1,117
-All Students,092902,Kilgore ISD,Gregg County,Kilgore,07,18.1,19.4,19.4,19.3,19.2,14.8,88,13,37,238
-All Students,092903,Longview ISD,Gregg County,Kilgore,07,18.1,19.6,19.4,19.7,19.3,20.7,246,51,50.1,491
-All Students,092904,Pine Tree ISD,Gregg County,Kilgore,07,22.1,22.5,22.5,22.2,22.5,42.6,94,40,32.8,287
-All Students,092906,Sabine ISD,Gregg County,Kilgore,07,19.5,21.9,21.9,20.4,20.9,,14,<5,19.7,71
-All Students,092907,Spring Hill ISD,Gregg County,Kilgore,07,22.1,22.4,21.9,22.3,22.3,40.9,88,36,77.9,113
-All Students,092908,White Oak ISD,Gregg County,Kilgore,07,20.9,22.4,21.6,21.9,21.9,33.9,59,20,62.8,94
-All Students,093901,Anderson-Shiro CISD,Grimes County,Huntsville,06,18.7,20.7,20.4,20.5,20.2,,26,<10,47.3,55
-All Students,093903,Iola ISD,Grimes County,Huntsville,06,20.8,22.6,22.1,21.7,22,,9,<5,25,36
-All Students,093904,Navasota ISD,Grimes County,Huntsville,06,16.2,19.3,17.8,18.4,18,,34,<5,21.4,159
-All Students,093905,Richards ISD,Grimes County,Huntsville,06,,,,,,,<5,<5,,<5
-All Students,094901,Seguin ISD,Guadalupe County,Austin,13,18.6,21,19.9,20.8,20.2,24.8,109,27,23,473
-All Students,094902,Schertz-Cibolo-U City ISD,Guadalupe County,San Antonio,20,21.1,22.6,21.9,22,22,35.8,240,86,23.7,1012
-All Students,094903,Navarro ISD,Guadalupe County,Austin,13,19.9,20.9,21.5,20.8,20.9,23.1,52,12,47.7,109
-All Students,094904,Marion ISD,Guadalupe County,Austin,13,18.9,21,20.5,20.5,20.4,,19,<5,22.1,86
-All Students,095901,Abernathy ISD,Hale County,Lubbock,17,17.7,21.4,18.7,20.7,19.8,,33,<5,73.3,45
-All Students,095902,Cotton Center ISD,Hale County,Lubbock,17,18.7,20.3,21.7,22.7,21,,<5,<5,,<5
-All Students,095903,Hale Center ISD,Hale County,Lubbock,17,15.9,18.7,17.1,17.8,17.5,,34,<5,79.1,43
-All Students,095904,Petersburg ISD,Hale County,Lubbock,17,17.6,19.9,19.4,20.9,19.6,,13,<5,92.9,14
-All Students,095905,Plainview ISD,Hale County,Lubbock,17,18.7,20,20.3,20.2,19.9,17.5,166,29,51.4,323
-All Students,096904,Memphis ISD,Hall County,Amarillo,16,16.3,19.1,18.7,18.4,18.2,,23,<5,71.9,32
-All Students,096905,Turkey-Quitaque ISD,Hall County,Amarillo,16,20.2,21.3,21.4,19.7,20.8,28.6,21,6,77.8,27
-All Students,097902,Hamilton ISD,Hamilton County,Waco,12,20.7,19.8,21.2,19.9,20.6,,23,<5,53.5,43
-All Students,097903,Hico ISD,Hamilton County,Waco,12,18,20.3,19.3,19.3,19.3,,26,<5,50,52
-All Students,098901,Gruver ISD,Hansford County,Amarillo,16,18.5,21.1,19.1,20.4,19.8,,19,<5,82.6,23
-All Students,098904,Spearman ISD,Hansford County,Amarillo,16,18.2,20.6,19.1,19.8,19.5,18.2,44,8,78.6,56
-All Students,099902,Chillicothe ISD,Hardeman County,Wichita Falls,09,20.3,20.8,20.8,22.5,21.3,,<5,<5,,12
-All Students,099903,Quanah ISD,Hardeman County,Wichita Falls,09,18.3,19.8,19.7,20.1,19.5,,21,<5,53.8,39
-All Students,100903,Kountze ISD,Hardin County,Beaumont,05,17.8,19.3,18.7,19.5,19,,11,<5,13.4,82
-All Students,100904,Silsbee ISD,Hardin County,Beaumont,05,17.9,19.4,19.5,19.1,19.2,,20,<5,11.2,178
-All Students,100905,Hardin-Jefferson ISD,Hardin County,Beaumont,05,19.3,21.9,20.3,20,20.5,,21,<10,16.8,125
-All Students,100907,Lumberton ISD,Hardin County,Beaumont,05,20.3,21.8,20.7,21.3,21.1,34.1,44,15,18.7,235
-All Students,100908,West Hardin County CISD,Hardin County,Beaumont,05,13.3,16.7,14.7,14.5,14.8,,6,<5,12.2,49
-All Students,101805,Girls & Boys Preparatory Academy,Harris County,Houston,04,13.3,17,14.5,16,15.3,,6,<5,22.2,27
-All Students,101806,Raul Yzaguirre School For Success,Harris County,Houston,04,13.1,19.2,12.8,15.5,15.3,,<15,<5,,34
-All Students,101812,Houston Can Academy Charter School,Harris County,Houston,04,11.1,14.9,14.2,13.8,13.6,,12,<5,5.6,215
-All Students,101821,Houston Heights High School,Harris County,Houston,04,13.2,17,13.5,14.9,14.7,,13,<5,20.6,63
-All Students,101828,Houston Gateway Academy Inc,Harris County,Houston,04,,,,,,,<5,<5,,16
-All Students,101837,Calvin Nelms Charter Schools,Harris County,Houston,04,,,,,,,<5,<5,,68
-All Students,101838,Southwest School,Harris County,Houston,04,20.3,21,21.7,22,21.3,,<5,<5,,90
-All Students,101845,Yes Prep Public Schools Inc,Harris County,Houston,04,21.4,22.6,19.9,20.3,21.3,,8,<5,4.1,197
-All Students,101846,Harmony Science Academy,Harris County,Houston,04,20.7,23.9,23,21,22.3,37.5,16,6,21.9,73
-All Students,101854,Richard Milburn Academy (Suburban,Harris County,Houston,04,,,,,,,<5,<5,,60
-All Students,101858,Harmony School Of Excellence,Harris County,Houston,04,19.8,21.8,19.5,20.4,20.5,,17,<5,30.4,56
-All Students,101902,Aldine ISD,Harris County,Houston,04,16.1,19.3,17,18,17.7,8.2,862,71,28.9,2980
-All Students,101903,Alief ISD,Harris County,Houston,04,16.6,19.3,18,18.6,18.2,10.8,502,54,20.7,2425
-All Students,101905,Channelview ISD,Harris County,Houston,04,16,19.2,17.4,18,17.8,9.3,97,9,19.5,498
-All Students,101906,Crosby ISD,Harris County,Houston,04,17.9,19.7,19.4,20,19.4,15.2,92,14,29.2,315
-All Students,101907,Cypress-Fairbanks ISD,Harris County,Houston,04,20.2,22.4,21.7,21.7,21.6,34.3,1812,621,28.2,6419
-All Students,101908,Deer Park ISD,Harris County,Houston,04,20.1,22.7,21.1,21.9,21.6,34.7,144,50,16.8,855
-All Students,101909,North Forest ISD,Harris County,Houston,04,14.2,16.5,15.2,15.8,15.5,,21,<5,10.7,196
-All Students,101910,Galena Park ISD,Harris County,Houston,04,16.6,19,17.9,18.4,18.1,8.5,551,47,36.8,1497
-All Students,101911,Goose Creek CISD,Harris County,Houston,04,15.9,19.5,17.8,18.7,18.1,14,279,39,22.2,1255
-All Students,101912,Houston ISD,Harris County,Houston,04,19.4,21.4,20.3,20.3,20.5,30,2124,637,21.9,9684
-All Students,101913,Humble ISD,Harris County,Houston,04,21,22.6,22.2,21.9,22,38.3,831,318,32.7,2538
-All Students,101914,Katy ISD,Harris County,Houston,04,22.4,24.3,23.4,23.3,23.5,48.7,1527,743,37.3,4090
-All Students,101915,Klein ISD,Harris County,Houston,04,21.8,23.6,23,22.8,22.9,45.6,858,391,28,3061
-All Students,101916,La Porte ISD,Harris County,Houston,04,18.7,20.7,20.3,19.4,20,22.2,99,22,20.5,484
-All Students,101917,Pasadena ISD,Harris County,Houston,04,17.2,20.6,18.8,19.4,19.2,19.9,447,89,15.1,2961
-All Students,101919,Spring ISD,Harris County,Houston,04,16.1,18.5,17.7,18.2,17.7,9.9,537,53,27.6,1943
-All Students,101920,Spring Branch ISD,Harris County,Houston,04,22.8,24.9,23.4,23.2,23.7,54.7,887,485,48.3,1835
-All Students,101921,Tomball ISD,Harris County,Houston,04,21.4,23.9,22.6,22.5,22.7,40.3,196,79,28,701
-All Students,101924,Sheldon ISD,Harris County,Houston,04,15.7,18.8,17,18.3,17.6,9.7,103,10,30,343
-All Students,101925,Huffman ISD,Harris County,Houston,04,18.4,20.7,19.7,20.3,19.9,16.3,43,7,18.9,228
-All Students,102901,Karnack ISD,Harrison County,Kilgore,07,13.6,16,14.6,13.6,14.6,,<10,<5,,8
-All Students,102902,Marshall ISD,Harrison County,Kilgore,07,18.1,19.5,19.3,19.5,19.2,16.8,143,24,42.4,337
-All Students,102903,Waskom ISD,Harrison County,Kilgore,07,20.1,20.2,21.5,19.9,20.5,,17,<5,41.5,41
-All Students,102904,Hallsville ISD,Harrison County,Kilgore,07,20.9,22.4,21.6,21.8,21.8,35.2,108,38,39.3,275
-All Students,102905,Harleton ISD,Harrison County,Kilgore,07,21.5,22,22.3,21.8,22,39.3,28,11,70,40
-All Students,102906,Elysian Fields ISD,Harrison County,Kilgore,07,19.1,20.4,21,19.5,20.1,24.3,37,9,72.5,51
+Group,DISTRICT,DistName,cntyname,RegnName,REGION,English,Math,Reading,Science,Compos,Above_Crit_Rate,Exnees_Mskd,Crit_Mskd,Part_Rate,Grads_Mskd
+All Students,1902,Cayuga ISD,Anderson County,Kilgore,7,19,20.8,19.7,19.8,20.2,,6,<5,16.2,37
+All Students,1903,Elkhart ISD,Anderson County,Kilgore,7,,,,,,,<5,<5,,74
+All Students,1904,Frankston ISD,Anderson County,Kilgore,7,16.3,19.3,19,18.5,18.3,,6,<5,10.7,56
+All Students,1906,Neches ISD,Anderson County,Kilgore,7,17.8,20,20.8,20.7,19.9,,11,<5,61.1,18
+All Students,1907,Palestine ISD,Anderson County,Kilgore,7,17.2,20.1,20.1,20.2,19.7,,9,<5,6.5,139
+All Students,1908,Westwood ISD,Anderson County,Kilgore,7,19,20.9,19.3,20,20,,26,<5,25.5,102
+All Students,1909,Slocum ISD,Anderson County,Kilgore,7,22.9,25.9,23.1,23.1,23.7,,7,<5,25,28
+All Students,2901,Andrews ISD,Andrews County,Midland,18,19.4,21.2,21.2,20.8,20.8,27.3,44,12,18.6,237
+All Students,3902,Hudson ISD,Angelina County,Kilgore,7,18.1,22.8,20.6,21.3,20.7,,11,<5,7.1,154
+All Students,3903,Lufkin ISD,Angelina County,Kilgore,7,16.8,20.1,17.9,19.2,18.6,18.4,103,19,20.6,499
+All Students,3904,Huntington ISD,Angelina County,Kilgore,7,20,22.3,20.3,20.6,21,20.7,29,6,23.6,123
+All Students,3905,Diboll ISD,Angelina County,Kilgore,7,18.3,20.2,19.6,19.5,19.5,25,60,15,52.2,115
+All Students,3906,Zavalla ISD,Angelina County,Kilgore,7,23.4,20.8,23.2,22.8,22.6,,<10,<5,,29
+All Students,3907,Central ISD,Angelina County,Kilgore,7,,,,,,,<5,<5,,123
+All Students,4901,Aransas County ISD,Aransas County,Corpus Christi,2,19.7,20.8,20.8,20.8,20.7,27,63,17,31.3,201
+All Students,5901,Archer City ISD,Archer County,Wichita Falls,9,19.6,20.7,20.9,20.3,20.5,,21,<5,53.8,39
+All Students,5902,Holliday ISD,Archer County,Wichita Falls,9,22.9,23.3,23.7,22.5,23.3,47.7,44,21,75.9,58
+All Students,5904,Windthorst ISD,Archer County,Wichita Falls,9,21.8,22.3,22.5,22.5,22.4,42.3,26,11,63.4,41
+All Students,6902,Claude ISD,Armstrong County,Amarillo,16,21.4,22,22.7,20.9,21.9,37.5,24,9,70.6,34
+All Students,7901,Charlotte ISD,Atascosa County,San Antonio,20,15.6,17.3,16.5,18.1,17,,20,<5,58.8,34
+All Students,7902,Jourdanton ISD,Atascosa County,San Antonio,20,20.6,20.5,21.3,21.2,21,30.2,43,13,53.8,80
+All Students,7904,Lytle ISD,Atascosa County,San Antonio,20,17.1,18.6,18.5,18.6,18.3,8,75,6,60.5,124
+All Students,7905,Pleasanton ISD,Atascosa County,San Antonio,20,19.2,20.6,20.4,20.9,20.4,27.1,48,13,24.5,196
+All Students,7906,Poteet ISD,Atascosa County,San Antonio,20,14.9,18.3,17.6,17.5,17.2,,33,<5,28.9,114
+All Students,8901,Bellville ISD,Austin County,Huntsville,6,21,22.8,23.3,23.1,22.7,45,40,18,24.4,164
+All Students,8902,Sealy ISD,Austin County,Huntsville,6,18.7,20.4,19.3,19.5,19.6,10.8,83,9,46.1,180
+All Students,8903,Brazos ISD,Austin County,Huntsville,6,20,23.1,21.1,20,21.1,,10,<10,18.9,53
+All Students,9901,Muleshoe ISD,Bailey County,Lubbock,17,16.6,20.1,18.5,19.3,18.8,11.1,45,5,63.4,71
+All Students,10901,Medina ISD,Bandera County,San Antonio,20,19.1,23.7,20.5,21.5,21.3,,11,<5,33.3,33
+All Students,10902,Bandera ISD,Bandera County,San Antonio,20,19.8,21.5,20.5,20.9,20.8,20.3,69,14,40.1,172
+All Students,11901,Bastrop ISD,Bastrop County,Austin,13,18.6,20.7,19.7,20.3,20,26,77,20,15,515
+All Students,11902,Elgin ISD,Bastrop County,Austin,13,16.6,18.2,18,18.1,17.8,9.4,85,8,32,266
+All Students,11904,Smithville ISD,Bastrop County,Austin,13,19.4,21.8,21.5,20.7,21,21.7,46,10,43.4,106
+All Students,12901,Seymour ISD,Baylor County,Wichita Falls,9,21.8,23.5,22.9,21.8,22.6,45,20,9,57.1,35
+All Students,13901,Beeville ISD,Bee County,Corpus Christi,2,18.2,19.9,19.8,20.2,19.6,20.6,107,22,49.1,218
+All Students,13903,Pettus ISD,Bee County,Corpus Christi,2,16.4,19.3,16.4,16.8,17.4,,21,<5,53.8,39
+All Students,13905,Skidmore-Tynan ISD,Bee County,Corpus Christi,2,18.7,20.6,20.6,20.7,20.3,19.2,26,5,43.3,60
+All Students,14801,Richard Milburn Alter High School,Bell County,Waco,12,,,,,,,<5,<5,,78
+All Students,14804,Orenda Charter School,Bell County,Waco,12,23.8,22.8,21.3,20.5,22.3,,<5,<5,,63
+All Students,14901,Academy ISD,Bell County,Waco,12,22.4,24.5,23.9,23.3,23.6,57.1,21,12,29.2,72
+All Students,14902,Bartlett ISD,Bell County,Austin,13,,,,,,,<5,<5,,29
+All Students,14903,Belton ISD,Bell County,Waco,12,21.8,22.8,22.9,22.6,22.6,39.9,138,55,23.4,590
+All Students,14905,Holland ISD,Bell County,Waco,12,18.7,20,18.1,19.5,19.2,,20,<5,58.8,34
+All Students,14906,Killeen ISD,Bell County,Waco,12,18.8,20.4,20.1,20.1,20,22.3,355,79,18.6,1909
+All Students,14907,Rogers ISD,Bell County,Waco,12,21.6,20.1,22.4,21.1,21.3,,14,<5,20.9,67
+All Students,14908,Salado ISD,Bell County,Waco,12,22.5,25.1,25.1,23.9,24.4,,28,<20,29.2,96
+All Students,14909,Temple ISD,Bell County,Waco,12,20.1,22.6,21.6,21.5,21.6,33.8,68,23,13.3,512
+All Students,14910,Troy ISD,Bell County,Waco,12,19.4,20.6,20.6,19.4,20.1,18.2,55,10,57.9,95
+All Students,15802,George Gervin Academy,Bexar County,San Antonio,20,13.8,13,15.8,15.3,14.5,,<5,<5,,60
+All Students,15807,Southwest Preparatory School,Bexar County,San Antonio,20,,,,,,,<5,<5,,174
+All Students,15815,Radiance Academy Of Learning,Bexar County,San Antonio,20,,,,,,,<5,<5,,25
+All Students,15816,Academy Of Careers And Technologie,Bexar County,San Antonio,20,15.5,15.6,17.5,16.5,16.1,,8,<5,27.6,29
+All Students,15817,San Antonio Can High School,Bexar County,San Antonio,20,16.2,17,21.2,19.8,18.6,,5,<5,6.5,77
+All Students,15822,Jubilee Academic Center,Bexar County,San Antonio,20,,,,,,,<5,<5,,33
+All Students,15827,School Of Science And Technology,Bexar County,San Antonio,20,24.6,27.6,25.1,25.9,25.8,62.5,16,10,43.2,37
+All Students,15828,Harmony Science Acad (San Antonio),Bexar County,San Antonio,20,21,22.6,21,20.8,21.6,,5,<5,27.8,18
+All Students,15830,Brooks Academy Of Science And Engi,Bexar County,San Antonio,20,23.2,22.8,23.8,22.2,23,,5,<5,11.6,43
+All Students,15901,Alamo Heights ISD,Bexar County,San Antonio,20,23.3,24.5,23.8,23.3,23.9,51.3,195,100,52.1,374
+All Students,15904,Harlandale ISD,Bexar County,San Antonio,20,16.5,18.7,18.1,18.1,17.9,11.2,241,27,28,860
+All Students,15905,Edgewood ISD,Bexar County,San Antonio,20,14.2,17.3,16.1,16.6,16.1,3.2,187,6,38.9,481
+All Students,15906,Randolph Field ISD,Bexar County,San Antonio,20,21.5,22.2,22.6,22.3,22.3,33.3,33,11,44,75
+All Students,15907,San Antonio ISD,Bexar County,San Antonio,20,15.5,17.9,17,17.3,17,6.9,1052,73,39,2696
+All Students,15908,South San Antonio ISD,Bexar County,San Antonio,20,16.2,18.4,17.7,17.8,17.7,,58,<10,12.9,448
+All Students,15909,Somerset ISD,Bexar County,San Antonio,20,16.4,18.3,18,18.7,18,,37,<5,19.6,189
+All Students,15910,North East ISD,Bexar County,San Antonio,20,20.9,22.4,22,21.9,21.9,39,1199,468,27.1,4425
+All Students,15911,East Central ISD,Bexar County,San Antonio,20,18,20.1,19.5,19.8,19.5,15.2,164,25,27.8,589
+All Students,15912,Southwest ISD,Bexar County,San Antonio,20,16.1,19.7,18.2,18.6,18.3,8.3,72,6,11,655
+All Students,15913,Lackland ISD,Bexar County,San Antonio,20,21.4,22,22.9,21.2,22,30.3,33,10,84.6,39
+All Students,15914,Ft Sam Houston ISD,Bexar County,San Antonio,20,21.4,22.1,21.6,21.5,21.7,32.4,34,11,52.3,65
+All Students,15915,Northside ISD,Bexar County,San Antonio,20,19.8,22,21.2,21.3,21.2,33.5,1321,443,21.9,6020
+All Students,15916,Judson ISD,Bexar County,San Antonio,20,17.4,19.3,19.1,19.1,18.9,14.7,217,32,15.9,1369
+All Students,15917,Southside ISD,Bexar County,San Antonio,20,15.9,19.1,17.3,19.1,18,8.4,83,7,28.1,295
+All Students,16901,Johnson City ISD,Blanco County,Austin,13,17.3,19.5,19.3,19.5,19.2,,6,<5,12,50
+All Students,16902,Blanco ISD,Blanco County,Austin,13,19.3,19.1,20,19.8,19.6,21.3,47,10,70.1,67
+All Students,17901,Borden County ISD,Borden County,Lubbock,17,21.2,24.4,19.6,21.5,21.8,,10,<5,83.3,12
+All Students,18901,Clifton ISD,Bosque County,Waco,12,20.9,22.6,22.3,22.4,22.2,34.3,35,12,48.6,72
+All Students,18902,Meridian ISD,Bosque County,Waco,12,19.4,21,20.4,19.6,20.2,18.5,27,5,79.4,34
+All Students,18904,Valley Mills ISD,Bosque County,Waco,12,21,20.9,23.2,20.9,21.7,,9,<5,21.4,42
+All Students,18905,Walnut Springs ISD,Bosque County,Waco,12,14.7,18,16.7,17.2,16.7,,6,<5,46.2,13
+All Students,18906,Iredell ISD,Bosque County,Waco,12,16.7,20,20,19.3,19,,<5,<5,,8
+All Students,18907,Kopperl ISD,Bosque County,Waco,12,26.3,28,28,22.7,26.3,,<5,<5,,17
+All Students,18908,Cranfills Gap ISD,Bosque County,Waco,12,15,20,20.7,21.3,19.3,,<5,<5,,10
+All Students,19901,Dekalb ISD,Bowie County,Mt Pleasant,8,18.4,20.3,19,20.3,19.6,17.9,39,7,62.9,62
+All Students,19902,Hooks ISD,Bowie County,Mt Pleasant,8,18.4,19.5,19.7,20.6,19.7,20,55,11,70.5,78
+All Students,19903,Maud ISD,Bowie County,Mt Pleasant,8,17.9,19.6,18.9,19.3,19,,25,<5,65.8,38
+All Students,19905,New Boston ISD,Bowie County,Mt Pleasant,8,18.2,18.9,19.7,19.1,19.1,11.6,69,8,76.7,90
+All Students,19906,Redwater ISD,Bowie County,Mt Pleasant,8,20.2,21.1,21.1,20.9,21,27.9,61,17,67.8,90
+All Students,19907,Texarkana ISD,Bowie County,Mt Pleasant,8,19.9,20.3,20.7,20.8,20.6,27,300,81,63,476
+All Students,19908,Liberty-Eylau ISD,Bowie County,Mt Pleasant,8,17,18.7,18,18.4,18.1,9.6,114,11,67.9,168
+All Students,19909,Simms ISD,Bowie County,Mt Pleasant,8,18.1,18.5,18.2,17.4,18.1,,30,<5,65.2,46
+All Students,19912,Pleasant Grove ISD,Bowie County,Mt Pleasant,8,20.9,21.5,21.7,21.6,21.6,33.7,83,28,70.9,117
+All Students,20901,Alvin ISD,Brazoria County,Houston,4,19.2,21.2,20.2,20.5,20.4,27.6,192,53,18.8,1021
+All Students,20902,Angleton ISD,Brazoria County,Houston,4,20,21.6,21.4,21.5,21.2,32,25,8,6.2,404
+All Students,20904,Danbury ISD,Brazoria County,Houston,4,18.3,21.7,19,20.3,20,,<5,<5,,41
+All Students,20905,Brazosport ISD,Brazoria County,Houston,4,21,22.6,22.2,22.5,22.2,39.9,168,67,21.4,785
+All Students,20906,Sweeny ISD,Brazoria County,Houston,4,18.9,21.9,20.6,20.8,20.7,23.3,30,7,21.3,141
+All Students,20907,Columbia-Brazoria ISD,Brazoria County,Houston,4,19.1,21.2,19.8,20.3,20.2,25,24,6,13,185
+All Students,20908,Pearland ISD,Brazoria County,Houston,4,20.3,22.1,21.4,21.6,21.4,,262,<100,20.9,1252
+All Students,21803,Brazos School For Inquiry & Creati,Brazos County,Huntsville,6,,,,,,,<5,<5,,27
+All Students,21804,Harmony Science Acad (College Stat,Brazos County,Huntsville,6,,,,,,,<5,<5,,<5
+All Students,21901,College Station ISD,Brazos County,Huntsville,6,22.4,24.3,22.9,23.1,23.3,46.8,171,80,24.7,691
+All Students,21902,Bryan ISD,Brazos County,Huntsville,6,17.6,21,19.5,19.9,19.6,18.4,223,41,27,825
+All Students,22004,Terlingua CSD,Brewster County,Midland,18,19.7,22.3,22.3,20.7,21.3,,<5,<5,,5
+All Students,22901,Alpine ISD,Brewster County,Midland,18,19.3,22.4,20.6,20,20.7,,29,<15,38.7,75
+All Students,22902,Marathon ISD,Brewster County,Midland,18,15.8,17,18.3,17.3,17.3,,<5,<5,,<10
+All Students,23902,Silverton ISD,Briscoe County,Amarillo,16,22,24.2,22.6,23.2,23.2,,<10,<5,,11
+All Students,24901,Brooks County ISD,Brooks County,Corpus Christi,2,16.7,18.6,17.8,19.5,18.3,,<35,<5,,86
+All Students,25901,Bangs ISD,Brown County,San Angelo,15,18.8,20,19.9,19.8,19.8,16.2,37,6,52.9,70
+All Students,25902,Brownwood ISD,Brown County,San Angelo,15,19.3,21.6,21.4,20.9,20.9,24,75,18,33.2,226
+All Students,25904,Blanket ISD,Brown County,San Angelo,15,16,20.2,17.1,19,18.3,,9,<5,81.8,11
+All Students,25905,May ISD,Brown County,San Angelo,15,15,17.4,15.5,18.3,16.8,,8,<5,57.1,14
+All Students,25906,Zephyr ISD,Brown County,San Angelo,15,19.8,20.7,22.7,21.3,21.2,,6,<5,75,8
+All Students,25908,Brookesmith ISD,Brown County,San Angelo,15,15.8,16.5,17.8,19,17.3,,<5,<5,,9
+All Students,25909,Early ISD,Brown County,San Angelo,15,20,21.7,20.8,21.1,21.1,29.2,48,14,60.8,79
+All Students,26901,Caldwell ISD,Burleson County,Huntsville,6,19.1,21.4,20.9,21.2,20.8,24.3,37,9,31.6,117
+All Students,26903,Snook ISD,Burleson County,Huntsville,6,21,25,24,23.4,23.4,,<10,<5,,33
+All Students,27903,Burnet CISD,Burnet County,Austin,13,18.7,19.9,19.5,20,19.6,22.2,63,14,26.5,238
+All Students,27904,Marble Falls ISD,Burnet County,Austin,13,20.4,21.2,21.1,21.4,21.1,23,87,20,37.5,232
+All Students,28902,Lockhart ISD,Caldwell County,Austin,13,17.3,19.3,18.2,18.2,18.4,10.6,104,11,31.4,331
+All Students,28903,Luling ISD,Caldwell County,Austin,13,16.5,19.8,18,19.6,18.6,,13,<5,13.7,95
+All Students,28906,Prairie Lea ISD,Caldwell County,Austin,13,21.1,20.3,22.4,20.6,21.3,,7,<5,50,14
+All Students,29901,Calhoun County ISD,Calhoun County,Victoria,3,20.2,21.8,21.1,21,21,35.3,17,6,6,285
+All Students,30901,Cross Plains ISD,Callahan County,Abilene,14,22.8,22,23.5,21.8,22.7,35,20,7,74.1,27
+All Students,30902,Clyde CISD,Callahan County,Abilene,14,20.6,21.3,21,20.9,21.1,,36,<15,40,90
+All Students,30903,Baird ISD,Callahan County,Abilene,14,15.3,17.3,16.2,18.2,16.9,,9,<5,45,20
+All Students,30906,Eula ISD,Callahan County,Abilene,14,22.5,21.9,22.4,21.3,22.2,31.3,16,5,69.6,23
+All Students,31901,Brownsville ISD,Cameron County,Edinburg,1,16.9,19.6,18.3,18.7,18.5,12.1,372,45,14,2649
+All Students,31903,Harlingen CISD,Cameron County,Edinburg,1,16.7,19,18.1,18.5,18.2,11.6,464,54,42.6,1090
+All Students,31905,La Feria ISD,Cameron County,Edinburg,1,15.9,18.6,17.8,18.2,17.8,,131,<15,58.5,224
+All Students,31906,Los Fresnos CISD,Cameron County,Edinburg,1,17.6,19.9,19.4,19.3,19.2,18.7,123,23,21.1,582
+All Students,31909,Point Isabel ISD,Cameron County,Edinburg,1,19.1,20.8,20.5,20.2,20.3,,15,<5,11.9,126
+All Students,31911,Rio Hondo ISD,Cameron County,Edinburg,1,15.2,18.2,17,18,17.2,,73,<5,46.8,156
+All Students,31912,San Benito CISD,Cameron County,Edinburg,1,16.3,18.3,17.8,17.9,17.7,8.9,180,16,28,644
+All Students,31913,Santa Maria ISD,Cameron County,Edinburg,1,12.6,16.3,15.2,14,14.7,,9,<5,,<40
+All Students,31914,Santa Rosa ISD,Cameron County,Edinburg,1,13.1,16.4,15.2,16.1,15.3,,60,<5,89.6,67
+All Students,31916,South Texas ISD,Cameron County,Edinburg,1,20.3,22.5,21.4,21.4,21.5,31.4,315,99,68.2,462
+All Students,32902,Pittsburg ISD,Camp County,Mt Pleasant,8,18.2,20.3,18.8,20.7,19.6,22,41,9,28.9,142
+All Students,33901,Groom ISD,Carson County,Amarillo,16,21.5,21.7,20.6,20.5,21.2,,11,<5,84.6,13
+All Students,33902,Panhandle ISD,Carson County,Amarillo,16,19.3,19.8,21,20.7,20.4,20.5,39,8,72.2,54
+All Students,33904,White Deer ISD,Carson County,Amarillo,16,17.1,19.8,18.5,19.3,18.8,,22,<5,75.9,29
+All Students,34901,Atlanta ISD,Cass County,Mt Pleasant,8,18.9,19.4,19.8,19.5,19.6,17.1,70,12,66.7,105
+All Students,34902,Avinger ISD,Cass County,Mt Pleasant,8,18,18.3,18,18.3,18.4,,8,<5,57.1,14
+All Students,34903,Hughes Springs ISD,Cass County,Mt Pleasant,8,18.2,19.6,19.2,19.6,19.3,14.9,47,7,73.4,64
+All Students,34905,Linden-Kildare CISD,Cass County,Mt Pleasant,8,17.9,18.8,19,20,19,14.3,42,6,70,60
+All Students,34906,McLeod ISD,Cass County,Mt Pleasant,8,19.5,22.5,21.8,21.7,21.5,,19,<5,67.9,28
+All Students,34907,Queen City ISD,Cass County,Mt Pleasant,8,19.6,19.8,20.5,20.2,20.2,28,50,14,61,82
+All Students,34909,Bloomburg ISD,Cass County,Mt Pleasant,8,17,19,20.3,19.4,18.9,,12,<5,92.3,13
+All Students,35901,Dimmitt ISD,Castro County,Amarillo,16,17.2,19.5,18.2,18.2,18.4,,42,<10,66.7,63
+All Students,35902,Hart ISD,Castro County,Amarillo,16,13.2,17.8,15.6,15.4,15.7,,11,<5,,<15
+All Students,35903,Nazareth ISD,Castro County,Amarillo,16,25.8,22.2,23.1,21.3,23.2,,<15,<10,,12
+All Students,36901,Anahuac ISD,Chambers County,Houston,4,16.4,19.3,20.2,18.9,18.9,,24,<5,28.2,85
+All Students,36902,Barbers Hill ISD,Chambers County,Houston,4,20.4,22.9,21.3,21.8,21.8,33.3,63,21,23.3,270
+All Students,36903,East Chambers ISD,Chambers County,Houston,4,21.1,20.6,21.2,20.5,21,36.4,22,8,25.6,86
+All Students,37901,Alto ISD,Cherokee County,Kilgore,7,16.2,19,17.5,18.8,18.1,,24,<5,53.3,45
+All Students,37904,Jacksonville ISD,Cherokee County,Kilgore,7,17.2,18.9,19,19.2,18.7,16.5,139,23,53.7,259
+All Students,37907,Rusk ISD,Cherokee County,Kilgore,7,21.6,22.3,23.2,22.7,22.6,48,25,12,25.8,97
+All Students,37908,New Summerfield ISD,Cherokee County,Kilgore,7,10.5,15.4,14,15.2,13.7,,11,<5,33.3,33
+All Students,38901,Childress ISD,Childress County,Amarillo,16,18.1,21.6,20.1,20.6,20.3,25.6,43,11,63.2,68
+All Students,39901,Byers ISD,Clay County,Wichita Falls,9,19,20,20.3,17.7,19.3,,<5,<5,,<5
+All Students,39902,Henrietta ISD,Clay County,Wichita Falls,9,22.5,22,23.3,22.7,22.8,41.7,24,10,32.4,74
+All Students,39903,Petrolia ISD,Clay County,Wichita Falls,9,20.3,21.4,20.3,21.9,21.1,,13,<5,31,42
+All Students,39904,Bellevue ISD,Clay County,Wichita Falls,9,,,,,,,<5,<5,,8
+All Students,39905,Midway ISD,Clay County,Wichita Falls,9,20.5,23.8,23.8,21.3,22.3,,<5,<5,,9
+All Students,40901,Morton ISD,Cochran County,Lubbock,17,13.9,17.5,16.1,16.4,16.2,,17,<5,70.8,24
+All Students,40902,Whiteface CISD,Cochran County,Lubbock,17,17.4,19.2,18.8,18.1,18.5,,13,<5,76.5,17
+All Students,41901,Bronte ISD,Coke County,San Angelo,15,19.5,22.2,18.8,19.9,20.3,26.9,26,7,81.3,32
+All Students,41902,Robert Lee ISD,Coke County,San Angelo,15,19,20.7,20,20.3,20.1,,12,<5,57.1,21
+All Students,42901,Coleman ISD,Coleman County,San Angelo,15,19.4,20.8,20.3,20.8,20.5,17.9,39,7,81.3,48
+All Students,42903,Santa Anna ISD,Coleman County,San Angelo,15,17.3,18.5,16.8,16,17.3,,<5,<5,,15
+All Students,42905,Panther Creek CISD,Coleman County,San Angelo,15,20.8,22.8,22.9,22.5,22.3,50,12,6,109.1,11
+All Students,42906,Novice ISD,Coleman County,San Angelo,15,,,,,,,<5,<5,,<5
+All Students,43901,Allen ISD,Collin County,Richardson,10,23.3,24.8,24,23.6,24.1,54.2,548,297,45.1,1215
+All Students,43902,Anna ISD,Collin County,Richardson,10,19.6,21.4,20.7,20.6,20.8,25,36,9,28.1,128
+All Students,43903,Celina ISD,Collin County,Richardson,10,21.7,23.5,22.6,22.7,22.8,44.4,124,55,85.5,145
+All Students,43904,Farmersville ISD,Collin County,Richardson,10,20.4,22.8,22.6,22.2,22.2,44,25,11,26.6,94
+All Students,43905,Frisco ISD,Collin County,Richardson,10,22.8,24,23.5,23.4,23.6,48.6,1012,492,51.6,1962
+All Students,43907,McKinney ISD,Collin County,Richardson,10,23,24.1,23.9,23.5,23.7,53.8,682,367,46.5,1467
+All Students,43908,Melissa ISD,Collin County,Richardson,10,21.6,22.7,23,22.6,22.6,,53,<30,50,106
+All Students,43910,Plano ISD,Collin County,Richardson,10,24.7,26.6,25.4,25.1,25.6,66.7,1786,1191,49.1,3634
+All Students,43911,Princeton ISD,Collin County,Richardson,10,19.5,22.1,20.5,21.6,21.1,22.6,31,7,16.5,188
+All Students,43912,Prosper ISD,Collin County,Richardson,10,22.6,24.2,23.1,23.2,23.4,46.2,173,80,65.3,265
+All Students,43914,Wylie ISD,Collin County,Richardson,10,20.9,23,22.1,22.5,22.2,40.4,270,109,38.2,707
+All Students,43917,Blue Ridge ISD,Collin County,Richardson,10,20,21.5,21.8,21,21.2,,21,<10,42.9,49
+All Students,43918,Community ISD,Collin County,Richardson,10,19,21.9,20.4,21.2,20.8,23.3,30,7,34.1,88
+All Students,43919,Lovejoy ISD,Collin County,Richardson,10,23.7,24.7,24.5,23.8,24.3,54.8,166,91,68.6,242
+All Students,44902,Wellington ISD,Collingsworth County,Amarillo,16,17.3,19.1,18.4,19.2,18.6,,33,<5,91.7,36
+All Students,45902,Columbus ISD,Colorado County,Victoria,3,19.5,21.8,19.5,20.2,20.4,24.7,81,20,62.8,129
+All Students,45903,Rice CISD,Colorado County,Victoria,3,16.5,19.8,18.2,18.4,18.3,16.7,60,10,82.2,73
+All Students,45905,Weimar ISD,Colorado County,Victoria,3,21.2,22.9,21.8,21.8,22,,25,<15,53.2,47
+All Students,46901,New Braunfels ISD,Comal County,Austin,13,20.5,22.6,21.6,22.1,21.9,35.2,122,43,22,555
+All Students,46902,Comal ISD,Comal County,Austin,13,20.6,22.8,22,22,22,38.6,339,131,30.4,1116
+All Students,47901,Comanche ISD,Comanche County,Abilene,14,18.8,20.9,18.7,20.1,19.7,17.9,28,5,43.1,65
+All Students,47902,De Leon ISD,Comanche County,Abilene,14,18.5,20.2,19.8,19.1,19.5,,25,<5,56.8,44
+All Students,47903,Gustine ISD,Comanche County,Abilene,14,15,18.5,16.5,18,17,,<5,<5,,10
+All Students,47905,Sidney ISD,Comanche County,Abilene,14,19.8,19,23.3,20,20.5,,<5,<5,,9
+All Students,48901,Eden CISD,Concho County,San Angelo,15,17.6,19.1,17.6,17.7,18.2,,15,<5,75,20
+All Students,48903,Paint Rock ISD,Concho County,San Angelo,15,20.5,22.8,19.3,18,20.3,,<5,<5,,<10
+All Students,49901,Gainesville ISD,Cooke County,Fort Worth,11,18.7,20.3,20.1,20.5,20,10.6,47,5,36.7,128
+All Students,49902,Muenster ISD,Cooke County,Fort Worth,11,23.5,24.8,24.5,23.2,24.1,53.8,26,14,66.7,39
+All Students,49903,Valley View ISD,Cooke County,Fort Worth,11,18.7,21,20.8,19.9,20.3,,13,<5,31.7,41
+All Students,49904,Gainesville State School,Cooke County,Fort Worth,11,15.3,15.3,16.3,18.7,16.7,,<5,<5,,<5
+All Students,49905,Callisburg ISD,Cooke County,Fort Worth,11,20,20.7,20.5,19.8,20.3,,6,<5,8.1,74
+All Students,49906,Era ISD,Cooke County,Fort Worth,11,16.4,17.9,17.8,16.6,17.4,,8,<5,38.1,21
+All Students,49907,Lindsay ISD,Cooke County,Fort Worth,11,22.9,23.3,23.5,23.2,23.3,39.1,23,9,54.8,42
+All Students,50901,Evant ISD,Coryell County,Waco,12,18.4,19.1,19,21,19.5,,8,<5,44.4,18
+All Students,50902,Gatesville ISD,Coryell County,Waco,12,19.9,20.8,21.5,21.3,21,26.6,94,25,48.2,195
+All Students,50904,Oglesby ISD,Coryell County,Waco,12,,,,,,,<5,<5,,7
+All Students,50909,Jonesboro ISD,Coryell County,Waco,12,20,21.8,22.5,21.2,21.7,,6,<5,42.9,14
+All Students,50910,Copperas Cove ISD,Coryell County,Waco,12,19.2,20.2,20.3,20.6,20.2,13.6,59,8,12.1,486
+All Students,51901,Paducah ISD,Cottle County,Lubbock,17,14.4,16.7,17.3,18.3,16.9,,7,<5,50,14
+All Students,52901,Crane ISD,Crane County,Midland,18,16.4,19.5,19.3,19.3,18.8,,38,<10,50.7,75
+All Students,53001,Crockett County Consolidated CSD,Crockett County,San Angelo,15,16,19.4,17.3,17.8,17.8,,24,<5,58.5,41
+All Students,54901,Crosbyton CISD,Crosby County,Lubbock,17,17.2,19.4,18.8,18.6,18.6,,14,<5,58.3,24
+All Students,54902,Lorenzo ISD,Crosby County,Lubbock,17,15.1,16.5,17.1,16.6,16.5,,15,<5,83.3,18
+All Students,54903,Ralls ISD,Crosby County,Lubbock,17,18.4,22.5,20.5,19.8,20.5,,15,<5,44.1,34
+All Students,55901,Culberson County-Allamoore ISD,Culberson County,Midland,18,13.6,17.6,16.5,16.5,16.1,,20,<5,62.5,32
+All Students,56901,Dalhart ISD,Dallam County,Amarillo,16,18.4,19.2,20.1,19.5,19.5,15.7,83,13,67.5,123
+All Students,56902,Texline ISD,Dallam County,Amarillo,16,17,16.2,19,18.8,18,,6,<5,,<5
+All Students,57802,Pegasus School Of Liberal Arts And,Dallas County,Richardson,10,19.6,21.7,19,19.7,20.1,,12,<5,37.5,32
+All Students,57803,Uplift Education - North Hills Pre,Dallas County,Richardson,10,26.4,26.5,25.7,24.7,26.1,76.4,55,42,62.5,88
+All Students,57804,Dallas Can Academy Charter,Dallas County,Richardson,10,11.1,15.3,13.4,14.6,13.8,,42,<5,6,695
+All Students,57806,Advantage Academy,Dallas County,Richardson,10,17,19.8,19,19.5,19,,<5,<5,,52
+All Students,57807,Life School,Dallas County,Richardson,10,16.8,18.6,17.5,17.7,17.7,,45,<5,33.8,133
+All Students,57808,Universal Academy,Dallas County,Richardson,10,16,19.1,16.6,16,16.9,,10,<5,45.5,22
+All Students,57815,Faith Family Academy Of Oak Cliff,Dallas County,Richardson,10,,,,,,,<5,<5,,34
+All Students,57819,Jean Massieu Academy,Dallas County,Richardson,10,,,,,,,<5,<5,,<10
+All Students,57825,Honors Academy,Dallas County,Richardson,10,,,,,,,<5,<5,,106
+All Students,57828,Winfree Academy Charter Schools,Dallas County,Richardson,10,17,16.5,15.3,18,16.8,,<5,<5,,375
+All Students,57831,Gateway Charter Academy,Dallas County,Richardson,10,12.5,15.8,14.1,15.6,14.5,,8,<5,,<5
+All Students,57838,Uplift Education - Peak Preparator,Dallas County,Richardson,10,15.2,19.5,15.8,17.1,17,,28,<5,71.8,39
+All Students,57840,Richland Collegiate High School,Dallas County,Richardson,10,22.2,24.2,23,22.9,23.2,40.5,74,30,39.4,188
+All Students,57842,Uplift Education - Williams Prepar,Dallas County,Richardson,10,15.2,19.6,16.6,18.1,17.4,,21,<5,58.3,36
+All Students,57843,Uplift Education - Hampton Prepara,Dallas County,Richardson,10,14.4,17.3,15.3,16.5,16.1,,17,<5,130.8,13
+All Students,57903,Carrollton-Farmers Branch ISD,Dallas County,Richardson,10,20.8,22.3,21.7,21.7,21.8,36.1,443,160,27.4,1617
+All Students,57904,Cedar Hill ISD,Dallas County,Richardson,10,18.2,19.3,18.9,19.4,19.1,16.7,335,56,63.4,528
+All Students,57905,Dallas ISD,Dallas County,Richardson,10,15.5,18.3,17,17.6,17.2,10.2,3112,317,42.8,7275
+All Students,57906,Desoto ISD,Dallas County,Richardson,10,17,18.4,18,18.1,18,9.8,266,26,44.1,603
+All Students,57907,Duncanville ISD,Dallas County,Richardson,10,17.9,19.2,19,19.1,19,14.9,241,36,32,753
+All Students,57909,Garland ISD,Dallas County,Richardson,10,19.8,21.3,21,20.8,20.9,28.2,953,269,24.6,3869
+All Students,57910,Grand Prairie ISD,Dallas County,Richardson,10,17.6,20,19.1,19.6,19.2,18.2,407,74,25.9,1569
+All Students,57911,Highland Park ISD,Dallas County,Richardson,10,26.6,27.2,26.4,25.7,26.6,75.6,389,294,80.5,483
+All Students,57912,Irving ISD,Dallas County,Richardson,10,17.6,19.9,19.4,19.4,19.2,14.4,264,38,13.7,1922
+All Students,57913,Lancaster ISD,Dallas County,Richardson,10,14.6,16.7,16.1,16.6,16.1,5.8,103,6,30.8,334
+All Students,57914,Mesquite ISD,Dallas County,Richardson,10,17.9,19.8,19,19.4,19.1,15.5,567,88,24.1,2348
+All Students,57916,Richardson ISD,Dallas County,Richardson,10,21.2,23.4,22.3,22.3,22.4,40.8,894,365,43.4,2058
+All Students,57919,Sunnyvale ISD,Dallas County,Richardson,10,20.8,21.5,21.4,20.6,21.2,,36,<15,40.4,89
+All Students,57922,Coppell ISD,Dallas County,Richardson,10,24.5,26.3,24.7,24.4,25.1,62,511,317,65.7,778
+All Students,58902,Dawson ISD,Dawson County,Lubbock,17,14.2,18.7,15.3,16.8,16.5,,6,<5,66.7,9
+All Students,58905,Klondike ISD,Dawson County,Lubbock,17,19.6,20,21.8,20.7,20.6,,9,<5,52.9,17
+All Students,58906,Lamesa ISD,Dawson County,Lubbock,17,18.1,18.4,20.4,19.3,19.1,12.2,41,5,47.1,87
+All Students,58909,Sands CISD,Dawson County,Lubbock,17,23,25.5,24,23.5,24.3,,<5,<5,,13
+All Students,59901,Hereford ISD,Deaf Smith County,Amarillo,16,16.8,19.1,18.4,18.6,18.3,11.2,125,14,56.1,223
+All Students,60902,Cooper ISD,Delta County,Mt Pleasant,8,19.5,19.6,20.5,20.1,20.1,16.7,36,6,70.6,51
+All Students,60914,Fannindel ISD,Delta County,Mt Pleasant,8,18.7,23,21.2,20.3,21,,6,<5,75,8
+All Students,61501,University Of North Texas,Denton County,Fort Worth,11,31.1,33.3,31.3,31,31.8,,108,<110,,<5
+All Students,61802,Texas Education Centers,Denton County,Fort Worth,11,20.3,15.5,19.8,17.5,18.3,,<5,<5,,36
+All Students,61901,Denton ISD,Denton County,Fort Worth,11,19.6,20.8,21.1,20.6,20.7,29,365,106,29.7,1229
+All Students,61902,Lewisville ISD,Denton County,Fort Worth,11,22.9,24.5,23.7,23.3,23.7,51.8,1411,731,41,3439
+All Students,61903,Pilot Point ISD,Denton County,Fort Worth,11,20.3,21.5,21.6,21,21.2,30.9,55,17,57.3,96
+All Students,61905,Krum ISD,Denton County,Fort Worth,11,22.9,23.2,25.2,22.8,23.7,64.7,17,11,22.4,76
+All Students,61906,Ponder ISD,Denton County,Fort Worth,11,20.9,22.9,22.9,22.1,22.4,47.1,17,8,21,81
+All Students,61907,Aubrey ISD,Denton County,Fort Worth,11,20.2,22.2,22,21.6,21.6,33.3,36,12,34.3,105
+All Students,61908,Sanger ISD,Denton County,Fort Worth,11,19.9,21.2,21.4,21.9,21.2,26.1,46,12,27.1,170
+All Students,61910,Argyle ISD,Denton County,Fort Worth,11,22.6,24.9,23.4,23.1,23.6,49,104,51,64.2,162
+All Students,61911,Northwest ISD,Denton County,Fort Worth,11,22.1,23.1,23,22.8,22.8,45.1,293,132,33,889
+All Students,61912,Lake Dallas ISD,Denton County,Fort Worth,11,21.5,22.9,21.7,21.6,22,,59,<25,22.7,260
+All Students,61914,Little Elm ISD,Denton County,Fort Worth,11,17.9,19.5,19.2,19.8,19.2,15.4,117,18,34.5,339
+All Students,62901,Cuero ISD,Dewitt County,Victoria,3,20.6,21.3,21.1,21,21.1,28.4,67,19,53.6,125
+All Students,62902,Nordheim ISD,Dewitt County,Victoria,3,,,,,,,<5,<5,,9
+All Students,62903,Yoakum ISD,Dewitt County,Victoria,3,19.6,19.5,20.5,19.7,20.1,19.6,51,10,57.3,89
+All Students,62904,Yorktown ISD,Dewitt County,Victoria,3,18,20.2,21.2,20.2,20.2,,6,<5,16.2,37
+All Students,63903,Spur ISD,Dickens County,Lubbock,17,16.4,18.6,17.3,16,17.3,,11,<5,100,11
+All Students,63906,Patton Springs ISD,Dickens County,Lubbock,17,18.4,20,17.6,20.6,19.4,,<10,<5,,<5
+All Students,64903,Carrizo Springs CISD,Dimmit County,San Antonio,20,16.8,19.6,17.2,18.3,18.1,,51,<5,37.5,136
+All Students,65901,Clarendon ISD,Donley County,Amarillo,16,19.2,19.8,19.7,20,19.8,20,30,6,73.2,41
+All Students,65902,Hedley ISD,Donley County,Amarillo,16,19.3,20,20.8,20.6,20.2,,9,<5,60,15
+All Students,66901,Benavides ISD,Duval County,Corpus Christi,2,15.1,18.6,16.7,18.6,17.5,,22,<5,71,31
+All Students,66902,San Diego ISD,Duval County,Corpus Christi,2,15.3,18,17.3,17.6,17.1,,48,<5,59.3,81
+All Students,66903,Freer ISD,Duval County,Corpus Christi,2,15.4,17.6,17.5,17.7,17.2,,29,<5,50,58
+All Students,67902,Cisco ISD,Eastland County,Abilene,14,20.5,21.9,20.5,21.1,21.1,,22,<5,33.3,66
+All Students,67903,Eastland ISD,Eastland County,Abilene,14,18.7,19.8,20.5,21,20.1,,13,<5,19.7,66
+All Students,67904,Gorman ISD,Eastland County,Abilene,14,,,,,,,<5,<5,,20
+All Students,67907,Ranger ISD,Eastland County,Abilene,14,17.5,20.5,19.3,19,19.1,,12,<5,41.4,29
+All Students,67908,Rising Star ISD,Eastland County,Abilene,14,17,19.3,18.5,19.2,18.5,,6,<5,60,10
+All Students,68801,Richard Milburn Academy (Ector Cou,Ector County,Midland,18,18.8,20,20.3,20,20,,<5,<5,,216
+All Students,68901,Ector County ISD,Ector County,Midland,18,19.3,21.4,20.5,20.6,20.6,26,177,46,14.7,1203
+All Students,69901,Rocksprings ISD,Edwards County,San Angelo,15,14.8,17.8,19.8,17.7,17.7,,12,<5,,<20
+All Students,69902,Nueces Canyon CISD,Edwards County,San Angelo,15,17.1,18.3,18.7,18.9,18.3,,23,<5,82.1,28
+All Students,70801,Waxahachie Faith Family Academy,Ellis County,Richardson,10,,,,,,,<5,<5,,16
+All Students,70901,Avalon ISD,Ellis County,Richardson,10,,,,,,,<5,<5,,19
+All Students,70903,Ennis ISD,Ellis County,Richardson,10,18,19.7,19.2,19.1,19.1,13,161,21,49.1,328
+All Students,70905,Ferris ISD,Ellis County,Richardson,10,16.9,19.3,17.5,20,18.6,,15,<5,9.6,157
+All Students,70907,Italy ISD,Ellis County,Richardson,10,15.6,18.4,18.5,19.2,18,,20,<5,55.6,36
+All Students,70908,Midlothian ISD,Ellis County,Richardson,10,21,22.8,22.2,21.8,22,34,265,90,53.4,496
+All Students,70909,Milford ISD,Ellis County,Richardson,10,15.7,19.7,16.5,18.2,17.7,,6,<5,75,8
+All Students,70910,Palmer ISD,Ellis County,Richardson,10,18.9,20.7,20.2,20.3,20.1,,18,<5,28.6,63
+All Students,70911,Red Oak ISD,Ellis County,Richardson,10,19,20.8,20.5,20.7,20.4,24.2,186,45,44.7,416
+All Students,70912,Waxahachie ISD,Ellis County,Richardson,10,19.8,21.2,20.8,20.3,20.6,26.9,156,42,30.2,517
+All Students,70915,Maypearl ISD,Ellis County,Richardson,10,20.1,20.1,22.7,21.5,21.1,37.5,16,6,22.2,72
+All Students,71801,Burnham Wood Charter School Distri,El Paso County,El Paso,19,19.2,21.7,21.5,22,21.2,30.4,23,7,135.3,17
+All Students,71804,El Paso Academy,El Paso County,El Paso,19,,,,,,,<5,<5,,110
+All Students,71806,Harmony Science Acad (El Paso),El Paso County,El Paso,19,28,25.7,24.7,27.3,26.7,,<5,<5,,22
+All Students,71901,Clint ISD,El Paso County,El Paso,19,15.4,19.1,16.4,17.7,17.3,,184,<15,27.4,671
+All Students,71902,El Paso ISD,El Paso County,El Paso,19,16.8,19.4,18.1,18.7,18.4,13,2184,284,52.5,4163
+All Students,71903,Fabens ISD,El Paso County,El Paso,19,14.2,19.4,15.5,16.4,16.6,,38,<5,,<145
+All Students,71904,San Elizario ISD,El Paso County,El Paso,19,14.8,18.6,16,17.8,17,5.3,133,7,55.9,238
+All Students,71905,Ysleta ISD,El Paso County,El Paso,19,16.6,19.3,18,18.3,18.2,12.3,341,42,11.2,3036
+All Students,71906,Anthony ISD,El Paso County,El Paso,19,15.5,17.6,17.6,18.3,17.3,,47,<5,97.9,48
+All Students,71907,Canutillo ISD,El Paso County,El Paso,19,14.6,17.9,16.1,17.4,16.6,5.3,113,6,27.2,415
+All Students,71908,Tornillo ISD,El Paso County,El Paso,19,14.5,19.5,15.6,18.1,17.1,,28,<5,50,56
+All Students,71909,Socorro ISD,El Paso County,El Paso,19,16.6,19.5,17.7,18.6,18.2,11.3,652,74,23.5,2774
+All Students,72801,Premier High Schools,Erath County,Fort Worth,11,16.3,18.3,18.1,18.4,17.9,9.5,137,13,12.3,1110
+All Students,72802,Erath Excels Academy Inc,Erath County,Fort Worth,11,18,18,18.7,16.5,17.8,,6,<5,12,50
+All Students,72902,Dublin ISD,Erath County,Fort Worth,11,18.7,21,20.7,19.6,20.1,28.6,28,8,38.9,72
+All Students,72903,Stephenville,Erath County,Fort Worth,11,21.6,23.5,23.5,22.6,22.9,45.4,119,54,58.6,203
+All Students,72908,Huckabay ISD,Erath County,Fort Worth,11,21.1,23.1,22,22.3,22.3,40,15,6,93.8,16
+All Students,72909,Lingleville ISD,Erath County,Fort Worth,11,17.9,19.6,17.8,18.9,18.6,,11,<5,68.8,16
+All Students,73901,Chilton ISD,Falls County,Waco,12,15.7,18.3,17.8,17.3,17.3,,24,<5,68.6,35
+All Students,73903,Marlin ISD,Falls County,Waco,12,14.4,18,17.9,15.7,16.7,,7,<5,9.9,71
+All Students,73905,Rosebud-Lott ISD,Falls County,Waco,12,19.8,22.2,20.7,21.6,21.1,28.6,21,6,36.8,57
+All Students,74903,Bonham ISD,Fannin County,Richardson,10,20.2,21.7,21.5,22,21.4,22.5,40,9,34.2,117
+All Students,74904,Dodd City ISD,Fannin County,Richardson,10,24.9,24.4,23.9,22.9,24.1,,7,<10,70,10
+All Students,74905,Ector ISD,Fannin County,Richardson,10,17.5,19.6,17.3,19.1,18.6,,10,<5,45.5,22
+All Students,74907,Honey Grove ISD,Fannin County,Richardson,10,19.3,19.9,19.9,19.4,19.8,17.2,29,5,63,46
+All Students,74909,Leonard ISD,Fannin County,Richardson,10,20.1,20.7,21.6,21,20.9,30,30,9,65.2,46
+All Students,74911,Savoy ISD,Fannin County,Richardson,10,20.1,21.4,21.5,21,21,,8,<5,32,25
+All Students,74912,Trenton ISD,Fannin County,Richardson,10,18.7,20.2,20.7,20,20.1,,17,<5,43.6,39
+All Students,74917,Sam Rayburn ISD,Fannin County,Richardson,10,18.6,20.3,19.8,20.2,19.8,24,25,6,64.1,39
+All Students,75901,Flatonia ISD,Fayette County,Austin,13,18.1,21,19,19.1,19.5,,26,<10,83.9,31
+All Students,75902,La Grange ISD,Fayette County,Austin,13,19,21.4,20.7,20.9,20.7,34.8,23,8,20.7,111
+All Students,75903,Schulenburg ISD,Fayette County,Austin,13,19,21.2,19.9,20.5,20.3,24.1,29,7,58,50
+All Students,75906,Fayetteville ISD,Fayette County,Austin,13,21.6,24,21,23.6,22.8,,<10,<5,,18
+All Students,76903,Roby CISD,Fisher County,Abilene,14,18.5,21.3,20.1,21.4,20.5,22.7,22,5,73.3,30
+All Students,76904,Rotan ISD,Fisher County,Abilene,14,20.1,19,20.8,19.6,20.1,,17,<5,81,21
+All Students,77901,Floydada ISD,Floyd County,Lubbock,17,17.1,20,19,19,19,15,40,6,80,50
+All Students,77902,Lockney ISD,Floyd County,Lubbock,17,16,19.1,18.3,18.7,18.3,,27,<5,84.4,32
+All Students,78901,Crowell ISD,Foard County,Wichita Falls,9,16,18.6,18.8,16.3,17.4,,14,<5,58.3,24
+All Students,79901,Lamar CISD,Fort Bend County,Houston,4,19.2,21,20.6,20.7,20.5,28.7,506,145,37.8,1339
+All Students,79906,Needville ISD,Fort Bend County,Houston,4,20,21.8,21.9,21.2,21.3,26.4,53,14,31.9,166
+All Students,79907,Fort Bend ISD,Fort Bend County,Houston,4,21.2,23.5,21.9,22,22.3,40.3,1672,674,33.3,5027
+All Students,79910,Stafford MSD,Fort Bend County,Houston,4,16.5,18.9,18.2,17.9,18,19.7,71,14,32.1,221
+All Students,80901,Mount Vernon ISD,Franklin County,Mt Pleasant,8,19.9,19.7,20.1,19.2,19.8,20.4,49,10,48,102
+All Students,81902,Fairfield ISD,Freestone County,Waco,12,18,20.4,18.9,19.5,19.4,20.4,54,11,54.5,99
+All Students,81904,Teague ISD,Freestone County,Waco,12,17,18.7,18.8,18.6,18.5,12,50,6,68.5,73
+All Students,81905,Wortham ISD,Freestone County,Waco,12,16.3,18.6,17,17.3,17.5,,15,<5,46.9,32
+All Students,82902,Dilley ISD,Frio County,San Antonio,20,15.1,17.6,17.2,17.2,16.8,,35,<5,52.2,67
+All Students,82903,Pearsall ISD,Frio County,San Antonio,20,16.6,18.5,18.3,18.7,18.2,9.8,61,6,47.3,129
+All Students,83901,Seagraves ISD,Gaines County,Lubbock,17,16.6,19.6,20.3,19.7,19.2,,11,<5,37.9,29
+All Students,83902,Loop ISD,Gaines County,Lubbock,17,21.3,23.4,20.4,21.4,21.9,,7,<5,63.6,11
+All Students,83903,Seminole ISD,Gaines County,Lubbock,17,20,22.2,21.8,20.5,21.2,34.5,29,10,18.8,154
+All Students,84901,Dickinson ISD,Galveston County,Houston,4,16.6,19.6,18.6,19.2,18.6,17.3,81,14,14.6,556
+All Students,84902,Galveston ISD,Galveston County,Houston,4,18.2,20,19.4,19.3,19.4,21.6,97,21,24.7,392
+All Students,84903,High Island ISD,Galveston County,Beaumont,5,,,,,,,<5,<5,,19
+All Students,84904,La Marque ISD,Galveston County,Houston,4,14.7,17.1,16.3,16.6,16.3,,53,<5,44.2,120
+All Students,84906,Texas City ISD,Galveston County,Houston,4,16.9,18.5,17.6,18.2,17.8,,30,<5,8.6,350
+All Students,84908,Hitchcock ISD,Galveston County,Houston,4,16.9,18.5,19.6,18.8,18.5,,13,<5,20,65
+All Students,84909,Santa Fe ISD,Galveston County,Houston,4,19.7,21.6,18.6,19.6,20,21.7,23,5,6.9,331
+All Students,84910,Clear Creek ISD,Galveston County,Houston,4,22.5,24.3,23.5,23.3,23.5,49.5,874,433,32.4,2700
+All Students,84911,Friendswood ISD,Galveston County,Houston,4,24,25.6,24.8,23.9,24.7,60.4,192,116,39.6,485
+All Students,85902,Post ISD,Garza County,Lubbock,17,16.8,18.7,19.3,19.3,18.7,,26,<5,55.3,47
+All Students,85903,Southland ISD,Garza County,Lubbock,17,18.2,21,20.1,20,19.9,,9,<5,69.2,13
+All Students,86901,Fredericksburg ISD,Gillespie County,Austin,13,21.1,22.5,22,22,22,40.2,82,33,37.4,219
+All Students,86902,Harper ISD,Gillespie County,Austin,13,20.8,21.8,22.9,21,21.7,36.8,38,14,79.2,48
+All Students,87901,Glasscock County ISD,Glasscock County,Midland,18,16.9,21.6,19.3,21.1,19.8,,18,<5,94.7,19
+All Students,88902,Goliad ISD,Goliad County,Victoria,3,16.8,19.7,18.4,18.6,18.5,,47,<5,43.1,109
+All Students,89901,Gonzales ISD,Gonzales County,Austin,13,18.3,20.8,18.6,19.3,19.4,11.7,60,7,41.4,145
+All Students,89903,Nixon-Smiley CISD,Gonzales County,Austin,13,17.2,19,19.9,19.9,19.1,,32,<5,47.1,68
+All Students,89905,Waelder ISD,Gonzales County,Austin,13,,,,,,,<5,<5,,15
+All Students,90902,Lefors ISD,Gray County,Amarillo,16,16.5,16.6,18.4,17,17.3,,8,<5,88.9,9
+All Students,90903,McLean ISD,Gray County,Amarillo,16,19.9,20.9,22.6,19.4,20.9,,15,<5,107.1,14
+All Students,90904,Pampa ISD,Gray County,Amarillo,16,19.6,20.6,20.4,20.7,20.5,20.2,89,18,39.6,225
+All Students,91901,Bells ISD,Grayson County,Richardson,10,20.6,21.8,21.8,20.4,21.4,31.6,19,6,33.3,57
+All Students,91902,Collinsville ISD,Grayson County,Richardson,10,20.8,21.7,22.1,21.8,21.8,34.4,32,11,72.7,44
+All Students,91903,Denison ISD,Grayson County,Richardson,10,20.1,22.2,22,21.9,21.7,34.4,128,44,44.1,290
+All Students,91905,Howe ISD,Grayson County,Richardson,10,20.2,21.8,21.1,21.1,21.2,24,25,6,39.7,63
+All Students,91906,Sherman ISD,Grayson County,Richardson,10,21.4,21.2,22.1,21.5,21.6,32,100,32,26,385
+All Students,91908,Van Alstyne ISD,Grayson County,Richardson,10,21.6,22,22.6,22.3,22.3,,59,<30,52.2,113
+All Students,91909,Whitesboro ISD,Grayson County,Richardson,10,20.1,20.7,21,20.9,20.9,25.5,51,13,52.6,97
+All Students,91910,Whitewright ISD,Grayson County,Richardson,10,22.1,22.7,21.1,21.4,21.9,,18,<5,35.3,51
+All Students,91913,Pottsboro ISD,Grayson County,Richardson,10,21.3,22.8,22.6,23.8,22.8,42.3,26,11,31.3,83
+All Students,91914,S And S CISD,Grayson County,Richardson,10,18.8,19.5,20.5,19.6,19.8,20,40,8,69,58
+All Students,91917,Gunter ISD,Grayson County,Richardson,10,21.4,23.4,23,21.7,22.5,32.5,40,13,66.7,60
+All Students,91918,Tom Bean ISD,Grayson County,Richardson,10,21.5,22.9,22.1,21.4,22.1,32,25,8,42.4,59
+All Students,92801,East Texas Charter Schools,Gregg County,Kilgore,7,16,18.5,20.5,17.8,18.5,,<5,<5,,66
+All Students,92901,Gladewater ISD,Gregg County,Kilgore,7,17.4,20.2,19.3,18.3,18.8,,13,<5,11.1,117
+All Students,92902,Kilgore ISD,Gregg County,Kilgore,7,18.1,19.4,19.4,19.3,19.2,14.8,88,13,37,238
+All Students,92903,Longview ISD,Gregg County,Kilgore,7,18.1,19.6,19.4,19.7,19.3,20.7,246,51,50.1,491
+All Students,92904,Pine Tree ISD,Gregg County,Kilgore,7,22.1,22.5,22.5,22.2,22.5,42.6,94,40,32.8,287
+All Students,92906,Sabine ISD,Gregg County,Kilgore,7,19.5,21.9,21.9,20.4,20.9,,14,<5,19.7,71
+All Students,92907,Spring Hill ISD,Gregg County,Kilgore,7,22.1,22.4,21.9,22.3,22.3,40.9,88,36,77.9,113
+All Students,92908,White Oak ISD,Gregg County,Kilgore,7,20.9,22.4,21.6,21.9,21.9,33.9,59,20,62.8,94
+All Students,93901,Anderson-Shiro CISD,Grimes County,Huntsville,6,18.7,20.7,20.4,20.5,20.2,,26,<10,47.3,55
+All Students,93903,Iola ISD,Grimes County,Huntsville,6,20.8,22.6,22.1,21.7,22,,9,<5,25,36
+All Students,93904,Navasota ISD,Grimes County,Huntsville,6,16.2,19.3,17.8,18.4,18,,34,<5,21.4,159
+All Students,93905,Richards ISD,Grimes County,Huntsville,6,,,,,,,<5,<5,,<5
+All Students,94901,Seguin ISD,Guadalupe County,Austin,13,18.6,21,19.9,20.8,20.2,24.8,109,27,23,473
+All Students,94902,Schertz-Cibolo-U City ISD,Guadalupe County,San Antonio,20,21.1,22.6,21.9,22,22,35.8,240,86,23.7,1012
+All Students,94903,Navarro ISD,Guadalupe County,Austin,13,19.9,20.9,21.5,20.8,20.9,23.1,52,12,47.7,109
+All Students,94904,Marion ISD,Guadalupe County,Austin,13,18.9,21,20.5,20.5,20.4,,19,<5,22.1,86
+All Students,95901,Abernathy ISD,Hale County,Lubbock,17,17.7,21.4,18.7,20.7,19.8,,33,<5,73.3,45
+All Students,95902,Cotton Center ISD,Hale County,Lubbock,17,18.7,20.3,21.7,22.7,21,,<5,<5,,<5
+All Students,95903,Hale Center ISD,Hale County,Lubbock,17,15.9,18.7,17.1,17.8,17.5,,34,<5,79.1,43
+All Students,95904,Petersburg ISD,Hale County,Lubbock,17,17.6,19.9,19.4,20.9,19.6,,13,<5,92.9,14
+All Students,95905,Plainview ISD,Hale County,Lubbock,17,18.7,20,20.3,20.2,19.9,17.5,166,29,51.4,323
+All Students,96904,Memphis ISD,Hall County,Amarillo,16,16.3,19.1,18.7,18.4,18.2,,23,<5,71.9,32
+All Students,96905,Turkey-Quitaque ISD,Hall County,Amarillo,16,20.2,21.3,21.4,19.7,20.8,28.6,21,6,77.8,27
+All Students,97902,Hamilton ISD,Hamilton County,Waco,12,20.7,19.8,21.2,19.9,20.6,,23,<5,53.5,43
+All Students,97903,Hico ISD,Hamilton County,Waco,12,18,20.3,19.3,19.3,19.3,,26,<5,50,52
+All Students,98901,Gruver ISD,Hansford County,Amarillo,16,18.5,21.1,19.1,20.4,19.8,,19,<5,82.6,23
+All Students,98904,Spearman ISD,Hansford County,Amarillo,16,18.2,20.6,19.1,19.8,19.5,18.2,44,8,78.6,56
+All Students,99902,Chillicothe ISD,Hardeman County,Wichita Falls,9,20.3,20.8,20.8,22.5,21.3,,<5,<5,,12
+All Students,99903,Quanah ISD,Hardeman County,Wichita Falls,9,18.3,19.8,19.7,20.1,19.5,,21,<5,53.8,39
+All Students,100903,Kountze ISD,Hardin County,Beaumont,5,17.8,19.3,18.7,19.5,19,,11,<5,13.4,82
+All Students,100904,Silsbee ISD,Hardin County,Beaumont,5,17.9,19.4,19.5,19.1,19.2,,20,<5,11.2,178
+All Students,100905,Hardin-Jefferson ISD,Hardin County,Beaumont,5,19.3,21.9,20.3,20,20.5,,21,<10,16.8,125
+All Students,100907,Lumberton ISD,Hardin County,Beaumont,5,20.3,21.8,20.7,21.3,21.1,34.1,44,15,18.7,235
+All Students,100908,West Hardin County CISD,Hardin County,Beaumont,5,13.3,16.7,14.7,14.5,14.8,,6,<5,12.2,49
+All Students,101805,Girls & Boys Preparatory Academy,Harris County,Houston,4,13.3,17,14.5,16,15.3,,6,<5,22.2,27
+All Students,101806,Raul Yzaguirre School For Success,Harris County,Houston,4,13.1,19.2,12.8,15.5,15.3,,<15,<5,,34
+All Students,101812,Houston Can Academy Charter School,Harris County,Houston,4,11.1,14.9,14.2,13.8,13.6,,12,<5,5.6,215
+All Students,101821,Houston Heights High School,Harris County,Houston,4,13.2,17,13.5,14.9,14.7,,13,<5,20.6,63
+All Students,101828,Houston Gateway Academy Inc,Harris County,Houston,4,,,,,,,<5,<5,,16
+All Students,101837,Calvin Nelms Charter Schools,Harris County,Houston,4,,,,,,,<5,<5,,68
+All Students,101838,Southwest School,Harris County,Houston,4,20.3,21,21.7,22,21.3,,<5,<5,,90
+All Students,101845,Yes Prep Public Schools Inc,Harris County,Houston,4,21.4,22.6,19.9,20.3,21.3,,8,<5,4.1,197
+All Students,101846,Harmony Science Academy,Harris County,Houston,4,20.7,23.9,23,21,22.3,37.5,16,6,21.9,73
+All Students,101854,Richard Milburn Academy (Suburban,Harris County,Houston,4,,,,,,,<5,<5,,60
+All Students,101858,Harmony School Of Excellence,Harris County,Houston,4,19.8,21.8,19.5,20.4,20.5,,17,<5,30.4,56
+All Students,101902,Aldine ISD,Harris County,Houston,4,16.1,19.3,17,18,17.7,8.2,862,71,28.9,2980
+All Students,101903,Alief ISD,Harris County,Houston,4,16.6,19.3,18,18.6,18.2,10.8,502,54,20.7,2425
+All Students,101905,Channelview ISD,Harris County,Houston,4,16,19.2,17.4,18,17.8,9.3,97,9,19.5,498
+All Students,101906,Crosby ISD,Harris County,Houston,4,17.9,19.7,19.4,20,19.4,15.2,92,14,29.2,315
+All Students,101907,Cypress-Fairbanks ISD,Harris County,Houston,4,20.2,22.4,21.7,21.7,21.6,34.3,1812,621,28.2,6419
+All Students,101908,Deer Park ISD,Harris County,Houston,4,20.1,22.7,21.1,21.9,21.6,34.7,144,50,16.8,855
+All Students,101909,North Forest ISD,Harris County,Houston,4,14.2,16.5,15.2,15.8,15.5,,21,<5,10.7,196
+All Students,101910,Galena Park ISD,Harris County,Houston,4,16.6,19,17.9,18.4,18.1,8.5,551,47,36.8,1497
+All Students,101911,Goose Creek CISD,Harris County,Houston,4,15.9,19.5,17.8,18.7,18.1,14,279,39,22.2,1255
+All Students,101912,Houston ISD,Harris County,Houston,4,19.4,21.4,20.3,20.3,20.5,30,2124,637,21.9,9684
+All Students,101913,Humble ISD,Harris County,Houston,4,21,22.6,22.2,21.9,22,38.3,831,318,32.7,2538
+All Students,101914,Katy ISD,Harris County,Houston,4,22.4,24.3,23.4,23.3,23.5,48.7,1527,743,37.3,4090
+All Students,101915,Klein ISD,Harris County,Houston,4,21.8,23.6,23,22.8,22.9,45.6,858,391,28,3061
+All Students,101916,La Porte ISD,Harris County,Houston,4,18.7,20.7,20.3,19.4,20,22.2,99,22,20.5,484
+All Students,101917,Pasadena ISD,Harris County,Houston,4,17.2,20.6,18.8,19.4,19.2,19.9,447,89,15.1,2961
+All Students,101919,Spring ISD,Harris County,Houston,4,16.1,18.5,17.7,18.2,17.7,9.9,537,53,27.6,1943
+All Students,101920,Spring Branch ISD,Harris County,Houston,4,22.8,24.9,23.4,23.2,23.7,54.7,887,485,48.3,1835
+All Students,101921,Tomball ISD,Harris County,Houston,4,21.4,23.9,22.6,22.5,22.7,40.3,196,79,28,701
+All Students,101924,Sheldon ISD,Harris County,Houston,4,15.7,18.8,17,18.3,17.6,9.7,103,10,30,343
+All Students,101925,Huffman ISD,Harris County,Houston,4,18.4,20.7,19.7,20.3,19.9,16.3,43,7,18.9,228
+All Students,102901,Karnack ISD,Harrison County,Kilgore,7,13.6,16,14.6,13.6,14.6,,<10,<5,,8
+All Students,102902,Marshall ISD,Harrison County,Kilgore,7,18.1,19.5,19.3,19.5,19.2,16.8,143,24,42.4,337
+All Students,102903,Waskom ISD,Harrison County,Kilgore,7,20.1,20.2,21.5,19.9,20.5,,17,<5,41.5,41
+All Students,102904,Hallsville ISD,Harrison County,Kilgore,7,20.9,22.4,21.6,21.8,21.8,35.2,108,38,39.3,275
+All Students,102905,Harleton ISD,Harrison County,Kilgore,7,21.5,22,22.3,21.8,22,39.3,28,11,70,40
+All Students,102906,Elysian Fields ISD,Harrison County,Kilgore,7,19.1,20.4,21,19.5,20.1,24.3,37,9,72.5,51
 All Students,103901,Channing ISD,Hartley County,Amarillo,16,22.3,23.5,23.5,21.5,22.8,,<5,<5,,7
 All Students,103902,Hartley ISD,Hartley County,Amarillo,16,14.4,17,16.9,18.7,17,,7,<5,87.5,8
 All Students,104901,Haskell CISD,Haskell County,Abilene,14,20.3,21.2,21.4,20.8,21.1,26.1,23,6,71.9,32
@@ -464,30 +464,30 @@ All Students,105904,Dripping Springs ISD,Hays County,Austin,13,23.7,25.1,25,23.9
 All Students,105905,Wimberley ISD,Hays County,Austin,13,21.5,22.8,22.5,21.8,22.3,39.6,91,36,50.8,179
 All Students,105906,Hays CISD,Hays County,Austin,13,18.1,20.3,19.3,19.8,19.5,15.8,336,53,38.1,881
 All Students,106901,Canadian ISD,Hemphill County,Amarillo,16,20.6,22,22,21.7,21.7,32.4,37,12,66.1,56
-All Students,107901,Athens ISD,Henderson County,Kilgore,07,17.7,19.4,19.4,18.6,18.9,19.5,82,16,43.6,188
-All Students,107902,Brownsboro ISD,Henderson County,Kilgore,07,20.5,21.2,21.1,20.7,21,28.6,42,12,23.5,179
-All Students,107904,Cross Roads ISD,Henderson County,Kilgore,07,18.9,20.2,20.1,20.1,19.9,,19,<5,35.8,53
-All Students,107905,Eustace ISD,Henderson County,Kilgore,07,18.2,19,22,19.8,19.7,,6,<5,5.4,111
-All Students,107906,Malakoff ISD,Henderson County,Kilgore,07,18.5,19.3,18.8,20.7,19.5,,15,<5,20.5,73
-All Students,107907,Trinidad ISD,Henderson County,Kilgore,07,,,,,,,<5,<5,,12
-All Students,107910,Lapoynor ISD,Henderson County,Kilgore,07,17.7,21,19,20,19.3,,<5,<5,,26
-All Students,108801,Information Referral Resource Assi,Hidalgo County,Edinburg,01,12.9,15.9,15.7,16.5,15.3,,19,<5,9.6,198
-All Students,108804,Mid-Valley Academy,Hidalgo County,Edinburg,01,14,17.4,16.3,17.4,16.6,,12,<5,8.6,140
-All Students,108807,Idea Public Schools,Hidalgo County,Edinburg,01,19.3,19.9,19.5,19.9,19.8,17.3,226,39,113,200
-All Students,108902,Donna ISD,Hidalgo County,Edinburg,01,14.8,17.7,17.2,17.8,17,4,397,16,59.5,667
-All Students,108903,Edcouch-Elsa ISD,Hidalgo County,Edinburg,01,15.3,18,16.6,17.6,17,3.9,181,7,59.3,305
-All Students,108904,Edinburg CISD,Hidalgo County,Edinburg,01,16,18.6,17.5,18.1,17.7,8.3,1401,116,74.2,1887
-All Students,108905,Hidalgo ISD,Hidalgo County,Edinburg,01,14.5,17.9,16.3,17.9,16.8,4.3,164,7,71,231
-All Students,108906,McAllen ISD,Hidalgo County,Edinburg,01,17.1,20.1,18.8,19.1,18.9,14.2,703,100,49.2,1429
-All Students,108907,Mercedes ISD,Hidalgo County,Edinburg,01,15.9,17.8,17.1,17.8,17.3,3.9,232,9,75.3,308
-All Students,108908,Mission CISD,Hidalgo County,Edinburg,01,16.4,18.2,17.7,18,17.7,8.5,670,57,83.4,803
-All Students,108909,Pharr-San Juan-Alamo ISD,Hidalgo County,Edinburg,01,15.3,17.6,16.8,17.5,16.9,5.1,1322,68,70,1889
-All Students,108910,Progreso ISD,Hidalgo County,Edinburg,01,14.5,17.5,16.4,17.6,16.6,,68,<5,58.6,116
-All Students,108911,Sharyland ISD,Hidalgo County,Edinburg,01,18,21,19.6,20.1,19.8,17.3,283,49,42.1,672
-All Students,108912,La Joya ISD,Hidalgo County,Edinburg,01,15,17.6,16.8,17.5,16.9,3.5,967,34,58.7,1648
-All Students,108913,Weslaco ISD,Hidalgo County,Edinburg,01,15.8,18.4,17.8,18.1,17.6,7.3,724,53,70.3,1030
-All Students,108914,La Villa ISD,Hidalgo County,Edinburg,01,14.1,16.7,16.1,16.1,15.8,,29,<5,78.4,37
-All Students,108916,Valley View ISD,Hidalgo County,Edinburg,01,15.2,17.9,17,18,17.2,3.8,183,7,65.4,280
+All Students,107901,Athens ISD,Henderson County,Kilgore,7,17.7,19.4,19.4,18.6,18.9,19.5,82,16,43.6,188
+All Students,107902,Brownsboro ISD,Henderson County,Kilgore,7,20.5,21.2,21.1,20.7,21,28.6,42,12,23.5,179
+All Students,107904,Cross Roads ISD,Henderson County,Kilgore,7,18.9,20.2,20.1,20.1,19.9,,19,<5,35.8,53
+All Students,107905,Eustace ISD,Henderson County,Kilgore,7,18.2,19,22,19.8,19.7,,6,<5,5.4,111
+All Students,107906,Malakoff ISD,Henderson County,Kilgore,7,18.5,19.3,18.8,20.7,19.5,,15,<5,20.5,73
+All Students,107907,Trinidad ISD,Henderson County,Kilgore,7,,,,,,,<5,<5,,12
+All Students,107910,Lapoynor ISD,Henderson County,Kilgore,7,17.7,21,19,20,19.3,,<5,<5,,26
+All Students,108801,Information Referral Resource Assi,Hidalgo County,Edinburg,1,12.9,15.9,15.7,16.5,15.3,,19,<5,9.6,198
+All Students,108804,Mid-Valley Academy,Hidalgo County,Edinburg,1,14,17.4,16.3,17.4,16.6,,12,<5,8.6,140
+All Students,108807,Idea Public Schools,Hidalgo County,Edinburg,1,19.3,19.9,19.5,19.9,19.8,17.3,226,39,113,200
+All Students,108902,Donna ISD,Hidalgo County,Edinburg,1,14.8,17.7,17.2,17.8,17,4,397,16,59.5,667
+All Students,108903,Edcouch-Elsa ISD,Hidalgo County,Edinburg,1,15.3,18,16.6,17.6,17,3.9,181,7,59.3,305
+All Students,108904,Edinburg CISD,Hidalgo County,Edinburg,1,16,18.6,17.5,18.1,17.7,8.3,1401,116,74.2,1887
+All Students,108905,Hidalgo ISD,Hidalgo County,Edinburg,1,14.5,17.9,16.3,17.9,16.8,4.3,164,7,71,231
+All Students,108906,McAllen ISD,Hidalgo County,Edinburg,1,17.1,20.1,18.8,19.1,18.9,14.2,703,100,49.2,1429
+All Students,108907,Mercedes ISD,Hidalgo County,Edinburg,1,15.9,17.8,17.1,17.8,17.3,3.9,232,9,75.3,308
+All Students,108908,Mission CISD,Hidalgo County,Edinburg,1,16.4,18.2,17.7,18,17.7,8.5,670,57,83.4,803
+All Students,108909,Pharr-San Juan-Alamo ISD,Hidalgo County,Edinburg,1,15.3,17.6,16.8,17.5,16.9,5.1,1322,68,70,1889
+All Students,108910,Progreso ISD,Hidalgo County,Edinburg,1,14.5,17.5,16.4,17.6,16.6,,68,<5,58.6,116
+All Students,108911,Sharyland ISD,Hidalgo County,Edinburg,1,18,21,19.6,20.1,19.8,17.3,283,49,42.1,672
+All Students,108912,La Joya ISD,Hidalgo County,Edinburg,1,15,17.6,16.8,17.5,16.9,3.5,967,34,58.7,1648
+All Students,108913,Weslaco ISD,Hidalgo County,Edinburg,1,15.8,18.4,17.8,18.1,17.6,7.3,724,53,70.3,1030
+All Students,108914,La Villa ISD,Hidalgo County,Edinburg,1,14.1,16.7,16.1,16.1,15.8,,29,<5,78.4,37
+All Students,108916,Valley View ISD,Hidalgo County,Edinburg,1,15.2,17.9,17,18,17.2,3.8,183,7,65.4,280
 All Students,109901,Abbott ISD,Hill County,Waco,12,21.6,22.9,21.4,21.1,21.9,41.2,17,7,89.5,19
 All Students,109902,Bynum ISD,Hill County,Waco,12,19.6,21,19,19.1,19.9,,8,<5,38.1,21
 All Students,109903,Covington ISD,Hill County,Waco,12,20.1,20.1,19.8,20.7,20.3,26.1,23,6,,<25
@@ -507,18 +507,18 @@ All Students,110908,Whitharral ISD,Hockley County,Lubbock,17,19.7,21.4,20.9,18.8
 All Students,111901,Granbury ISD,Hood County,Fort Worth,11,20.3,22.4,21.9,21.7,21.7,35.1,185,65,40,462
 All Students,111902,Lipan ISD,Hood County,Fort Worth,11,16.5,19.3,17.5,19.7,18.2,,6,<5,28.6,21
 All Students,111903,Tolar ISD,Hood County,Fort Worth,11,21.3,22.8,21.4,20.9,21.7,33.3,30,10,55.6,54
-All Students,112901,Sulphur Springs ISD,Hopkins County,Mt Pleasant,08,20.4,21.6,21.2,21.2,21.2,29.1,117,34,46.4,252
-All Students,112905,Cumby ISD,Hopkins County,Mt Pleasant,08,18.8,21.2,19.2,21.5,20.3,,11,<5,45.8,24
-All Students,112906,North Hopkins ISD,Hopkins County,Mt Pleasant,08,20.9,20.1,22.4,21.6,21.6,,9,<5,33.3,27
-All Students,112907,Miller Grove ISD,Hopkins County,Mt Pleasant,08,19.7,20.9,20.3,20.4,20.4,,7,<5,35,20
-All Students,112908,Como-Pickton CISD,Hopkins County,Mt Pleasant,08,18.4,19.2,19.5,18.7,19.1,,33,<5,54.1,61
-All Students,112909,Saltillo ISD,Hopkins County,Mt Pleasant,08,17.6,18.8,18.3,19.7,18.8,,13,<5,72.2,18
-All Students,112910,Sulphur Bluff ISD,Hopkins County,Mt Pleasant,08,18.4,19.8,17.7,19.2,18.8,,9,<5,47.4,19
-All Students,113901,Crockett ISD,Houston County,Huntsville,06,16.1,17.8,17,18.5,17.5,,15,<5,19.2,78
-All Students,113902,Grapeland ISD,Houston County,Huntsville,06,14.9,18.2,16.7,18,17.2,,13,<5,37.1,35
-All Students,113903,Lovelady ISD,Houston County,Huntsville,06,18.7,19.8,20.3,19.5,19.6,,31,<10,73.8,42
-All Students,113905,Latexo ISD,Houston County,Huntsville,06,17.8,22.5,19.9,20.8,20.5,,11,<5,37.9,29
-All Students,113906,Kennard ISD,Houston County,Huntsville,06,24.8,23.5,21.8,22.5,23.3,,<5,<5,,17
+All Students,112901,Sulphur Springs ISD,Hopkins County,Mt Pleasant,8,20.4,21.6,21.2,21.2,21.2,29.1,117,34,46.4,252
+All Students,112905,Cumby ISD,Hopkins County,Mt Pleasant,8,18.8,21.2,19.2,21.5,20.3,,11,<5,45.8,24
+All Students,112906,North Hopkins ISD,Hopkins County,Mt Pleasant,8,20.9,20.1,22.4,21.6,21.6,,9,<5,33.3,27
+All Students,112907,Miller Grove ISD,Hopkins County,Mt Pleasant,8,19.7,20.9,20.3,20.4,20.4,,7,<5,35,20
+All Students,112908,Como-Pickton CISD,Hopkins County,Mt Pleasant,8,18.4,19.2,19.5,18.7,19.1,,33,<5,54.1,61
+All Students,112909,Saltillo ISD,Hopkins County,Mt Pleasant,8,17.6,18.8,18.3,19.7,18.8,,13,<5,72.2,18
+All Students,112910,Sulphur Bluff ISD,Hopkins County,Mt Pleasant,8,18.4,19.8,17.7,19.2,18.8,,9,<5,47.4,19
+All Students,113901,Crockett ISD,Houston County,Huntsville,6,16.1,17.8,17,18.5,17.5,,15,<5,19.2,78
+All Students,113902,Grapeland ISD,Houston County,Huntsville,6,14.9,18.2,16.7,18,17.2,,13,<5,37.1,35
+All Students,113903,Lovelady ISD,Houston County,Huntsville,6,18.7,19.8,20.3,19.5,19.6,,31,<10,73.8,42
+All Students,113905,Latexo ISD,Houston County,Huntsville,6,17.8,22.5,19.9,20.8,20.5,,11,<5,37.9,29
+All Students,113906,Kennard ISD,Houston County,Huntsville,6,24.8,23.5,21.8,22.5,23.3,,<5,<5,,17
 All Students,114901,Big Spring ISD,Howard County,Midland,18,18.5,20,20.1,20.3,19.8,26.1,88,23,38.9,226
 All Students,114902,Coahoma ISD,Howard County,Midland,18,19.3,20.9,21,20.6,20.6,,28,<10,59.6,47
 All Students,114904,Forsan ISD,Howard County,Midland,18,20.3,21.7,23.3,22.2,22,,<30,9,,50
@@ -540,30 +540,30 @@ All Students,117901,Borger ISD,Hutchinson County,Amarillo,16,20.9,21,22,21.6,21.
 All Students,117903,Sanford-Fritch ISD,Hutchinson County,Amarillo,16,18.9,21.1,20.5,19.3,20.1,25,28,7,60.9,46
 All Students,117904,Plemons-Stinnett-Phillips CISD,Hutchinson County,Amarillo,16,19,22.2,20.6,21.2,20.8,22.6,31,7,64.6,48
 All Students,118902,Irion County ISD,Irion County,San Angelo,15,20.1,22,22.6,22.5,21.9,35,20,7,62.5,32
-All Students,119901,Bryson ISD,Jack County,Wichita Falls,09,20.3,22.8,21.8,21,21.5,,<5,<5,,11
-All Students,119902,Jacksboro ISD,Jack County,Wichita Falls,09,18.9,20.2,20.9,19.9,20.2,25,32,8,55.2,58
-All Students,119903,Perrin-Whitt CISD,Jack County,Wichita Falls,09,21.2,23.4,21.6,22,22.2,,<10,<5,,<30
-All Students,120901,Edna ISD,Jackson County,Victoria,03,17.5,20.1,18.8,19.3,19.1,17.5,40,7,49.4,81
-All Students,120902,Ganado ISD,Jackson County,Victoria,03,17.6,20.2,18.4,18.9,18.8,,35,<5,77.8,45
-All Students,120905,Industrial ISD,Jackson County,Victoria,03,19.4,21.4,20.6,21.4,20.8,19.4,36,7,43.9,82
-All Students,121902,Brookeland ISD,Jasper County,Beaumont,05,20.2,20.8,21.6,21.6,21.2,26.1,23,6,67.6,34
-All Students,121903,Buna ISD,Jasper County,Beaumont,05,18.6,20,21.6,20.9,20.4,,24,<10,26.1,92
-All Students,121904,Jasper ISD,Jasper County,Beaumont,05,17.8,18.5,18.9,18.7,18.7,18.7,75,14,42.1,178
-All Students,121905,Kirbyville CISD,Jasper County,Beaumont,05,16.8,18.7,18.5,19,18.4,11.5,61,7,70.1,87
-All Students,121906,Evadale ISD,Jasper County,Beaumont,05,16.1,17.1,15.7,18.4,17,,7,<5,22.6,31
+All Students,119901,Bryson ISD,Jack County,Wichita Falls,9,20.3,22.8,21.8,21,21.5,,<5,<5,,11
+All Students,119902,Jacksboro ISD,Jack County,Wichita Falls,9,18.9,20.2,20.9,19.9,20.2,25,32,8,55.2,58
+All Students,119903,Perrin-Whitt CISD,Jack County,Wichita Falls,9,21.2,23.4,21.6,22,22.2,,<10,<5,,<30
+All Students,120901,Edna ISD,Jackson County,Victoria,3,17.5,20.1,18.8,19.3,19.1,17.5,40,7,49.4,81
+All Students,120902,Ganado ISD,Jackson County,Victoria,3,17.6,20.2,18.4,18.9,18.8,,35,<5,77.8,45
+All Students,120905,Industrial ISD,Jackson County,Victoria,3,19.4,21.4,20.6,21.4,20.8,19.4,36,7,43.9,82
+All Students,121902,Brookeland ISD,Jasper County,Beaumont,5,20.2,20.8,21.6,21.6,21.2,26.1,23,6,67.6,34
+All Students,121903,Buna ISD,Jasper County,Beaumont,5,18.6,20,21.6,20.9,20.4,,24,<10,26.1,92
+All Students,121904,Jasper ISD,Jasper County,Beaumont,5,17.8,18.5,18.9,18.7,18.7,18.7,75,14,42.1,178
+All Students,121905,Kirbyville CISD,Jasper County,Beaumont,5,16.8,18.7,18.5,19,18.4,11.5,61,7,70.1,87
+All Students,121906,Evadale ISD,Jasper County,Beaumont,5,16.1,17.1,15.7,18.4,17,,7,<5,22.6,31
 All Students,122901,Ft Davis ISD,Jeff Davis County,Midland,18,18.2,19.8,21.4,18.9,19.8,27.8,18,5,38.3,47
-All Students,123803,Tekoa Academy Of Accelerated Studi,Jefferson County,Beaumont,05,,,,,,,<5,<5,,18
-All Students,123905,Nederland ISD,Jefferson County,Beaumont,05,20.4,22.2,21.1,21.5,21.5,26,50,13,15.6,321
-All Students,123907,Port Arthur ISD,Jefferson County,Beaumont,05,15.1,16.9,16.8,17.7,16.7,,49,<5,10.3,476
-All Students,123908,Port Neches-Groves ISD,Jefferson County,Beaumont,05,20.6,22.5,21.1,21.9,21.7,39.7,58,23,17.3,336
-All Students,123910,Beaumont ISD,Jefferson County,Beaumont,05,16.5,18.5,17.7,17.9,17.8,,391,<55,32.5,1202
-All Students,123913,Sabine Pass ISD,Jefferson County,Beaumont,05,20.6,21.4,19.9,21.9,21,,13,<5,48.1,27
-All Students,123914,Hamshire-Fannett ISD,Jefferson County,Beaumont,05,20,21.7,20.4,21.2,20.9,22.4,49,11,38.6,127
-All Students,124901,Jim Hogg County ISD,Jim Hogg County,Edinburg,01,14.3,17.6,15.9,16.3,16.1,,50,<5,94.3,53
-All Students,125901,Alice ISD,Jim Wells County,Corpus Christi,02,17.9,18.3,18.5,18.8,18.5,11.3,186,21,75.9,245
-All Students,125902,Ben Bolt-Palito Blanco ISD,Jim Wells County,Corpus Christi,02,15.1,17.8,16.9,17.4,16.9,,19,<5,47.5,40
-All Students,125903,Orange Grove ISD,Jim Wells County,Corpus Christi,02,19.1,18.7,19.7,19.3,19.3,17.4,69,12,69.7,99
-All Students,125905,Premont ISD,Jim Wells County,Corpus Christi,02,15.8,17.2,17.5,18,17.3,,17,<5,50,34
+All Students,123803,Tekoa Academy Of Accelerated Studi,Jefferson County,Beaumont,5,,,,,,,<5,<5,,18
+All Students,123905,Nederland ISD,Jefferson County,Beaumont,5,20.4,22.2,21.1,21.5,21.5,26,50,13,15.6,321
+All Students,123907,Port Arthur ISD,Jefferson County,Beaumont,5,15.1,16.9,16.8,17.7,16.7,,49,<5,10.3,476
+All Students,123908,Port Neches-Groves ISD,Jefferson County,Beaumont,5,20.6,22.5,21.1,21.9,21.7,39.7,58,23,17.3,336
+All Students,123910,Beaumont ISD,Jefferson County,Beaumont,5,16.5,18.5,17.7,17.9,17.8,,391,<55,32.5,1202
+All Students,123913,Sabine Pass ISD,Jefferson County,Beaumont,5,20.6,21.4,19.9,21.9,21,,13,<5,48.1,27
+All Students,123914,Hamshire-Fannett ISD,Jefferson County,Beaumont,5,20,21.7,20.4,21.2,20.9,22.4,49,11,38.6,127
+All Students,124901,Jim Hogg County ISD,Jim Hogg County,Edinburg,1,14.3,17.6,15.9,16.3,16.1,,50,<5,94.3,53
+All Students,125901,Alice ISD,Jim Wells County,Corpus Christi,2,17.9,18.3,18.5,18.8,18.5,11.3,186,21,75.9,245
+All Students,125902,Ben Bolt-Palito Blanco ISD,Jim Wells County,Corpus Christi,2,15.1,17.8,16.9,17.4,16.9,,19,<5,47.5,40
+All Students,125903,Orange Grove ISD,Jim Wells County,Corpus Christi,2,19.1,18.7,19.7,19.3,19.3,17.4,69,12,69.7,99
+All Students,125905,Premont ISD,Jim Wells County,Corpus Christi,2,15.8,17.2,17.5,18,17.3,,17,<5,50,34
 All Students,126901,Alvarado ISD,Johnson County,Fort Worth,11,16.8,18.6,17.8,19,18.2,,41,<10,20.2,203
 All Students,126902,Burleson ISD,Johnson County,Fort Worth,11,19.3,22.1,21.3,21.6,21.2,30.5,131,40,21.6,607
 All Students,126903,Cleburne ISD,Johnson County,Fort Worth,11,21.5,22.8,22.4,22.1,22.3,43.1,58,25,13.9,418
@@ -578,10 +578,10 @@ All Students,127903,Hamlin ISD,Jones County,Abilene,14,16.6,19.8,19.3,19.4,18.9,
 All Students,127904,Hawley ISD,Jones County,Abilene,14,17.3,19.4,18.2,19.7,18.8,,27,<5,52.9,51
 All Students,127905,Lueders-Avoca ISD,Jones County,Abilene,14,17.9,20.9,18,19.6,19.1,,8,<5,66.7,12
 All Students,127906,Stamford ISD,Jones County,Abilene,14,17.1,20.6,19.4,20.6,19.6,,22,<5,62.9,35
-All Students,128901,Karnes City ISD,Karnes County,Victoria,03,16.5,17.7,19.8,19.5,18.6,,13,<5,22.4,58
-All Students,128902,Kenedy ISD,Karnes County,Victoria,03,17.9,18.8,21.8,19.9,19.8,,12,<5,34.3,35
-All Students,128903,Runge ISD,Karnes County,Victoria,03,16.5,19.6,18.7,18.1,18.3,,11,<5,73.3,15
-All Students,128904,Falls City ISD,Karnes County,Victoria,03,19.7,23,20.4,21.3,21.2,27.3,22,6,84.6,26
+All Students,128901,Karnes City ISD,Karnes County,Victoria,3,16.5,17.7,19.8,19.5,18.6,,13,<5,22.4,58
+All Students,128902,Kenedy ISD,Karnes County,Victoria,3,17.9,18.8,21.8,19.9,19.8,,12,<5,34.3,35
+All Students,128903,Runge ISD,Karnes County,Victoria,3,16.5,19.6,18.7,18.1,18.3,,11,<5,73.3,15
+All Students,128904,Falls City ISD,Karnes County,Victoria,3,19.7,23,20.4,21.3,21.2,27.3,22,6,84.6,26
 All Students,129901,Crandall ISD,Kaufman County,Richardson,10,20.2,21.6,20.8,21.2,21.1,24.1,83,20,43.5,191
 All Students,129902,Forney ISD,Kaufman County,Richardson,10,19,20.9,19.8,20.3,20.1,16.4,122,20,25.5,478
 All Students,129903,Kaufman ISD,Kaufman County,Richardson,10,19.2,20.6,20.1,20.1,20.1,29,31,9,11.1,279
@@ -598,17 +598,17 @@ All Students,133904,Ingram ISD,Kerr County,San Antonio,20,20.9,21.2,22.2,20.2,21
 All Students,134901,Junction ISD,Kimble County,San Angelo,15,18.2,20.9,19.6,20.2,19.9,,32,<10,52.5,61
 All Students,135001,Guthrie CSD,King County,Lubbock,17,13.3,19.7,16.3,18,17,,6,<5,85.7,7
 All Students,136901,Brackett ISD,Kinney County,San Antonio,20,20,20.7,22.2,21.2,21.2,,9,<5,28.1,32
-All Students,137901,Kingsville ISD,Kleberg County,Corpus Christi,02,16.1,19.1,18.8,18.9,18.3,12.7,71,9,40.8,174
-All Students,137903,Riviera ISD,Kleberg County,Corpus Christi,02,16,19.5,18.2,18.1,18,,31,<5,46.3,67
-All Students,137904,Santa Gertrudis ISD,Kleberg County,Corpus Christi,02,17.7,20.4,19.4,19,19.3,,34,<5,89.5,38
-All Students,138902,Knox City-O'Brien CISD,Knox County,Wichita Falls,09,18.8,21,20.5,19.5,20.3,,11,<5,73.3,15
-All Students,138903,Munday CISD,Knox County,Wichita Falls,09,19,19.1,19.3,19.6,19.4,,16,<5,64,25
-All Students,138904,Benjamin ISD,Knox County,Wichita Falls,09,,,,,,,<5,<5,,<5
-All Students,139905,Chisum ISD,Lamar County,Mt Pleasant,08,19.5,20.7,18.9,20,19.9,13.6,44,6,71,62
-All Students,139908,Roxton ISD,Lamar County,Mt Pleasant,08,14.3,17.1,16.3,16,16.1,,7,<5,63.6,11
-All Students,139909,Paris ISD,Lamar County,Mt Pleasant,08,19.6,21.1,21.5,20.5,20.8,30.6,98,30,52.7,186
-All Students,139911,North Lamar ISD,Lamar County,Mt Pleasant,08,21,22,22.8,21.9,22.1,39.4,66,26,37.5,176
-All Students,139912,Prairiland ISD,Lamar County,Mt Pleasant,08,20.3,21.6,21.7,21.2,21.4,29.8,47,14,56.6,83
+All Students,137901,Kingsville ISD,Kleberg County,Corpus Christi,2,16.1,19.1,18.8,18.9,18.3,12.7,71,9,40.8,174
+All Students,137903,Riviera ISD,Kleberg County,Corpus Christi,2,16,19.5,18.2,18.1,18,,31,<5,46.3,67
+All Students,137904,Santa Gertrudis ISD,Kleberg County,Corpus Christi,2,17.7,20.4,19.4,19,19.3,,34,<5,89.5,38
+All Students,138902,Knox City-O'Brien CISD,Knox County,Wichita Falls,9,18.8,21,20.5,19.5,20.3,,11,<5,73.3,15
+All Students,138903,Munday CISD,Knox County,Wichita Falls,9,19,19.1,19.3,19.6,19.4,,16,<5,64,25
+All Students,138904,Benjamin ISD,Knox County,Wichita Falls,9,,,,,,,<5,<5,,<5
+All Students,139905,Chisum ISD,Lamar County,Mt Pleasant,8,19.5,20.7,18.9,20,19.9,13.6,44,6,71,62
+All Students,139908,Roxton ISD,Lamar County,Mt Pleasant,8,14.3,17.1,16.3,16,16.1,,7,<5,63.6,11
+All Students,139909,Paris ISD,Lamar County,Mt Pleasant,8,19.6,21.1,21.5,20.5,20.8,30.6,98,30,52.7,186
+All Students,139911,North Lamar ISD,Lamar County,Mt Pleasant,8,21,22,22.8,21.9,22.1,39.4,66,26,37.5,176
+All Students,139912,Prairiland ISD,Lamar County,Mt Pleasant,8,20.3,21.6,21.7,21.2,21.4,29.8,47,14,56.6,83
 All Students,140901,Amherst ISD,Lamb County,Lubbock,17,15.8,19.5,19.5,19.5,18.8,,<5,<5,,8
 All Students,140904,Littlefield ISD,Lamb County,Lubbock,17,17.3,19.2,19.2,19.5,18.9,12.5,48,6,53.3,90
 All Students,140905,Olton ISD,Lamb County,Lubbock,17,16.9,20.4,19.5,19.7,19.3,16.7,36,6,73.5,49
@@ -617,21 +617,21 @@ All Students,140908,Sudan ISD,Lamb County,Lubbock,17,18.3,21,19.3,19.4,19.6,,16,
 All Students,141901,Lampasas ISD,Lampasas County,Waco,12,21.1,21,22.3,21.3,21.5,31.3,64,20,30.2,212
 All Students,141902,Lometa ISD,Lampasas County,Waco,12,20,21.6,22.4,22.4,21.6,,5,<5,29.4,17
 All Students,142901,Cotulla ISD,La Salle County,San Antonio,20,14.9,17.1,16.1,17,16.3,,33,<5,45.8,72
-All Students,143901,Hallettsville ISD,Lavaca County,Victoria,03,18.4,21.4,19.8,20.8,20.2,19.1,47,9,62.7,75
-All Students,143902,Moulton ISD,Lavaca County,Victoria,03,19.6,22.6,20.4,20.9,21,,14,<5,46.7,30
-All Students,143903,Shiner ISD,Lavaca County,Victoria,03,22.2,24.2,21.2,22.5,22.7,,26,<15,55.3,47
+All Students,143901,Hallettsville ISD,Lavaca County,Victoria,3,18.4,21.4,19.8,20.8,20.2,19.1,47,9,62.7,75
+All Students,143902,Moulton ISD,Lavaca County,Victoria,3,19.6,22.6,20.4,20.9,21,,14,<5,46.7,30
+All Students,143903,Shiner ISD,Lavaca County,Victoria,3,22.2,24.2,21.2,22.5,22.7,,26,<15,55.3,47
 All Students,144901,Giddings ISD,Lee County,Austin,13,18,19.8,18.6,19.7,19.3,,24,<5,218.2,11
 All Students,144902,Lexington ISD,Lee County,Austin,13,16.8,20.2,18.3,19,18.7,,6,<5,10.5,57
-All Students,145901,Buffalo ISD,Leon County,Huntsville,06,17.8,19.2,18.5,17.9,18.5,,13,<5,20.3,64
-All Students,145902,Centerville ISD,Leon County,Huntsville,06,15.9,18.5,17.4,16.6,17.3,,16,<5,30.8,52
-All Students,145906,Normangee ISD,Leon County,Huntsville,06,17.8,19.6,18.8,19.3,18.9,,16,<5,45.7,35
-All Students,145907,Oakwood ISD,Leon County,Huntsville,06,15.3,18,18,21.3,18.3,,<5,<5,,9
-All Students,145911,Leon ISD,Leon County,Huntsville,06,17.6,19.9,20.2,19.5,19.5,26.3,19,5,38.8,49
-All Students,146901,Cleveland ISD,Liberty County,Houston,04,16.5,20.7,18.3,20.1,18.9,,35,<5,17,206
-All Students,146902,Dayton ISD,Liberty County,Houston,04,17.2,19.9,18.8,19,18.7,17.9,28,5,8,348
-All Students,146904,Hardin ISD,Liberty County,Houston,04,16.1,19,17.1,17.1,17.2,,9,<5,16.1,56
-All Students,146906,Liberty ISD,Liberty County,Houston,04,18,19.6,19.7,18.7,19.1,,35,<5,28.9,121
-All Students,146907,Tarkington ISD,Liberty County,Houston,04,20.6,20.9,22.9,20.1,21.2,,15,<5,10.9,138
+All Students,145901,Buffalo ISD,Leon County,Huntsville,6,17.8,19.2,18.5,17.9,18.5,,13,<5,20.3,64
+All Students,145902,Centerville ISD,Leon County,Huntsville,6,15.9,18.5,17.4,16.6,17.3,,16,<5,30.8,52
+All Students,145906,Normangee ISD,Leon County,Huntsville,6,17.8,19.6,18.8,19.3,18.9,,16,<5,45.7,35
+All Students,145907,Oakwood ISD,Leon County,Huntsville,6,15.3,18,18,21.3,18.3,,<5,<5,,9
+All Students,145911,Leon ISD,Leon County,Huntsville,6,17.6,19.9,20.2,19.5,19.5,26.3,19,5,38.8,49
+All Students,146901,Cleveland ISD,Liberty County,Houston,4,16.5,20.7,18.3,20.1,18.9,,35,<5,17,206
+All Students,146902,Dayton ISD,Liberty County,Houston,4,17.2,19.9,18.8,19,18.7,17.9,28,5,8,348
+All Students,146904,Hardin ISD,Liberty County,Houston,4,16.1,19,17.1,17.1,17.2,,9,<5,16.1,56
+All Students,146906,Liberty ISD,Liberty County,Houston,4,18,19.6,19.7,18.7,19.1,,35,<5,28.9,121
+All Students,146907,Tarkington ISD,Liberty County,Houston,4,20.6,20.9,22.9,20.1,21.2,,15,<5,10.9,138
 All Students,147901,Coolidge ISD,Limestone County,Waco,12,16,18.4,16.6,18.3,17.4,,7,<5,35,20
 All Students,147902,Groesbeck ISD,Limestone County,Waco,12,17.4,20.1,19.2,20.2,19.3,18.3,60,11,50,120
 All Students,147903,Mexia ISD,Limestone County,Waco,12,16.3,19,17.6,17.1,17.6,10.8,74,8,61.7,120
@@ -639,8 +639,8 @@ All Students,148901,Booker ISD,Lipscomb County,Amarillo,16,16.1,20.8,19.5,19.6,1
 All Students,148902,Follett ISD,Lipscomb County,Amarillo,16,21.8,26.5,24.7,24.7,24.7,,6,<5,60,10
 All Students,148903,Higgins ISD,Lipscomb County,Amarillo,16,,,,,,,<5,<5,,6
 All Students,148905,Darrouzett ISD,Lipscomb County,Amarillo,16,17.2,19.2,19,17.8,18.3,,6,<5,120,5
-All Students,149901,George West ISD,Live Oak County,Corpus Christi,02,18,21.1,19.6,20.1,19.9,,47,<15,70.1,67
-All Students,149902,Three Rivers ISD,Live Oak County,Corpus Christi,02,18,20.8,19.5,20.9,19.9,,30,<10,58.8,51
+All Students,149901,George West ISD,Live Oak County,Corpus Christi,2,18,21.1,19.6,20.1,19.9,,47,<15,70.1,67
+All Students,149902,Three Rivers ISD,Live Oak County,Corpus Christi,2,18,20.8,19.5,20.9,19.9,,30,<10,58.8,51
 All Students,150901,Llano ISD,Llano County,Austin,13,18,21.5,20.2,19.8,20,,24,<5,23.8,101
 All Students,152901,Lubbock ISD,Lubbock County,Lubbock,17,20,21,21.6,20.9,21,33.9,448,152,29.7,1510
 All Students,152902,New Deal ISD,Lubbock County,Lubbock,17,19.4,19.3,20.1,19.8,19.7,,16,<5,37.2,43
@@ -654,16 +654,16 @@ All Students,153903,O'Donnell ISD,Lynn County,Lubbock,17,16.2,20.6,18.2,19.3,18.
 All Students,153904,Tahoka ISD,Lynn County,Lubbock,17,16.7,21.5,19,20,19.4,,22,<5,59.5,37
 All Students,153905,New Home ISD,Lynn County,Lubbock,17,20.4,21.4,19.9,19.1,20.4,,8,<5,100,8
 All Students,153907,Wilson ISD,Lynn County,Lubbock,17,17,21.7,19.7,20.7,20,,<5,<5,,<10
-All Students,154901,Madisonville CISD,Madison County,Huntsville,06,18.3,20.8,19.6,20.1,19.8,18.8,48,9,33.1,145
-All Students,154903,North Zulch ISD,Madison County,Huntsville,06,14.3,18.8,18.5,18.3,17.6,,8,<5,25.8,31
-All Students,155901,Jefferson ISD,Marion County,Mt Pleasant,08,19.8,19.7,19.8,19.9,19.9,16.7,36,6,52.2,69
+All Students,154901,Madisonville CISD,Madison County,Huntsville,6,18.3,20.8,19.6,20.1,19.8,18.8,48,9,33.1,145
+All Students,154903,North Zulch ISD,Madison County,Huntsville,6,14.3,18.8,18.5,18.3,17.6,,8,<5,25.8,31
+All Students,155901,Jefferson ISD,Marion County,Mt Pleasant,8,19.8,19.7,19.8,19.9,19.9,16.7,36,6,52.2,69
 All Students,156902,Stanton ISD,Martin County,Midland,18,23.4,23.9,23.3,23.4,23.8,,8,<10,17.4,46
 All Students,156905,Grady ISD,Martin County,Midland,18,18.7,21.3,21.3,20.7,20.7,,12,<5,75,16
 All Students,157901,Mason ISD,Mason County,San Angelo,15,20.6,21.8,20.5,20.8,21,28,25,7,55.6,45
-All Students,158901,Bay City ISD,Matagorda County,Victoria,03,17.8,20.7,18.4,19.5,19.3,21.2,33,7,13.1,252
-All Students,158902,Tidehaven ISD,Matagorda County,Victoria,03,18,20,19.4,18.9,19.2,,26,<5,60.5,43
-All Students,158905,Palacios ISD,Matagorda County,Victoria,03,19,20.8,18.9,20.3,19.9,37.5,16,6,16.5,97
-All Students,158906,Van Vleck ISD,Matagorda County,Victoria,03,18.8,21.2,20.1,20.6,20.4,,17,<5,24.3,70
+All Students,158901,Bay City ISD,Matagorda County,Victoria,3,17.8,20.7,18.4,19.5,19.3,21.2,33,7,13.1,252
+All Students,158902,Tidehaven ISD,Matagorda County,Victoria,3,18,20,19.4,18.9,19.2,,26,<5,60.5,43
+All Students,158905,Palacios ISD,Matagorda County,Victoria,3,19,20.8,18.9,20.3,19.9,37.5,16,6,16.5,97
+All Students,158906,Van Vleck ISD,Matagorda County,Victoria,3,18.8,21.2,20.1,20.6,20.4,,17,<5,24.3,70
 All Students,159901,Eagle Pass ISD,Maverick County,San Antonio,20,15.7,19.7,17.6,18,17.9,9.9,131,13,14,936
 All Students,160901,Brady ISD,McCulloch County,San Angelo,15,20,20.2,20.7,20.7,20.5,24,50,12,63.3,79
 All Students,160904,Rochelle ISD,McCulloch County,San Angelo,15,15.5,17.4,16.5,16.1,16.6,,8,<5,57.1,14
@@ -686,7 +686,7 @@ All Students,161920,China Spring ISD,McLennan County,Waco,12,22.3,24.4,23.9,22.8
 All Students,161921,Connally ISD,McLennan County,Waco,12,15.6,19.5,17.9,18.5,17.9,17.9,28,5,22.4,125
 All Students,161922,Robinson ISD,McLennan County,Waco,12,21.2,22.5,22.4,21.8,22.1,39,82,32,51.9,158
 All Students,161923,Bosqueville ISD,McLennan County,Waco,12,18.8,21.1,21.3,19.6,20.3,,16,<5,38.1,42
-All Students,162904,McMullen County ISD,McMullen County,Corpus Christi,02,23.6,22,21,20.4,21.8,,<10,<5,,14
+All Students,162904,McMullen County ISD,McMullen County,Corpus Christi,2,23.6,22,21,20.4,21.8,,<10,<5,,14
 All Students,163901,Devine ISD,Medina County,San Antonio,20,17.1,19.2,18.9,18.5,18.5,,44,<5,36.7,120
 All Students,163902,D'Hanis School,Medina County,San Antonio,20,22.9,22.8,22.5,23,23,,11,<10,50,22
 All Students,163903,Natalia ISD,Medina County,San Antonio,20,16.2,19,18.3,18.1,18.1,,22,<5,43.1,51
@@ -695,11 +695,11 @@ All Students,163908,Medina Valley ISD,Medina County,San Antonio,20,19.3,21.2,20.
 All Students,164901,Menard ISD,Menard County,San Angelo,15,18.5,20.3,20.1,18.9,19.7,,14,<5,60.9,23
 All Students,165901,Midland ISD,Midland County,Midland,18,20.5,22.3,22,21.8,21.8,37.5,259,97,21,1233
 All Students,165902,Greenwood ISD,Midland County,Midland,18,19.4,22.2,20.4,21.4,21,21.6,37,8,29.4,126
-All Students,166901,Cameron ISD,Milam County,Huntsville,06,16.5,19.2,18.5,18.3,18.3,16.7,48,8,56.5,85
-All Students,166903,Milano ISD,Milam County,Huntsville,06,21.5,22.2,21.2,22.6,22,,13,<5,39.4,33
-All Students,166904,Rockdale ISD,Milam County,Huntsville,06,17.1,19.3,19.9,19.6,19.1,,34,<5,27.9,122
+All Students,166901,Cameron ISD,Milam County,Huntsville,6,16.5,19.2,18.5,18.3,18.3,16.7,48,8,56.5,85
+All Students,166903,Milano ISD,Milam County,Huntsville,6,21.5,22.2,21.2,22.6,22,,13,<5,39.4,33
+All Students,166904,Rockdale ISD,Milam County,Huntsville,6,17.1,19.3,19.9,19.6,19.1,,34,<5,27.9,122
 All Students,166905,Thorndale ISD,Milam County,Austin,13,17.8,20.5,18.6,19.9,19.3,,17,<5,38.6,44
-All Students,166907,Buckholts ISD,Milam County,Huntsville,06,,,,,,,<5,<5,,10
+All Students,166907,Buckholts ISD,Milam County,Huntsville,6,,,,,,,<5,<5,,10
 All Students,167901,Goldthwaite ISD,Mills County,Waco,12,17.5,20.3,18.7,18.8,19,,21,<5,44.7,47
 All Students,167902,Mullin ISD,Mills County,Waco,12,16.3,20.3,16.7,17.7,18,,<5,<5,,<10
 All Students,167903,Star ISD,Mills County,Waco,12,,,,,,,<5,<5,,12
@@ -707,30 +707,30 @@ All Students,167904,Priddy ISD,Mills County,Waco,12,,,,,,,<5,<5,,<5
 All Students,168901,Colorado ISD,Mitchell County,Abilene,14,19.3,20.6,20.5,20.4,20.4,21.6,51,11,58.6,87
 All Students,168902,Loraine ISD,Mitchell County,Abilene,14,13,15.5,16.3,19,16,,<5,<5,,10
 All Students,168903,Westbrook ISD,Mitchell County,Abilene,14,17.1,19.5,19.5,18.4,18.5,,11,<5,100,11
-All Students,169901,Bowie ISD,Montague County,Wichita Falls,09,19.8,21.2,20.9,21.1,20.9,29.3,41,12,37.6,109
-All Students,169902,Nocona ISD,Montague County,Wichita Falls,09,20.6,20.3,20.7,20.4,20.6,20.7,29,6,56.9,51
-All Students,169909,Prairie Valley ISD,Montague County,Wichita Falls,09,22.8,24.8,22.2,23.2,23.4,,<10,<5,,9
-All Students,169910,Forestburg ISD,Montague County,Wichita Falls,09,20.8,20.7,21.3,22.2,21.3,,6,<5,50,12
-All Students,169911,Saint Jo ISD,Montague County,Wichita Falls,09,,,,,,,<5,<5,,<25
-All Students,170902,Conroe ISD,Montgomery County,Huntsville,06,22,23.7,23,22.6,22.9,45.9,1411,647,43.8,3218
-All Students,170903,Montgomery ISD,Montgomery County,Huntsville,06,21.3,23.5,22.1,22.7,22.5,41.1,185,76,40.2,460
-All Students,170904,Willis ISD,Montgomery County,Huntsville,06,18.6,20.4,20.4,20,20,20,140,28,36,389
-All Students,170906,Magnolia ISD,Montgomery County,Huntsville,06,20.1,22.4,21.1,21.5,21.4,28.7,195,56,24.8,785
-All Students,170907,Splendora ISD,Montgomery County,Huntsville,06,17.4,19.4,18,19.2,18.6,,45,<5,21.4,210
-All Students,170908,New Caney ISD,Montgomery County,Huntsville,06,19.7,22.6,21.4,21.9,21.5,34.6,52,18,9,579
+All Students,169901,Bowie ISD,Montague County,Wichita Falls,9,19.8,21.2,20.9,21.1,20.9,29.3,41,12,37.6,109
+All Students,169902,Nocona ISD,Montague County,Wichita Falls,9,20.6,20.3,20.7,20.4,20.6,20.7,29,6,56.9,51
+All Students,169909,Prairie Valley ISD,Montague County,Wichita Falls,9,22.8,24.8,22.2,23.2,23.4,,<10,<5,,9
+All Students,169910,Forestburg ISD,Montague County,Wichita Falls,9,20.8,20.7,21.3,22.2,21.3,,6,<5,50,12
+All Students,169911,Saint Jo ISD,Montague County,Wichita Falls,9,,,,,,,<5,<5,,<25
+All Students,170902,Conroe ISD,Montgomery County,Huntsville,6,22,23.7,23,22.6,22.9,45.9,1411,647,43.8,3218
+All Students,170903,Montgomery ISD,Montgomery County,Huntsville,6,21.3,23.5,22.1,22.7,22.5,41.1,185,76,40.2,460
+All Students,170904,Willis ISD,Montgomery County,Huntsville,6,18.6,20.4,20.4,20,20,20,140,28,36,389
+All Students,170906,Magnolia ISD,Montgomery County,Huntsville,6,20.1,22.4,21.1,21.5,21.4,28.7,195,56,24.8,785
+All Students,170907,Splendora ISD,Montgomery County,Huntsville,6,17.4,19.4,18,19.2,18.6,,45,<5,21.4,210
+All Students,170908,New Caney ISD,Montgomery County,Huntsville,6,19.7,22.6,21.4,21.9,21.5,34.6,52,18,9,579
 All Students,171901,Dumas ISD,Moore County,Amarillo,16,18.5,21.4,20.2,20.6,20.3,20.5,88,18,35.3,249
 All Students,171902,Sunray ISD,Moore County,Amarillo,16,19.7,21.3,19.9,21.1,20.6,17.5,40,7,85.1,47
-All Students,172902,Daingerfield-Lone Star ISD,Morris County,Mt Pleasant,08,17.5,18.7,18,19.1,18.5,,45,<5,55.6,81
-All Students,172905,Pewitt CISD,Morris County,Mt Pleasant,08,17.6,19,18.8,19.5,18.9,18.2,33,6,47.8,69
+All Students,172902,Daingerfield-Lone Star ISD,Morris County,Mt Pleasant,8,17.5,18.7,18,19.1,18.5,,45,<5,55.6,81
+All Students,172905,Pewitt CISD,Morris County,Mt Pleasant,8,17.6,19,18.8,19.5,18.9,18.2,33,6,47.8,69
 All Students,173901,Motley County ISD,Motley County,Lubbock,17,17.8,20.2,20.3,18.7,19.2,,9,<5,60,15
-All Students,174901,Chireno ISD,Nacogdoches County,Kilgore,07,19.2,21.3,18.7,18.3,19.7,,6,<5,30,20
-All Students,174902,Cushing ISD,Nacogdoches County,Kilgore,07,18.9,20,20.5,20.4,20.1,,22,<10,52.4,42
-All Students,174903,Garrison ISD,Nacogdoches County,Kilgore,07,18.9,20.7,20.5,19.7,20.2,,24,<5,46.2,52
-All Students,174904,Nacogdoches ISD,Nacogdoches County,Kilgore,07,19.5,21.7,20.4,20.3,20.6,27.6,145,40,41.2,352
-All Students,174906,Woden ISD,Nacogdoches County,Kilgore,07,19.1,19,20.6,20,19.8,,29,<10,46.8,62
-All Students,174908,Central Heights ISD,Nacogdoches County,Kilgore,07,21.3,21.2,21.3,21.1,21.4,,34,<15,55.7,61
-All Students,174909,Martinsville ISD,Nacogdoches County,Kilgore,07,19.3,20.4,19.7,19.8,20,,23,<5,82.1,28
-All Students,174911,Douglass ISD,Nacogdoches County,Kilgore,07,21.3,22.3,20.2,22.3,21.5,,6,<5,35.3,17
+All Students,174901,Chireno ISD,Nacogdoches County,Kilgore,7,19.2,21.3,18.7,18.3,19.7,,6,<5,30,20
+All Students,174902,Cushing ISD,Nacogdoches County,Kilgore,7,18.9,20,20.5,20.4,20.1,,22,<10,52.4,42
+All Students,174903,Garrison ISD,Nacogdoches County,Kilgore,7,18.9,20.7,20.5,19.7,20.2,,24,<5,46.2,52
+All Students,174904,Nacogdoches ISD,Nacogdoches County,Kilgore,7,19.5,21.7,20.4,20.3,20.6,27.6,145,40,41.2,352
+All Students,174906,Woden ISD,Nacogdoches County,Kilgore,7,19.1,19,20.6,20,19.8,,29,<10,46.8,62
+All Students,174908,Central Heights ISD,Nacogdoches County,Kilgore,7,21.3,21.2,21.3,21.1,21.4,,34,<15,55.7,61
+All Students,174909,Martinsville ISD,Nacogdoches County,Kilgore,7,19.3,20.4,19.7,19.8,20,,23,<5,82.1,28
+All Students,174911,Douglass ISD,Nacogdoches County,Kilgore,7,21.3,22.3,20.2,22.3,21.5,,6,<5,35.3,17
 All Students,175902,Blooming Grove ISD,Navarro County,Waco,12,20.4,21.6,21,21.1,21.2,26.9,26,7,57.8,45
 All Students,175903,Corsicana ISD,Navarro County,Waco,12,16.8,18.7,18.5,18.8,18.4,13.2,129,17,43.7,295
 All Students,175904,Dawson ISD,Navarro County,Waco,12,18.9,21,20.2,19.6,20.1,,18,<5,56.3,32
@@ -738,42 +738,42 @@ All Students,175905,Frost ISD,Navarro County,Waco,12,18.3,22.2,19.3,21.9,20.6,,9
 All Students,175907,Kerens ISD,Navarro County,Waco,12,16.7,18.3,17.6,18.3,17.8,,38,<5,97.4,39
 All Students,175910,Mildred ISD,Navarro County,Waco,12,20.1,21.5,22.2,22.5,21.7,34.6,26,9,52,50
 All Students,175911,Rice ISD,Navarro County,Waco,12,15.2,18.2,17.1,18.1,17.3,,25,<5,43.9,57
-All Students,176901,Burkeville ISD,Newton County,Beaumont,05,21.5,21.1,22.5,21.9,21.9,,11,<5,57.9,19
-All Students,176902,Newton ISD,Newton County,Beaumont,05,15.8,17.9,16.6,17.6,17.1,,42,<5,65.6,64
-All Students,176903,Deweyville ISD,Newton County,Beaumont,05,21,24.5,22.5,21.8,22.5,,<5,<5,,45
+All Students,176901,Burkeville ISD,Newton County,Beaumont,5,21.5,21.1,22.5,21.9,21.9,,11,<5,57.9,19
+All Students,176902,Newton ISD,Newton County,Beaumont,5,15.8,17.9,16.6,17.6,17.1,,42,<5,65.6,64
+All Students,176903,Deweyville ISD,Newton County,Beaumont,5,21,24.5,22.5,21.8,22.5,,<5,<5,,45
 All Students,177901,Roscoe ISD,Nolan County,Abilene,14,18.3,20.3,18.1,18.8,19,,19,<5,86.4,22
 All Students,177902,Sweetwater ISD,Nolan County,Abilene,14,19.4,20.8,19.8,20.5,20.2,18.8,69,13,67,103
 All Students,177903,Blackwell CISD,Nolan County,Abilene,14,14.3,16.5,15.2,16.3,15.8,,6,<5,75,8
 All Students,177905,Highland ISD,Nolan County,Abilene,14,20.7,21.6,20.6,22.4,21.4,,7,<5,58.3,12
-All Students,178804,Richard Milburn Alter High School,Nueces County,Corpus Christi,02,,,,,,,<5,<5,,71
-All Students,178901,Agua Dulce ISD,Nueces County,Corpus Christi,02,15.1,18.7,18.9,16.7,17.6,,15,<5,78.9,19
-All Students,178902,Bishop CISD,Nueces County,Corpus Christi,02,17.5,19.4,18.8,19,18.8,15.6,45,7,54.9,82
-All Students,178903,Calallen ISD,Nueces County,Corpus Christi,02,19.9,21.4,20.6,21.3,20.9,28.1,89,25,30.6,291
-All Students,178904,Corpus Christi ISD,Nueces County,Corpus Christi,02,17.5,19.8,19.1,19.2,19,21.2,476,101,21.5,2212
-All Students,178908,Port Aransas ISD,Nueces County,Corpus Christi,02,18.9,19.6,20.1,21.1,20,,9,<5,19.6,46
-All Students,178909,Robstown ISD,Nueces County,Corpus Christi,02,14.5,17.2,16,16.4,16.2,,94,<10,67.6,139
-All Students,178912,Tuloso-Midway ISD,Nueces County,Corpus Christi,02,20.7,22.5,21.4,21.3,21.6,28.3,120,34,46.5,258
-All Students,178913,Banquete ISD,Nueces County,Corpus Christi,02,16.7,19.4,18.5,19.1,18.6,,39,<5,73.6,53
-All Students,178914,Flour Bluff ISD,Nueces County,Corpus Christi,02,20.6,21.9,21.7,21.6,21.6,31.1,180,56,45.9,392
-All Students,178915,West Oso ISD,Nueces County,Corpus Christi,02,14.5,17.3,16.4,16.2,16.3,,61,<5,53.5,114
+All Students,178804,Richard Milburn Alter High School,Nueces County,Corpus Christi,2,,,,,,,<5,<5,,71
+All Students,178901,Agua Dulce ISD,Nueces County,Corpus Christi,2,15.1,18.7,18.9,16.7,17.6,,15,<5,78.9,19
+All Students,178902,Bishop CISD,Nueces County,Corpus Christi,2,17.5,19.4,18.8,19,18.8,15.6,45,7,54.9,82
+All Students,178903,Calallen ISD,Nueces County,Corpus Christi,2,19.9,21.4,20.6,21.3,20.9,28.1,89,25,30.6,291
+All Students,178904,Corpus Christi ISD,Nueces County,Corpus Christi,2,17.5,19.8,19.1,19.2,19,21.2,476,101,21.5,2212
+All Students,178908,Port Aransas ISD,Nueces County,Corpus Christi,2,18.9,19.6,20.1,21.1,20,,9,<5,19.6,46
+All Students,178909,Robstown ISD,Nueces County,Corpus Christi,2,14.5,17.2,16,16.4,16.2,,94,<10,67.6,139
+All Students,178912,Tuloso-Midway ISD,Nueces County,Corpus Christi,2,20.7,22.5,21.4,21.3,21.6,28.3,120,34,46.5,258
+All Students,178913,Banquete ISD,Nueces County,Corpus Christi,2,16.7,19.4,18.5,19.1,18.6,,39,<5,73.6,53
+All Students,178914,Flour Bluff ISD,Nueces County,Corpus Christi,2,20.6,21.9,21.7,21.6,21.6,31.1,180,56,45.9,392
+All Students,178915,West Oso ISD,Nueces County,Corpus Christi,2,14.5,17.3,16.4,16.2,16.3,,61,<5,53.5,114
 All Students,179901,Perryton ISD,Ochiltree County,Amarillo,16,18.9,20.9,19.6,19.9,19.9,18.3,93,17,63.3,147
 All Students,180901,Boys Ranch ISD,Oldham County,Amarillo,16,14.8,18.3,16.8,16.9,16.9,11.9,59,7,105.4,56
 All Students,180902,Vega ISD,Oldham County,Amarillo,16,18.6,21.9,20.4,21,20.5,,16,<5,64,25
 All Students,180903,Adrian ISD,Oldham County,Amarillo,16,19.5,21.7,22.7,21.3,21.3,,6,<5,75,8
-All Students,181901,Bridge City ISD,Orange County,Beaumont,05,20.3,21.6,21.2,20.3,20.9,23.1,52,12,30.4,171
-All Students,181905,Orangefield ISD,Orange County,Beaumont,05,17.3,21.3,18.5,20.8,19.7,,<20,<5,,103
-All Students,181906,West Orange-Cove CISD,Orange County,Beaumont,05,15.8,17.6,17.5,17.8,17.4,,24,<5,18,133
-All Students,181907,Vidor ISD,Orange County,Beaumont,05,20.6,22.3,21.1,21.1,21.4,34.2,38,13,11.7,324
-All Students,181908,Little Cypress-Mauriceville CISD,Orange County,Beaumont,05,20.9,22.1,21.6,21.7,21.7,29.3,41,12,16.9,243
+All Students,181901,Bridge City ISD,Orange County,Beaumont,5,20.3,21.6,21.2,20.3,20.9,23.1,52,12,30.4,171
+All Students,181905,Orangefield ISD,Orange County,Beaumont,5,17.3,21.3,18.5,20.8,19.7,,<20,<5,,103
+All Students,181906,West Orange-Cove CISD,Orange County,Beaumont,5,15.8,17.6,17.5,17.8,17.4,,24,<5,18,133
+All Students,181907,Vidor ISD,Orange County,Beaumont,5,20.6,22.3,21.1,21.1,21.4,34.2,38,13,11.7,324
+All Students,181908,Little Cypress-Mauriceville CISD,Orange County,Beaumont,5,20.9,22.1,21.6,21.7,21.7,29.3,41,12,16.9,243
 All Students,182901,Gordon ISD,Palo Pinto County,Fort Worth,11,15.3,18.1,17.4,17.7,17.4,,11,<5,91.7,12
 All Students,182902,Graford ISD,Palo Pinto County,Fort Worth,11,16.4,20,17.4,18.7,18.3,,7,<5,31.8,22
 All Students,182903,Mineral Wells ISD,Palo Pinto County,Fort Worth,11,19.9,21.8,22.6,22.2,21.7,31.7,41,13,17.4,235
 All Students,182904,Santo ISD,Palo Pinto County,Fort Worth,11,19.4,20.5,20.5,20.5,20.4,,19,<5,65.5,29
 All Students,182905,Strawn ISD,Palo Pinto County,Fort Worth,11,14,17.8,17.8,14.2,16,,5,<5,55.6,9
-All Students,183801,Panola Charter School,Panola County,Kilgore,07,22.8,23.5,21.3,22,22.5,,<5,<5,,27
-All Students,183901,Beckville ISD,Panola County,Kilgore,07,18.1,19.4,18.9,18.9,19,,14,<5,50,28
-All Students,183902,Carthage ISD,Panola County,Kilgore,07,19.6,20.9,20.9,20.7,20.6,29.6,71,21,47,151
-All Students,183904,Gary ISD,Panola County,Kilgore,07,19.6,18.3,21.3,19.6,19.9,,7,<5,29.2,24
+All Students,183801,Panola Charter School,Panola County,Kilgore,7,22.8,23.5,21.3,22,22.5,,<5,<5,,27
+All Students,183901,Beckville ISD,Panola County,Kilgore,7,18.1,19.4,18.9,18.9,19,,14,<5,50,28
+All Students,183902,Carthage ISD,Panola County,Kilgore,7,19.6,20.9,20.9,20.7,20.6,29.6,71,21,47,151
+All Students,183904,Gary ISD,Panola County,Kilgore,7,19.6,18.3,21.3,19.6,19.9,,7,<5,29.2,24
 All Students,184801,Crosstimbers Academy,Parker County,Fort Worth,11,,,,,,,<5,<5,,42
 All Students,184901,Poolville ISD,Parker County,Fort Worth,11,,,,,,,<5,<5,,33
 All Students,184902,Springtown ISD,Parker County,Fort Worth,11,19.7,22.4,21.8,22,21.6,39,41,16,20.3,202
@@ -789,12 +789,12 @@ All Students,185904,Lazbuddie ISD,Parmer County,Amarillo,16,18.3,19.3,20.2,19.8,
 All Students,186901,Buena Vista ISD,Pecos County,Midland,18,,,,,,,<5,<5,,7
 All Students,186902,Fort Stockton ISD,Pecos County,Midland,18,16.5,18.5,18.2,18,17.9,,13,<5,10.7,121
 All Students,186903,Iraan-Sheffield ISD,Pecos County,Midland,18,16.5,20.2,18.7,19.7,18.8,,19,<5,31.7,60
-All Students,187901,Big Sandy ISD,Polk County,Huntsville,06,23.5,22.1,24.1,23.3,23.4,,8,<5,25.8,31
-All Students,187903,Goodrich ISD,Polk County,Huntsville,06,17.3,18.1,17.9,16.9,17.6,,8,<5,44.4,18
-All Students,187904,Corrigan-Camden ISD,Polk County,Huntsville,06,14.5,18,15.8,16.2,16.4,,24,<5,40,60
-All Students,187906,Leggett ISD,Polk County,Huntsville,06,18.4,18.6,18.2,19.4,18.8,,9,<5,75,12
-All Students,187907,Livingston ISD,Polk County,Huntsville,06,18.4,20.5,19,19.1,19.4,17.5,63,11,24.8,254
-All Students,187910,Onalaska ISD,Polk County,Huntsville,06,18.3,21.1,21.4,23,21.1,,7,<5,,<50
+All Students,187901,Big Sandy ISD,Polk County,Huntsville,6,23.5,22.1,24.1,23.3,23.4,,8,<5,25.8,31
+All Students,187903,Goodrich ISD,Polk County,Huntsville,6,17.3,18.1,17.9,16.9,17.6,,8,<5,44.4,18
+All Students,187904,Corrigan-Camden ISD,Polk County,Huntsville,6,14.5,18,15.8,16.2,16.4,,24,<5,40,60
+All Students,187906,Leggett ISD,Polk County,Huntsville,6,18.4,18.6,18.2,19.4,18.8,,9,<5,75,12
+All Students,187907,Livingston ISD,Polk County,Huntsville,6,18.4,20.5,19,19.1,19.4,17.5,63,11,24.8,254
+All Students,187910,Onalaska ISD,Polk County,Huntsville,6,18.3,21.1,21.4,23,21.1,,7,<5,,<50
 All Students,188801,Richard Milburn Academy (Amarillo),Potter County,Amarillo,16,17.8,16.4,18.8,16.6,17.4,,<10,<5,,74
 All Students,188901,Amarillo ISD,Potter County,Amarillo,16,18.4,21.2,19.9,20.4,20.1,24.2,714,173,41,1743
 All Students,188902,River Road ISD,Potter County,Amarillo,16,18.8,19.9,20.9,20.2,20,14.6,41,6,42.3,97
@@ -802,51 +802,51 @@ All Students,188903,Highland Park ISD,Potter County,Amarillo,16,16.3,19.5,18.4,1
 All Students,188904,Bushland ISD,Potter County,Amarillo,16,20.4,21.8,22.5,22.1,21.8,35.5,62,22,72.9,85
 All Students,189901,Marfa ISD,Presidio County,Midland,18,14.9,18.7,16.8,17.3,16.8,,19,<5,65.5,29
 All Students,189902,Presidio ISD,Presidio County,Midland,18,14.6,18,15.7,17,16.5,,77,<5,74.8,103
-All Students,190903,Rains ISD,Rains County,Kilgore,07,19.1,20,20.6,20.4,20.1,24.7,81,20,64.8,125
+All Students,190903,Rains ISD,Rains County,Kilgore,7,19.1,20,20.6,20.4,20.1,24.7,81,20,64.8,125
 All Students,191901,Canyon ISD,Randall County,Amarillo,16,20.8,22.4,22.1,22.3,22,34.4,285,98,51.4,554
 All Students,192901,Reagan County ISD,Reagan County,Midland,18,18.5,18.8,20,19.6,19.4,,25,<5,55.6,45
 All Students,193902,Leakey ISD,Real County,San Antonio,20,16,19.4,16.5,16.9,17.4,,8,<5,57.1,14
-All Students,194902,Avery ISD,Red River County,Mt Pleasant,08,19.4,20.4,20.3,20.8,20.3,20,25,5,75.8,33
-All Students,194903,Rivercrest ISD,Red River County,Mt Pleasant,08,20,21.2,21.6,21,21.1,,26,<10,61.9,42
-All Students,194904,Clarksville ISD,Red River County,Mt Pleasant,08,15.7,18.4,17.6,17.8,17.5,,30,<5,63.8,47
-All Students,194905,Detroit ISD,Red River County,Mt Pleasant,08,18.2,20,21.1,20.3,20,,21,<5,63.6,33
+All Students,194902,Avery ISD,Red River County,Mt Pleasant,8,19.4,20.4,20.3,20.8,20.3,20,25,5,75.8,33
+All Students,194903,Rivercrest ISD,Red River County,Mt Pleasant,8,20,21.2,21.6,21,21.1,,26,<10,61.9,42
+All Students,194904,Clarksville ISD,Red River County,Mt Pleasant,8,15.7,18.4,17.6,17.8,17.5,,30,<5,63.8,47
+All Students,194905,Detroit ISD,Red River County,Mt Pleasant,8,18.2,20,21.1,20.3,20,,21,<5,63.6,33
 All Students,195901,Pecos-Barstow-Toyah ISD,Reeves County,Midland,18,17.4,20.3,19.9,21.1,19.8,,22,<5,15.8,139
 All Students,195902,Balmorhea ISD,Reeves County,Midland,18,6,14.7,11.7,13,11.7,,<5,<5,,12
-All Students,196901,Austwell-Tivoli ISD,Refugio County,Victoria,03,17,19.2,16.2,19,18,,<10,<5,,12
-All Students,196902,Woodsboro ISD,Refugio County,Victoria,03,16.3,18.6,19,19,18.4,,24,<10,70.6,34
-All Students,196903,Refugio ISD,Refugio County,Victoria,03,14.6,18,15.8,17.9,16.7,,29,<5,58,50
+All Students,196901,Austwell-Tivoli ISD,Refugio County,Victoria,3,17,19.2,16.2,19,18,,<10,<5,,12
+All Students,196902,Woodsboro ISD,Refugio County,Victoria,3,16.3,18.6,19,19,18.4,,24,<10,70.6,34
+All Students,196903,Refugio ISD,Refugio County,Victoria,3,14.6,18,15.8,17.9,16.7,,29,<5,58,50
 All Students,197902,Miami ISD,Roberts County,Amarillo,16,21.2,22.8,23,21.6,22.4,,13,<10,92.9,14
-All Students,198901,Bremond ISD,Robertson County,Huntsville,06,17.3,20.2,18.2,18.5,18.7,,19,<5,86.4,22
-All Students,198902,Calvert ISD,Robertson County,Huntsville,06,15,15.6,14.4,15.4,15.2,,<10,<5,,<20
-All Students,198903,Franklin ISD,Robertson County,Huntsville,06,20.5,22.8,20.9,20.5,21.3,33.3,42,14,59.2,71
-All Students,198905,Hearne ISD,Robertson County,Huntsville,06,13.5,16.8,17.6,15.8,15.9,,8,<5,13.3,60
-All Students,198906,Mumford ISD,Robertson County,Huntsville,06,20.4,19.8,19.8,19.6,20,,5,<5,21.7,23
+All Students,198901,Bremond ISD,Robertson County,Huntsville,6,17.3,20.2,18.2,18.5,18.7,,19,<5,86.4,22
+All Students,198902,Calvert ISD,Robertson County,Huntsville,6,15,15.6,14.4,15.4,15.2,,<10,<5,,<20
+All Students,198903,Franklin ISD,Robertson County,Huntsville,6,20.5,22.8,20.9,20.5,21.3,33.3,42,14,59.2,71
+All Students,198905,Hearne ISD,Robertson County,Huntsville,6,13.5,16.8,17.6,15.8,15.9,,8,<5,13.3,60
+All Students,198906,Mumford ISD,Robertson County,Huntsville,6,20.4,19.8,19.8,19.6,20,,5,<5,21.7,23
 All Students,199901,Rockwall ISD,Rockwall County,Richardson,10,22.5,24.1,23.3,23,23.3,49.1,405,199,40.1,1010
 All Students,199902,Royse City ISD,Rockwall County,Richardson,10,19.3,22,21.3,20.9,21,31.3,67,21,25.1,267
 All Students,200901,Ballinger ISD,Runnels County,San Angelo,15,17.6,20.2,19.2,19.3,19.2,19.3,57,11,91.9,62
 All Students,200902,Miles ISD,Runnels County,San Angelo,15,16.8,19,18,19.8,18.6,,22,<5,100,22
 All Students,200904,Winters ISD,Runnels County,San Angelo,15,19.1,21.6,19.5,20.7,20.3,28.1,32,9,80,40
-All Students,201902,Henderson ISD,Rusk County,Kilgore,07,19.2,20.1,20.6,20.2,20.1,23.7,97,23,48.5,200
-All Students,201903,Laneville ISD,Rusk County,Kilgore,07,14,18,16.9,18,16.9,,7,<5,87.5,8
-All Students,201904,Leveretts Chapel ISD,Rusk County,Kilgore,07,17.6,19.2,17.4,17.2,18,,5,<5,35.7,14
-All Students,201907,Mount Enterprise ISD,Rusk County,Kilgore,07,17.2,20.2,17.6,18.5,18.6,,16,<5,59.3,27
-All Students,201908,Overton ISD,Rusk County,Kilgore,07,19.2,19.2,19.5,19.9,19.5,,18,<5,50,36
-All Students,201910,Tatum ISD,Rusk County,Kilgore,07,18.9,19.7,20.2,20.1,19.9,20,50,10,41.7,120
-All Students,201913,Carlisle ISD,Rusk County,Kilgore,07,16.3,18.2,16.8,17.3,17.4,,13,<5,27.7,47
-All Students,201914,West Rusk County Consolidated ISD,Rusk County,Kilgore,07,16.1,18.8,18.4,19.3,18.3,,32,<5,76.2,42
-All Students,202903,Hemphill ISD,Sabine County,Kilgore,07,20.9,21.7,21.5,21.3,21.4,,31,<15,54.4,57
-All Students,202905,West Sabine ISD,Sabine County,Kilgore,07,19.8,20.1,20.9,19.7,20.4,,15,<5,38.5,39
-All Students,203901,San Augustine ISD,San Augustine County,Kilgore,07,16.4,18.3,18.5,18.4,18.2,,23,<5,51.1,45
-All Students,203902,Broaddus ISD,San Augustine County,Kilgore,07,14.9,17.5,17.3,16.8,16.8,,28,<5,71.8,39
-All Students,204901,Coldspring-Oakhurst CISD,San Jacinto County,Huntsville,06,17.8,19.5,19.7,19.8,19.4,22.6,31,7,26.3,118
-All Students,204904,Shepherd ISD,San Jacinto County,Huntsville,06,16.4,18.9,18.9,19.2,18.4,15.8,38,6,33.3,114
-All Students,205901,Aransas Pass ISD,San Patricio County,Corpus Christi,02,16.2,18.8,17.6,18.9,18.1,,27,<5,25.2,107
-All Students,205902,Gregory-Portland ISD,San Patricio County,Corpus Christi,02,18.7,22.1,18.8,19.9,20,22.2,72,16,24.9,289
-All Students,205903,Ingleside ISD,San Patricio County,Corpus Christi,02,18.4,21.1,20.5,20.7,20.3,15.2,46,7,33.3,138
-All Students,205904,Mathis ISD,San Patricio County,Corpus Christi,02,15.4,17.4,17.3,18.2,17.2,,65,<5,60.2,108
-All Students,205905,Odem-Edroy ISD,San Patricio County,Corpus Christi,02,17.3,19.5,18.2,18.5,18.4,28.1,32,9,64,50
-All Students,205906,Sinton ISD,San Patricio County,Corpus Christi,02,18.6,20,20,20.1,19.8,21.1,57,12,40.7,140
-All Students,205907,Taft ISD,San Patricio County,Corpus Christi,02,14.7,17.8,15.8,17.2,16.4,,33,<5,53.2,62
+All Students,201902,Henderson ISD,Rusk County,Kilgore,7,19.2,20.1,20.6,20.2,20.1,23.7,97,23,48.5,200
+All Students,201903,Laneville ISD,Rusk County,Kilgore,7,14,18,16.9,18,16.9,,7,<5,87.5,8
+All Students,201904,Leveretts Chapel ISD,Rusk County,Kilgore,7,17.6,19.2,17.4,17.2,18,,5,<5,35.7,14
+All Students,201907,Mount Enterprise ISD,Rusk County,Kilgore,7,17.2,20.2,17.6,18.5,18.6,,16,<5,59.3,27
+All Students,201908,Overton ISD,Rusk County,Kilgore,7,19.2,19.2,19.5,19.9,19.5,,18,<5,50,36
+All Students,201910,Tatum ISD,Rusk County,Kilgore,7,18.9,19.7,20.2,20.1,19.9,20,50,10,41.7,120
+All Students,201913,Carlisle ISD,Rusk County,Kilgore,7,16.3,18.2,16.8,17.3,17.4,,13,<5,27.7,47
+All Students,201914,West Rusk County Consolidated ISD,Rusk County,Kilgore,7,16.1,18.8,18.4,19.3,18.3,,32,<5,76.2,42
+All Students,202903,Hemphill ISD,Sabine County,Kilgore,7,20.9,21.7,21.5,21.3,21.4,,31,<15,54.4,57
+All Students,202905,West Sabine ISD,Sabine County,Kilgore,7,19.8,20.1,20.9,19.7,20.4,,15,<5,38.5,39
+All Students,203901,San Augustine ISD,San Augustine County,Kilgore,7,16.4,18.3,18.5,18.4,18.2,,23,<5,51.1,45
+All Students,203902,Broaddus ISD,San Augustine County,Kilgore,7,14.9,17.5,17.3,16.8,16.8,,28,<5,71.8,39
+All Students,204901,Coldspring-Oakhurst CISD,San Jacinto County,Huntsville,6,17.8,19.5,19.7,19.8,19.4,22.6,31,7,26.3,118
+All Students,204904,Shepherd ISD,San Jacinto County,Huntsville,6,16.4,18.9,18.9,19.2,18.4,15.8,38,6,33.3,114
+All Students,205901,Aransas Pass ISD,San Patricio County,Corpus Christi,2,16.2,18.8,17.6,18.9,18.1,,27,<5,25.2,107
+All Students,205902,Gregory-Portland ISD,San Patricio County,Corpus Christi,2,18.7,22.1,18.8,19.9,20,22.2,72,16,24.9,289
+All Students,205903,Ingleside ISD,San Patricio County,Corpus Christi,2,18.4,21.1,20.5,20.7,20.3,15.2,46,7,33.3,138
+All Students,205904,Mathis ISD,San Patricio County,Corpus Christi,2,15.4,17.4,17.3,18.2,17.2,,65,<5,60.2,108
+All Students,205905,Odem-Edroy ISD,San Patricio County,Corpus Christi,2,17.3,19.5,18.2,18.5,18.4,28.1,32,9,64,50
+All Students,205906,Sinton ISD,San Patricio County,Corpus Christi,2,18.6,20,20,20.1,19.8,21.1,57,12,40.7,140
+All Students,205907,Taft ISD,San Patricio County,Corpus Christi,2,14.7,17.8,15.8,17.2,16.4,,33,<5,53.2,62
 All Students,206901,San Saba ISD,San Saba County,San Angelo,15,18.6,20.4,18.8,20.9,19.7,,25,<5,73.5,34
 All Students,206902,Richland Springs ISD,San Saba County,San Angelo,15,13.6,17.9,18.3,18.4,17.3,,8,<5,57.1,14
 All Students,206903,Cherokee ISD,San Saba County,San Angelo,15,18.2,18.8,18.6,19.4,18.9,,11,<5,110,10
@@ -855,25 +855,25 @@ All Students,208901,Hermleigh ISD,Scurry County,Abilene,14,,,,,,,<5,<5,,11
 All Students,208902,Snyder ISD,Scurry County,Abilene,14,19.1,20.1,19.7,20.7,20.1,19.6,56,11,33.5,167
 All Students,208903,Ira ISD,Scurry County,Abilene,14,16.2,18.9,18,19.6,18.2,,10,<5,62.5,16
 All Students,209901,Albany ISD,Shackelford County,Abilene,14,20.7,20.3,22.7,23.2,21.7,,<15,<5,,31
-All Students,210901,Center ISD,Shelby County,Kilgore,07,16.6,18.9,17.9,18.9,18.2,6.7,89,6,65,137
-All Students,210902,Joaquin ISD,Shelby County,Kilgore,07,19.3,20.6,20.5,19.2,20.1,,26,<10,56.5,46
-All Students,210903,Shelbyville ISD,Shelby County,Kilgore,07,20.7,20.5,20.9,20.8,20.9,,17,<5,53.1,32
-All Students,210904,Tenaha ISD,Shelby County,Kilgore,07,13,18.5,15.7,17.5,16.2,,11,<5,32.4,34
-All Students,210905,Timpson ISD,Shelby County,Kilgore,07,17.7,19.8,19.7,18.7,19,21.7,23,5,60.5,38
+All Students,210901,Center ISD,Shelby County,Kilgore,7,16.6,18.9,17.9,18.9,18.2,6.7,89,6,65,137
+All Students,210902,Joaquin ISD,Shelby County,Kilgore,7,19.3,20.6,20.5,19.2,20.1,,26,<10,56.5,46
+All Students,210903,Shelbyville ISD,Shelby County,Kilgore,7,20.7,20.5,20.9,20.8,20.9,,17,<5,53.1,32
+All Students,210904,Tenaha ISD,Shelby County,Kilgore,7,13,18.5,15.7,17.5,16.2,,11,<5,32.4,34
+All Students,210905,Timpson ISD,Shelby County,Kilgore,7,17.7,19.8,19.7,18.7,19,21.7,23,5,60.5,38
 All Students,211902,Stratford ISD,Sherman County,Amarillo,16,16.8,21.2,18.2,19.2,19,,29,<5,67.4,43
-All Students,212901,Arp ISD,Smith County,Kilgore,07,18.1,19.8,19.3,19.7,19.3,15.8,38,6,56.7,67
-All Students,212902,Bullard ISD,Smith County,Kilgore,07,20.2,21.8,21.8,20.9,21.3,30.8,52,16,36.4,143
-All Students,212903,Lindale ISD,Smith County,Kilgore,07,21.8,23.1,22.1,22.1,22.4,36.8,114,42,46.2,247
-All Students,212904,Troup ISD,Smith County,Kilgore,07,17.9,20.4,20,20.3,19.8,14.6,41,6,60.3,68
-All Students,212905,Tyler ISD,Smith County,Kilgore,07,17.5,19,19.1,19.5,18.9,21,357,75,37.7,947
-All Students,212906,Whitehouse ISD,Smith County,Kilgore,07,22.7,24.1,23.7,23,23.5,55.2,67,37,21.6,310
-All Students,212909,Chapel Hill ISD,Smith County,Kilgore,07,17.3,19.4,18.7,19.5,18.8,14.6,103,15,45.6,226
-All Students,212910,Winona ISD,Smith County,Kilgore,07,18.9,20.5,19.9,20.1,20,22.6,31,7,54.4,57
+All Students,212901,Arp ISD,Smith County,Kilgore,7,18.1,19.8,19.3,19.7,19.3,15.8,38,6,56.7,67
+All Students,212902,Bullard ISD,Smith County,Kilgore,7,20.2,21.8,21.8,20.9,21.3,30.8,52,16,36.4,143
+All Students,212903,Lindale ISD,Smith County,Kilgore,7,21.8,23.1,22.1,22.1,22.4,36.8,114,42,46.2,247
+All Students,212904,Troup ISD,Smith County,Kilgore,7,17.9,20.4,20,20.3,19.8,14.6,41,6,60.3,68
+All Students,212905,Tyler ISD,Smith County,Kilgore,7,17.5,19,19.1,19.5,18.9,21,357,75,37.7,947
+All Students,212906,Whitehouse ISD,Smith County,Kilgore,7,22.7,24.1,23.7,23,23.5,55.2,67,37,21.6,310
+All Students,212909,Chapel Hill ISD,Smith County,Kilgore,7,17.3,19.4,18.7,19.5,18.8,14.6,103,15,45.6,226
+All Students,212910,Winona ISD,Smith County,Kilgore,7,18.9,20.5,19.9,20.1,20,22.6,31,7,54.4,57
 All Students,213801,Brazos River Charter School,Somervell County,Fort Worth,11,14,16.5,14.3,16,15.3,,<5,<5,,66
 All Students,213901,Glen Rose ISD,Somervell County,Fort Worth,11,19.7,22.8,20.8,20.7,21.1,30.8,52,16,43,121
-All Students,214901,Rio Grande City CISD,Starr County,Edinburg,01,14.8,17.3,16.8,17.4,16.7,4.6,394,18,65.9,598
-All Students,214902,San Isidro ISD,Starr County,Edinburg,01,16.9,17.5,17.6,18.2,17.7,,24,<5,80,30
-All Students,214903,Roma ISD,Starr County,Edinburg,01,15.8,18.6,17.3,18.1,17.6,9.5,284,27,71,400
+All Students,214901,Rio Grande City CISD,Starr County,Edinburg,1,14.8,17.3,16.8,17.4,16.7,4.6,394,18,65.9,598
+All Students,214902,San Isidro ISD,Starr County,Edinburg,1,16.9,17.5,17.6,18.2,17.7,,24,<5,80,30
+All Students,214903,Roma ISD,Starr County,Edinburg,1,15.8,18.6,17.3,18.1,17.6,9.5,284,27,71,400
 All Students,215901,Breckenridge ISD,Stephens County,Abilene,14,20.4,23.2,21.5,20.3,21.4,25.9,27,7,30.3,89
 All Students,216901,Sterling City ISD,Sterling County,San Angelo,15,17.4,19.4,16.4,18.6,18.1,,11,<5,84.6,13
 All Students,217901,Aspermont ISD,Stonewall County,Abilene,14,16.3,20.1,18.3,19.9,18.9,,7,<5,50,14
@@ -913,10 +913,10 @@ All Students,222901,Terrell County ISD,Terrell County,Midland,18,18.1,20.1,19.3,
 All Students,223901,Brownfield ISD,Terry County,Lubbock,17,16.6,19.2,18.4,18.6,18.4,,43,<5,45.3,95
 All Students,223902,Meadow ISD,Terry County,Lubbock,17,18.2,19.9,19,20.3,19.4,,15,<5,83.3,18
 All Students,223904,Wellman-Union CISD,Terry County,Lubbock,17,20.3,19.6,20.3,20.1,20.3,,8,<5,88.9,9
-All Students,224901,Throckmorton ISD,Throckmorton County,Wichita Falls,09,19.6,20.1,19.8,20.1,20,,15,<5,83.3,18
-All Students,224902,Woodson ISD,Throckmorton County,Wichita Falls,09,18.3,20.5,20.8,19.4,19.9,,8,<5,88.9,9
-All Students,225902,Mount Pleasant ISD,Titus County,Mt Pleasant,08,18.4,20.2,19.4,19.6,19.5,23.4,64,15,21.7,295
-All Students,225906,Chapel Hill ISD,Titus County,Mt Pleasant,08,18.5,20,18.8,19.4,19.3,16.7,42,7,56,75
+All Students,224901,Throckmorton ISD,Throckmorton County,Wichita Falls,9,19.6,20.1,19.8,20.1,20,,15,<5,83.3,18
+All Students,224902,Woodson ISD,Throckmorton County,Wichita Falls,9,18.3,20.5,20.8,19.4,19.9,,8,<5,88.9,9
+All Students,225902,Mount Pleasant ISD,Titus County,Mt Pleasant,8,18.4,20.2,19.4,19.6,19.5,23.4,64,15,21.7,295
+All Students,225906,Chapel Hill ISD,Titus County,Mt Pleasant,8,18.5,20,18.8,19.4,19.3,16.7,42,7,56,75
 All Students,226901,Christoval ISD,Tom Green County,San Angelo,15,18.9,19.8,20.4,20.5,20,,25,<5,69.4,36
 All Students,226903,San Angelo ISD,Tom Green County,San Angelo,15,19.3,21.4,20.5,20.4,20.5,24.6,350,86,37.3,938
 All Students,226905,Water Valley ISD,Tom Green County,San Angelo,15,20.1,22.1,22.8,22.5,21.9,,11,<10,57.9,19
@@ -936,22 +936,22 @@ All Students,227909,Eanes ISD,Travis County,Austin,13,26.4,27.5,26.5,25.5,26.6,7
 All Students,227910,Del Valle ISD,Travis County,Austin,13,15.6,18.5,17,17.8,17.4,8,288,23,46.8,616
 All Students,227912,Lago Vista ISD,Travis County,Austin,13,19.8,21.6,21.6,21.4,21.2,29.4,34,10,44.7,76
 All Students,227913,Lake Travis ISD,Travis County,Austin,13,24.5,25.3,25.8,24.6,25.2,63.9,233,149,45.4,513
-All Students,228901,Groveton ISD,Trinity County,Huntsville,06,20.8,20.6,21.8,20.7,20.9,,9,<5,19.6,46
-All Students,228903,Trinity ISD,Trinity County,Huntsville,06,14.8,18.5,16.5,17.9,17.2,,15,<5,29.4,51
-All Students,228904,Centerville ISD,Trinity County,Huntsville,06,23,24,23.3,23.3,23.3,,<5,<5,,7
-All Students,228905,Apple Springs ISD,Trinity County,Huntsville,06,,,,,,,<5,<5,,16
-All Students,229901,Colmesneil ISD,Tyler County,Beaumont,05,21.6,23.7,23,22.3,22.6,,7,<5,16.3,43
-All Students,229903,Woodville ISD,Tyler County,Beaumont,05,18.7,20.8,20.6,21.8,20.5,,22,<5,31.4,70
-All Students,229904,Warren ISD,Tyler County,Beaumont,05,22.5,23.5,23,23.5,23.3,40.9,22,9,30.6,72
-All Students,229905,Spurger ISD,Tyler County,Beaumont,05,14.3,17.9,17.6,17.6,17,,12,<5,92.3,13
-All Students,229906,Chester ISD,Tyler County,Beaumont,05,18.2,19.6,20.6,22.6,20.4,,<10,<5,,<15
-All Students,230901,Big Sandy ISD,Upshur County,Kilgore,07,16.3,18.8,17.9,19.2,18.3,,19,<5,44.2,43
-All Students,230902,Gilmer ISD,Upshur County,Kilgore,07,17.9,20.7,19,19.1,19.3,16.2,68,11,49.6,137
-All Students,230903,Ore City ISD,Upshur County,Kilgore,07,16.6,18.4,20.1,18.7,18.6,,16,<5,34.8,46
-All Students,230904,Union Hill ISD,Upshur County,Kilgore,07,16.9,20,18.9,19.7,19,,25,<5,75.8,33
-All Students,230905,Harmony ISD,Upshur County,Kilgore,07,21.4,20.2,22.2,21,21.4,30.6,49,15,67.1,73
-All Students,230906,New Diana ISD,Upshur County,Kilgore,07,19.6,19.8,20.2,19.7,20,26.2,42,11,68.9,61
-All Students,230908,Union Grove ISD,Upshur County,Kilgore,07,20.9,21.6,21.9,21.3,21.5,28.6,28,8,44.4,63
+All Students,228901,Groveton ISD,Trinity County,Huntsville,6,20.8,20.6,21.8,20.7,20.9,,9,<5,19.6,46
+All Students,228903,Trinity ISD,Trinity County,Huntsville,6,14.8,18.5,16.5,17.9,17.2,,15,<5,29.4,51
+All Students,228904,Centerville ISD,Trinity County,Huntsville,6,23,24,23.3,23.3,23.3,,<5,<5,,7
+All Students,228905,Apple Springs ISD,Trinity County,Huntsville,6,,,,,,,<5,<5,,16
+All Students,229901,Colmesneil ISD,Tyler County,Beaumont,5,21.6,23.7,23,22.3,22.6,,7,<5,16.3,43
+All Students,229903,Woodville ISD,Tyler County,Beaumont,5,18.7,20.8,20.6,21.8,20.5,,22,<5,31.4,70
+All Students,229904,Warren ISD,Tyler County,Beaumont,5,22.5,23.5,23,23.5,23.3,40.9,22,9,30.6,72
+All Students,229905,Spurger ISD,Tyler County,Beaumont,5,14.3,17.9,17.6,17.6,17,,12,<5,92.3,13
+All Students,229906,Chester ISD,Tyler County,Beaumont,5,18.2,19.6,20.6,22.6,20.4,,<10,<5,,<15
+All Students,230901,Big Sandy ISD,Upshur County,Kilgore,7,16.3,18.8,17.9,19.2,18.3,,19,<5,44.2,43
+All Students,230902,Gilmer ISD,Upshur County,Kilgore,7,17.9,20.7,19,19.1,19.3,16.2,68,11,49.6,137
+All Students,230903,Ore City ISD,Upshur County,Kilgore,7,16.6,18.4,20.1,18.7,18.6,,16,<5,34.8,46
+All Students,230904,Union Hill ISD,Upshur County,Kilgore,7,16.9,20,18.9,19.7,19,,25,<5,75.8,33
+All Students,230905,Harmony ISD,Upshur County,Kilgore,7,21.4,20.2,22.2,21,21.4,30.6,49,15,67.1,73
+All Students,230906,New Diana ISD,Upshur County,Kilgore,7,19.6,19.8,20.2,19.7,20,26.2,42,11,68.9,61
+All Students,230908,Union Grove ISD,Upshur County,Kilgore,7,20.9,21.6,21.9,21.3,21.5,28.6,28,8,44.4,63
 All Students,231901,McCamey ISD,Upton County,Midland,18,15.6,18,18.4,16.8,17.4,,22,<5,104.8,21
 All Students,231902,Rankin ISD,Upton County,Midland,18,18.4,21.5,18.1,19.8,19.5,,11,<5,91.7,12
 All Students,232902,Sabinal ISD,Uvalde County,San Antonio,20,15.9,19.6,17.8,19,18.2,,19,<5,52.8,36
@@ -960,47 +960,47 @@ All Students,232904,Utopia ISD,Uvalde County,San Antonio,20,25.5,23.3,26.6,23.6,
 All Students,233901,San Felipe-Del Rio CISD,Val Verde County,San Angelo,15,17,19.6,18.3,18.9,18.6,10.8,74,8,12.3,603
 All Students,233903,Comstock ISD,Val Verde County,San Angelo,15,19,16.7,21,18,19,,<5,<5,,13
 All Students,234902,Canton ISD,Van Zandt County,Richardson,10,21.4,21.6,22.5,21.4,21.9,,42,<20,31.8,132
-All Students,234903,Edgewood ISD,Van Zandt County,Kilgore,07,21,21.2,21,21.2,21.3,28.6,28,8,42.4,66
-All Students,234904,Grand Saline ISD,Van Zandt County,Kilgore,07,19.8,21.2,20.1,20,20.4,,17,<5,17.7,96
-All Students,234905,Martins Mill ISD,Van Zandt County,Kilgore,07,22.7,22,21.8,22.4,22.3,,9,<5,32.1,28
-All Students,234906,Van ISD,Van Zandt County,Kilgore,07,21.5,22.1,22.3,21,21.9,28,25,7,15.7,159
+All Students,234903,Edgewood ISD,Van Zandt County,Kilgore,7,21,21.2,21,21.2,21.3,28.6,28,8,42.4,66
+All Students,234904,Grand Saline ISD,Van Zandt County,Kilgore,7,19.8,21.2,20.1,20,20.4,,17,<5,17.7,96
+All Students,234905,Martins Mill ISD,Van Zandt County,Kilgore,7,22.7,22,21.8,22.4,22.3,,9,<5,32.1,28
+All Students,234906,Van ISD,Van Zandt County,Kilgore,7,21.5,22.1,22.3,21,21.9,28,25,7,15.7,159
 All Students,234907,Wills Point ISD,Van Zandt County,Richardson,10,20.8,22,21.8,22.1,21.9,29.8,57,17,35.2,162
-All Students,234909,Fruitvale ISD,Van Zandt County,Kilgore,07,18,21.1,18.4,20.1,19.6,,7,<5,50,14
-All Students,235902,Victoria ISD,Victoria County,Victoria,03,19.1,20.7,21.1,20.5,20.5,24.6,65,16,9,722
-All Students,236901,New Waverly ISD,Walker County,Huntsville,06,18.5,20.6,19.2,19.7,19.6,13.3,60,8,75,80
-All Students,236902,Huntsville ISD,Walker County,Huntsville,06,16.4,18.8,18.6,18.4,18.2,10.8,157,17,42.7,368
-All Students,237902,Hempstead ISD,Waller County,Houston,04,14.9,18.1,16.5,18.3,17.1,,54,<5,47.4,114
-All Students,237904,Waller ISD,Waller County,Houston,04,17.3,20.1,18.7,19.7,19.1,15.3,170,26,46.2,368
-All Students,237905,Royal ISD,Waller County,Houston,04,15.8,19.2,18,19.1,18.2,9.6,73,7,55.3,132
+All Students,234909,Fruitvale ISD,Van Zandt County,Kilgore,7,18,21.1,18.4,20.1,19.6,,7,<5,50,14
+All Students,235902,Victoria ISD,Victoria County,Victoria,3,19.1,20.7,21.1,20.5,20.5,24.6,65,16,9,722
+All Students,236901,New Waverly ISD,Walker County,Huntsville,6,18.5,20.6,19.2,19.7,19.6,13.3,60,8,75,80
+All Students,236902,Huntsville ISD,Walker County,Huntsville,6,16.4,18.8,18.6,18.4,18.2,10.8,157,17,42.7,368
+All Students,237902,Hempstead ISD,Waller County,Houston,4,14.9,18.1,16.5,18.3,17.1,,54,<5,47.4,114
+All Students,237904,Waller ISD,Waller County,Houston,4,17.3,20.1,18.7,19.7,19.1,15.3,170,26,46.2,368
+All Students,237905,Royal ISD,Waller County,Houston,4,15.8,19.2,18,19.1,18.2,9.6,73,7,55.3,132
 All Students,238902,Monahans-Wickett-Pyote ISD,Ward County,Midland,18,18.7,21.2,21.1,20.6,20.5,20.7,58,12,40.3,144
 All Students,238904,Grandfalls-Royalty ISD,Ward County,Midland,18,13.8,18.2,18.5,16.5,16.8,,6,<5,100,6
-All Students,239901,Brenham ISD,Washington County,Huntsville,06,17.7,20.5,19.6,19,19.3,20,55,11,17,323
-All Students,239903,Burton ISD,Washington County,Huntsville,06,15.1,19.3,16.4,18.1,17.5,,8,<5,28.6,28
-All Students,240801,Gateway (Student Alternative Progr,Webb County,Edinburg,01,14.1,16.1,17.4,16.1,16.1,,7,<5,4.3,164
-All Students,240901,Laredo ISD,Webb County,Edinburg,01,15,18.4,16.5,17.1,16.9,,295,<30,26.5,1114
-All Students,240903,United ISD,Webb County,Edinburg,01,16.4,19.1,17.5,18.7,18.1,12.8,484,62,18.4,2636
-All Students,240904,Webb CISD,Webb County,Edinburg,01,18.4,22.3,18.1,19.4,19.8,,8,<5,32,25
-All Students,241901,Boling ISD,Wharton County,Victoria,03,19.5,21.1,18.2,18.4,19.4,,10,<5,13.9,72
-All Students,241902,East Bernard ISD,Wharton County,Victoria,03,19.3,22.1,20.5,20.4,20.9,,14,<5,20.6,68
-All Students,241903,El Campo ISD,Wharton County,Victoria,03,18.7,20.7,20.5,20.8,20.3,21.7,23,5,9.8,235
-All Students,241904,Wharton ISD,Wharton County,Victoria,03,18.3,18.8,19.1,19.3,19,12.9,70,9,50.7,138
-All Students,241906,Louise ISD,Wharton County,Victoria,03,17,19.9,17.8,16.9,18,,22,<5,53.7,41
+All Students,239901,Brenham ISD,Washington County,Huntsville,6,17.7,20.5,19.6,19,19.3,20,55,11,17,323
+All Students,239903,Burton ISD,Washington County,Huntsville,6,15.1,19.3,16.4,18.1,17.5,,8,<5,28.6,28
+All Students,240801,Gateway (Student Alternative Progr,Webb County,Edinburg,1,14.1,16.1,17.4,16.1,16.1,,7,<5,4.3,164
+All Students,240901,Laredo ISD,Webb County,Edinburg,1,15,18.4,16.5,17.1,16.9,,295,<30,26.5,1114
+All Students,240903,United ISD,Webb County,Edinburg,1,16.4,19.1,17.5,18.7,18.1,12.8,484,62,18.4,2636
+All Students,240904,Webb CISD,Webb County,Edinburg,1,18.4,22.3,18.1,19.4,19.8,,8,<5,32,25
+All Students,241901,Boling ISD,Wharton County,Victoria,3,19.5,21.1,18.2,18.4,19.4,,10,<5,13.9,72
+All Students,241902,East Bernard ISD,Wharton County,Victoria,3,19.3,22.1,20.5,20.4,20.9,,14,<5,20.6,68
+All Students,241903,El Campo ISD,Wharton County,Victoria,3,18.7,20.7,20.5,20.8,20.3,21.7,23,5,9.8,235
+All Students,241904,Wharton ISD,Wharton County,Victoria,3,18.3,18.8,19.1,19.3,19,12.9,70,9,50.7,138
+All Students,241906,Louise ISD,Wharton County,Victoria,3,17,19.9,17.8,16.9,18,,22,<5,53.7,41
 All Students,242902,Shamrock ISD,Wheeler County,Amarillo,16,19.7,22.8,21.7,21.1,21.4,,12,<5,66.7,18
 All Students,242903,Wheeler ISD,Wheeler County,Amarillo,16,16.9,19.9,18.9,19.7,18.9,,21,<5,123.5,17
 All Students,242905,Kelton ISD,Wheeler County,Amarillo,16,16,19,16.7,16.7,17,,<5,<5,,<5
 All Students,242906,Fort Elliott CISD,Wheeler County,Amarillo,16,17.3,18.3,19,21.3,19,,<5,<5,,6
-All Students,243801,Bright Ideas Charter,Wichita County,Wichita Falls,09,,,,,,,<5,<5,,7
-All Students,243901,Burkburnett ISD,Wichita County,Wichita Falls,09,20,21.3,21.3,21.1,21,28.6,98,28,47.6,206
-All Students,243902,Electra ISD,Wichita County,Wichita Falls,09,18.5,19.8,20.5,19.5,19.7,,13,<5,50,26
-All Students,243903,Iowa Park CISD,Wichita County,Wichita Falls,09,19.8,21,21.6,20.9,21,24.2,62,15,47.3,131
-All Students,243905,Wichita Falls ISD,Wichita County,Wichita Falls,09,19.6,21.3,20.6,20.8,20.7,27,318,86,35.3,901
-All Students,243906,City View ISD,Wichita County,Wichita Falls,09,19.3,19.7,21.5,20.5,20.3,,13,<5,25,52
-All Students,244901,Harrold ISD,Wilbarger County,Wichita Falls,09,17.7,21.3,21,22.7,20.7,,<5,<5,,8
-All Students,244903,Vernon ISD,Wilbarger County,Wichita Falls,09,18.5,20.5,20.1,19.8,19.9,18.7,75,14,62,121
-All Students,244905,Northside ISD,Wilbarger County,Wichita Falls,09,16.9,19.6,19.1,19.6,18.9,,7,<5,100,7
-All Students,245902,Lyford CISD,Willacy County,Edinburg,01,16,18.5,16.9,18.2,17.6,,90,<5,76.3,118
-All Students,245903,Raymondville ISD,Willacy County,Edinburg,01,13.9,16.7,15.3,16,15.7,,55,<5,37.9,145
-All Students,245904,San Perlita ISD,Willacy County,Edinburg,01,16.8,20.4,20.4,19.1,19.4,,9,<5,52.9,17
+All Students,243801,Bright Ideas Charter,Wichita County,Wichita Falls,9,,,,,,,<5,<5,,7
+All Students,243901,Burkburnett ISD,Wichita County,Wichita Falls,9,20,21.3,21.3,21.1,21,28.6,98,28,47.6,206
+All Students,243902,Electra ISD,Wichita County,Wichita Falls,9,18.5,19.8,20.5,19.5,19.7,,13,<5,50,26
+All Students,243903,Iowa Park CISD,Wichita County,Wichita Falls,9,19.8,21,21.6,20.9,21,24.2,62,15,47.3,131
+All Students,243905,Wichita Falls ISD,Wichita County,Wichita Falls,9,19.6,21.3,20.6,20.8,20.7,27,318,86,35.3,901
+All Students,243906,City View ISD,Wichita County,Wichita Falls,9,19.3,19.7,21.5,20.5,20.3,,13,<5,25,52
+All Students,244901,Harrold ISD,Wilbarger County,Wichita Falls,9,17.7,21.3,21,22.7,20.7,,<5,<5,,8
+All Students,244903,Vernon ISD,Wilbarger County,Wichita Falls,9,18.5,20.5,20.1,19.8,19.9,18.7,75,14,62,121
+All Students,244905,Northside ISD,Wilbarger County,Wichita Falls,9,16.9,19.6,19.1,19.6,18.9,,7,<5,100,7
+All Students,245902,Lyford CISD,Willacy County,Edinburg,1,16,18.5,16.9,18.2,17.6,,90,<5,76.3,118
+All Students,245903,Raymondville ISD,Willacy County,Edinburg,1,13.9,16.7,15.3,16,15.7,,55,<5,37.9,145
+All Students,245904,San Perlita ISD,Willacy County,Edinburg,1,16.8,20.4,20.4,19.1,19.4,,9,<5,52.9,17
 All Students,246902,Florence ISD,Williamson County,Austin,13,19.8,21.1,20.6,20.5,20.7,,20,<5,25.3,79
 All Students,246904,Georgetown ISD,Williamson County,Austin,13,22,23.7,23,22.9,23,44.7,228,102,33.3,685
 All Students,246905,Granger ISD,Williamson County,Austin,13,18.1,19.9,20.4,19.2,19.4,,9,<5,37.5,24
@@ -1024,17 +1024,17 @@ All Students,249904,Chico ISD,Wise County,Fort Worth,11,19.3,20.6,21.1,20.2,20.4
 All Students,249905,Decatur ISD,Wise County,Fort Worth,11,20.4,21.1,21.3,20.9,21.1,29.4,126,37,61.5,205
 All Students,249906,Paradise ISD,Wise County,Fort Worth,11,20.2,22.7,22.8,21.6,22,31.8,44,14,58.7,75
 All Students,249908,Slidell ISD,Wise County,Fort Worth,11,20,20.9,20,22.4,20.9,,7,<5,41.2,17
-All Students,250902,Hawkins ISD,Wood County,Kilgore,07,21.6,20.8,23.8,20,21.6,,9,<5,23.1,39
-All Students,250903,Mineola ISD,Wood County,Kilgore,07,19.3,20.5,20.7,21.1,20.5,17,47,8,50,94
-All Students,250904,Quitman ISD,Wood County,Kilgore,07,17.6,19.3,19.3,19.3,19,12.5,48,6,58.5,82
-All Students,250905,Yantis ISD,Wood County,Kilgore,07,15.1,17.5,16.6,16.6,16.4,,10,<5,71.4,14
-All Students,250906,Alba-Golden ISD,Wood County,Kilgore,07,19.6,21.1,20.5,20.4,20.6,20.9,43,9,55.8,77
-All Students,250907,Winnsboro ISD,Wood County,Kilgore,07,21,22.1,22.3,21.3,21.8,32.3,62,20,76.5,81
+All Students,250902,Hawkins ISD,Wood County,Kilgore,7,21.6,20.8,23.8,20,21.6,,9,<5,23.1,39
+All Students,250903,Mineola ISD,Wood County,Kilgore,7,19.3,20.5,20.7,21.1,20.5,17,47,8,50,94
+All Students,250904,Quitman ISD,Wood County,Kilgore,7,17.6,19.3,19.3,19.3,19,12.5,48,6,58.5,82
+All Students,250905,Yantis ISD,Wood County,Kilgore,7,15.1,17.5,16.6,16.6,16.4,,10,<5,71.4,14
+All Students,250906,Alba-Golden ISD,Wood County,Kilgore,7,19.6,21.1,20.5,20.4,20.6,20.9,43,9,55.8,77
+All Students,250907,Winnsboro ISD,Wood County,Kilgore,7,21,22.1,22.3,21.3,21.8,32.3,62,20,76.5,81
 All Students,251901,Denver City ISD,Yoakum County,Lubbock,17,18.5,21.1,19,19.9,19.8,,30,<10,31.9,94
 All Students,251902,Plains ISD,Yoakum County,Lubbock,17,20.3,22.4,21.6,21.3,21.6,30.4,23,7,63.9,36
-All Students,252901,Graham ISD,Young County,Wichita Falls,09,20.5,21.4,21.1,21.1,21.2,23.7,59,14,36.6,161
-All Students,252902,Newcastle ISD,Young County,Wichita Falls,09,23.2,25.4,24.8,24,24.8,,<10,<5,,17
-All Students,252903,Olney ISD,Young County,Wichita Falls,09,17.6,19.2,18.5,17.1,18,,21,<5,52.5,40
-All Students,253901,Zapata County ISD,Zapata County,Edinburg,01,15.8,18.6,17.1,18.5,17.6,6.3,112,7,63.3,177
+All Students,252901,Graham ISD,Young County,Wichita Falls,9,20.5,21.4,21.1,21.1,21.2,23.7,59,14,36.6,161
+All Students,252902,Newcastle ISD,Young County,Wichita Falls,9,23.2,25.4,24.8,24,24.8,,<10,<5,,17
+All Students,252903,Olney ISD,Young County,Wichita Falls,9,17.6,19.2,18.5,17.1,18,,21,<5,52.5,40
+All Students,253901,Zapata County ISD,Zapata County,Edinburg,1,15.8,18.6,17.1,18.5,17.6,6.3,112,7,63.3,177
 All Students,254901,Crystal City ISD,Zavala County,San Antonio,20,16.8,19.3,18.3,18.4,18.3,,76,<15,64.4,118
 All Students,254902,La Pryor ISD,Zavala County,San Antonio,20,12.3,15.9,14.5,16.9,15.1,,24,<5,63.2,38
