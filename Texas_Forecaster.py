@@ -12,6 +12,8 @@ pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 
 ### Fixing College Enrollment DFs ###
+# SAT = pd.read_csv('Total_SAT.csv')
+# SAT = SAT[['DistName', 'RegnName', 'Year']]
 # path = 'College_Enrollment/*'
 # enrol_files = glob.glob(path)
 # fixed_enrol_dfs = []
@@ -44,11 +46,13 @@ pd.set_option('display.width', 1000)
 #     file = file.loc[file['DistName'].isin(wanted_dists)]
 #     fixed_enrol_dfs.append(file)
 # total_enrollment = pd.concat(fixed_enrol_dfs)
-# total_enrollment.to_csv('Total_Enrollment.csv', index=False)
+# test = pd.merge(SAT, total_enrollment, on=['DistName', 'Year'], how='inner')
+# test = test.sort_values(['DistName', 'Year'])
+# test.to_csv('Total_Enrollment.csv', index=False)
 
 ### SAT/ACT ###
 # tests = ['SAT', 'ACT']
-major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
+# major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
 # for test in tests:
 #     fixed_test_dfs = []
 #     path = test + '/*'
@@ -68,38 +72,43 @@ major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
 #                 wanted_dists.append(dist_name)
 #         file = file.loc[(file['DistName'].isin(wanted_dists)) & (file['RegnName'].isin(major_regions))]
 #         file['Year'] = int(file_name[4:8])
+#         file['DistName'] = file['DistName'].str.upper()
 #         fixed_test_dfs.append(file)
 #     new_test_df = pd.concat(fixed_test_dfs)
+#     new_test_df = new_test_df.dropna()
 #     new_test_df.to_csv('Total_' + test + '.csv', index=False)
 
 ### AP ###
-fixed_AP_dfs = []
-path = 'AP/*'
-AP_files = glob.glob(path)
-for file_name in AP_files:
-    file = pd.read_csv(file_name)
-    cols = file.columns[7:]
-    for col in cols:
-        series_list = list(file[col].values)
-        value_list = []
-        for value in series_list:
-            if '<' in str(value):
-                value = int(str(value).replace('<', '')) * (1 - .1)
-            elif ',' in str(value):
-                value = int(str(value).replace(',', ''))
-            value_list.append(value)
-        file[col] = pd.Series(value_list)
-        file[col] = pd.to_numeric(file[col])
-    file = file[['DistName', 'RegnName', 'Exnees_Mskd', 'Exams_Mskd', 'Exams_Above_Crit_Rate']]
-    file.columns = ['DistName', 'RegnName', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)']
-    file['AP-Exams Taken Per Student'] = file['AP-Total Exams'] / file['AP-11&12 Participating Students']
-    file['Year'] = int(file_name[3:7])
-    wanted_dists = []
-    for dist_name in list(file['DistName'].values):
-        if ' ISD' in dist_name:
-            wanted_dists.append(dist_name)
-    file = file.loc[(file['RegnName'].isin(major_regions)) & (file['DistName'].isin(wanted_dists)) & (file['AP-Total Exams'] > 50)]
-    fixed_AP_dfs.append(file)
-new_AP_df = pd.concat(fixed_AP_dfs).sort_values('Year')
-new_AP_df = new_AP_df.dropna()
-new_AP_df.to_csv('Total_AP.csv', index=False)
+# fixed_AP_dfs = []
+# path = 'AP/*'
+# AP_files = glob.glob(path)
+# for file_name in AP_files:
+#     file = pd.read_csv(file_name)
+#     cols = file.columns[7:]
+#     for col in cols:
+#         series_list = list(file[col].values)
+#         value_list = []
+#         for value in series_list:
+#             if '<' in str(value):
+#                 value = int(str(value).replace('<', '')) * (1 - .1)
+#             elif ',' in str(value):
+#                 value = int(str(value).replace(',', ''))
+#             value_list.append(value)
+#         file[col] = pd.Series(value_list)
+#         file[col] = pd.to_numeric(file[col])
+#     file = file[['DistName', 'RegnName', 'Exnees_Mskd', 'Exams_Mskd', 'Exams_Above_Crit_Rate']]
+#     file.columns = ['DistName', 'RegnName', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)']
+#     file['AP-Exams Taken Per Student'] = file['AP-Total Exams'] / file['AP-11&12 Participating Students']
+#     file['Year'] = int(file_name[3:7])
+#     wanted_dists = []
+#     for dist_name in list(file['DistName'].values):
+#         if ' ISD' in dist_name:
+#             wanted_dists.append(dist_name)
+#     file = file.loc[(file['RegnName'].isin(major_regions)) & (file['DistName'].isin(wanted_dists)) & (file['AP-Total Exams'] > 50)]
+#     fixed_AP_dfs.append(file)
+# new_AP_df = pd.concat(fixed_AP_dfs).sort_values('Year')
+# new_AP_df = new_AP_df.dropna()
+# new_AP_df.to_csv('Total_AP.csv', index=False)
+
+enrol = pd.read_csv('Total_Enrollment.csv')
+print(enrol['DistName'].value_counts())
