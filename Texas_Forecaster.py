@@ -1,3 +1,8 @@
+def warn(*args, **kwargs):
+    pass
+import warnings
+warnings.warn = warn
+
 import pandas as pd
 import numpy as np
 import glob
@@ -5,6 +10,7 @@ from functools import reduce
 from sklearn.linear_model import LinearRegression, Ridge, Lasso
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
+
 
 #Setting Pandas DF options#
 pd.set_option('display.max_rows', 500)
@@ -110,5 +116,20 @@ pd.set_option('display.width', 1000)
 # new_AP_df = new_AP_df.dropna()
 # new_AP_df.to_csv('Total_AP.csv', index=False)
 
-enrol = pd.read_csv('Total_Enrollment.csv')
-print(enrol['DistName'].value_counts())
+### Fixing Wealth Per ADA ###
+# wealth = pd.read_csv('Wealth_Original.csv')
+# years = ['2011', '2012', '2013', '2014', '2015', '2016', '2017']
+# yearly_wealth = []
+# for year in years:
+#     yearly_df = wealth[['DistName', year]]
+#     yearly_df.columns = ['DistName', 'Wealth/ADA']
+#     yearly_df['Year'] = int(year)
+#     wanted_dists = []
+#     for dist_name in list(yearly_df['DistName'].values):
+#         if ' ISD' in dist_name:
+#             wanted_dists.append(dist_name)
+#     yearly_df = yearly_df.loc[yearly_df['DistName'].isin(wanted_dists)]
+#     yearly_wealth.append(yearly_df)
+# Total_wealth = pd.concat(yearly_wealth)
+# Total_wealth.to_csv('Total_Wealth.csv', index=False)
+
