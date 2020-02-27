@@ -145,9 +145,22 @@ pd.set_option('display.width', 1000)
 # new_wealth.to_csv('Total_Wealth.csv', index=False)
 
 ### Merging SAT, ACT, AP, Enrollment, Wealth/ADA ###
-path = 'Total_*'
-file_names = glob.glob(path)
-dfs = [pd.read_csv(file) for file in file_names]
-Total_Merged = reduce(lambda x, y: pd.merge(x, y, on=['DistName', 'RegnName', 'Year'], how='inner'), dfs)
-Total_Merged = Total_Merged.sort_values(['DistName', 'Year'])
-Total_Merged.to_csv('Seven_Year_Historical.csv', index=False)
+# path = 'Total_*'
+# file_names = glob.glob(path)
+# dfs = [pd.read_csv(file) for file in file_names]
+# Total_Merged = reduce(lambda x, y: pd.merge(x, y, on=['DistName', 'RegnName', 'Year'], how='inner'), dfs)
+# Total_Merged = Total_Merged.sort_values(['DistName', 'Year'])
+# Total_Merged.to_csv('Seven_Year_Historical.csv', index=False)
+
+### Getting School Districts With the Full Seven Years of Data ###
+seven = pd.read_csv('Seven_Year_Historical.csv')
+seven = seven[seven.columns[:-2]]
+print(seven.head(5))
+seven = seven.dropna()
+wanted_dfs = []
+for dist in list(seven['DistName'].unique()):
+    dist_df = seven.loc[seven['DistName'] == dist]
+    if len(dist_df) == 7:
+        wanted_dfs.append(dist_df)
+new = pd.concat(wanted_dfs)
+new.to_csv('Seven_Year_Historical_new.csv', index=False)
