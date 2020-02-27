@@ -116,6 +116,10 @@ pd.set_option('display.width', 1000)
 # new_AP_df = new_AP_df.dropna()
 # new_AP_df.to_csv('Total_AP.csv', index=False)
 
+# AP = pd.read_csv('Total_AP.csv')
+# AP['DistName'] = AP['DistName'].str.upper()
+# AP.to_csv('Total_AP.csv', index=False)
+
 ### Fixing Wealth Per ADA ###
 # wealth = pd.read_csv('Wealth_Original.csv')
 # years = ['2011', '2012', '2013', '2014', '2015', '2016', '2017']
@@ -131,5 +135,19 @@ pd.set_option('display.width', 1000)
 #     yearly_df = yearly_df.loc[yearly_df['DistName'].isin(wanted_dists)]
 #     yearly_wealth.append(yearly_df)
 # Total_wealth = pd.concat(yearly_wealth)
-# Total_wealth.to_csv('Total_Wealth.csv', index=False)
 
+### Adding Regions to Wealth Per ADA ###
+# SAT = pd.read_csv('Total_SAT.csv')
+# SAT = SAT[['DistName', 'RegnName', 'Year']]
+# Wealth = pd.read_csv('Total_Wealth.csv')
+# new_wealth = pd.merge(Wealth, SAT, on=['DistName', 'Year'], how='inner')
+# new_wealth = new_wealth.sort_values(['DistName', 'Year'])
+# new_wealth.to_csv('Total_Wealth.csv', index=False)
+
+### Merging SAT, ACT, AP, Enrollment, Wealth/ADA ###
+path = 'Total_*'
+file_names = glob.glob(path)
+dfs = [pd.read_csv(file) for file in file_names]
+Total_Merged = reduce(lambda x, y: pd.merge(x, y, on=['DistName', 'RegnName', 'Year'], how='inner'), dfs)
+Total_Merged = Total_Merged.sort_values(['DistName', 'Year'])
+Total_Merged.to_csv('Seven_Year_Historical.csv', index=False)
