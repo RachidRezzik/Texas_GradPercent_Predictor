@@ -166,29 +166,59 @@ pd.set_option('display.width', 1000)
 # new.to_csv('Seven_Year_Historical_new.csv', index=False)
 
 ### Forecasting the next 3 years (2018, 2019, 2020) ###
-historical = pd.read_csv('Seven_Year_Historical_new.csv')
-new_dfs = []
-for dist in list(historical['DistName'].unique()):
-    regn = list(historical.loc[historical['DistName'] == dist]['RegnName'].values)[0]
-    columns = ['ACT-Composite', 'ACT-Part_Rate', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)',
-               'AP-Exams Taken Per Student', 'Enrolled 4-Year', 'Total Graduated', 'Enrolled 4-Year (%)', 'SAT-Total',
-               'SAT-Part_Rate', 'Wealth/ADA']
-    new_df = {'DistName': dist, 'RegnName': regn, 'Year': [2018, 2019, 2020]}
-    for col in columns:
-        dist_hist = historical.loc[historical['DistName'] == dist][[col, 'Year']]
-        X = dist_hist.drop(col, axis=1).values
-        y = dist_hist[col].values
-        reg = LinearRegression(fit_intercept=False)
-        reg.fit(X, y)
-        y_pred = reg.predict([[2018], [2019], [2020]])
-        new_df.update({col: y_pred})
-        predictions_df = pd.DataFrame(new_df)
-        hist = historical.loc[historical['DistName'] == dist][['DistName', 'RegnName', 'Year', 'ACT-Composite', 'ACT-Part_Rate', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)',
-               'AP-Exams Taken Per Student', 'Enrolled 4-Year', 'Total Graduated', 'Enrolled 4-Year (%)', 'SAT-Total',
-               'SAT-Part_Rate', 'Wealth/ADA']]
-        if col == columns[-1]:
-            new_df_forecast = hist.append(predictions_df)
-            new_dfs.append(new_df_forecast)
-Hist_Forecast = pd.concat(new_dfs).sort_values(['DistName', 'Year'])
-Hist_Forecast.to_csv('Forecasted_Features.csv', index=False)
+# historical = pd.read_csv('Seven_Year_Historical_new.csv')
+# new_dfs = []
+# for dist in list(historical['DistName'].unique()):
+#     regn = list(historical.loc[historical['DistName'] == dist]['RegnName'].values)[0]
+#     columns = ['ACT-Composite', 'ACT-Part_Rate', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)',
+#                'AP-Exams Taken Per Student', 'Enrolled 4-Year', 'Total Graduated', 'Enrolled 4-Year (%)', 'SAT-Total',
+#                'SAT-Part_Rate', 'Wealth/ADA']
+#     new_df = {'DistName': dist, 'RegnName': regn, 'Year': [2018, 2019, 2020]}
+#     for col in columns:
+#         dist_hist = historical.loc[historical['DistName'] == dist][[col, 'Year']]
+#         X = dist_hist.drop(col, axis=1).values
+#         y = dist_hist[col].values
+#         reg = LinearRegression(fit_intercept=False)
+#         reg.fit(X, y)
+#         y_pred = reg.predict([[2018], [2019], [2020]])
+#         new_df.update({col: y_pred})
+#         predictions_df = pd.DataFrame(new_df)
+#         hist = historical.loc[historical['DistName'] == dist][['DistName', 'RegnName', 'Year', 'ACT-Composite', 'ACT-Part_Rate', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)',
+#                'AP-Exams Taken Per Student', 'Enrolled 4-Year', 'Total Graduated', 'Enrolled 4-Year (%)', 'SAT-Total',
+#                'SAT-Part_Rate', 'Wealth/ADA']]
+#         if col == columns[-1]:
+#             new_df_forecast = hist.append(predictions_df)
+#             new_dfs.append(new_df_forecast)
+# Hist_Forecast = pd.concat(new_dfs).sort_values(['DistName', 'Year'])
+# Hist_Forecast.to_csv('Forecasted_Features.csv', index=False)
 
+### Model for Predicting College Graduation ###
+grad = pd.read_csv('Graduation_Historical.csv')
+grad = grad[grad.columns[3:]]
+X = grad.drop('Graduated 4-Year (%)', axis=1).values
+y = grad['Graduated 4-Year (%)'].values
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.25, random_state=42)
+for regression_model in [Ridge(), Lasso()]:
+    params = {'alpha': [.0001, .001, .01, .1]}
+    reg = GridSearchCV(regression_model, param_grid=params, cv=5)
+    reg.fit(X_train, y_train)
+    y_pred = reg.predict(X_test)
+    # print(reg.score(X_test, y_test))
+    # print(reg.best_score_)
+    # print(reg.best_params_)
+    # print(reg.score(X_train, y_train))
+
+### Merging Historical/Predicted Test Features with Historical College Grad ###
+years = [2011, 2012, 2013, 2014]
+forecast1 = pd.read_csv('Forecasted_Features.csv')
+forecast = forecast1.loc[forecast1['Year'].isin(years)]
+grad = pd.read_csv('Graduation_Historical.csv')
+grad = grad[['DistName', 'Graduated 4-Year (%)', 'Year']]
+new = pd.merge(grad, forecast, on=['DistName', 'Year'], how='inner')
+new2 = pd.merge(forecast1, new, on=['DistName', 'Year'], how='outer')
+new2 = new2.iloc[:, :16]
+new2 = new2[['DistName', 'RegnName_x', 'Year', 'ACT-Composite_x', 'ACT-Part_Rate_x', 'AP-11&12 Participating Students_x', 'AP-Total Exams_x', 'AP-Passed(%)_x', 'AP-Exams Taken Per Student_x',
+'Enrolled 4-Year_x', 'Total Graduated_x', 'Enrolled 4-Year (%)_x', 'SAT-Total_x', 'SAT-Part_Rate_x', 'Wealth/ADA_x', 'Graduated 4-Year (%)']]
+new2.columns = ['DistName', 'RegnName', 'Year', 'ACT-Composite', 'ACT-Part_Rate', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)', 'AP-Exams Taken Per Student',
+'Enrolled 4-Year', 'Total Graduated', 'Enrolled 4-Year (%)', 'SAT-Total', 'SAT-Part_Rate', 'Wealth/ADA', 'Graduated 4-Year (%)']
+new2.to_csv('Pre_Forecasted_Graduation.csv', index=False)
