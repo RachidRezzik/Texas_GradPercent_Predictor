@@ -195,7 +195,7 @@ pd.set_option('display.width', 1000)
 ### Model for Predicting College Graduation ###
 grad = pd.read_csv('Graduation_Historical.csv')
 grad = grad[grad.columns[3:]]
-X = grad.drop('Graduated 4-Year (%)', axis=1).values
+X = grad.drop(['Graduated 4-Year (%)', 'Graduated 4-Year'], axis=1).values
 y = grad['Graduated 4-Year (%)'].values
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.25, random_state=42)
 for regression_model in [Ridge(), Lasso()]:
@@ -209,16 +209,29 @@ for regression_model in [Ridge(), Lasso()]:
     # print(reg.score(X_train, y_train))
 
 ### Merging Historical/Predicted Test Features with Historical College Grad ###
-years = [2011, 2012, 2013, 2014]
-forecast1 = pd.read_csv('Forecasted_Features.csv')
-forecast = forecast1.loc[forecast1['Year'].isin(years)]
-grad = pd.read_csv('Graduation_Historical.csv')
-grad = grad[['DistName', 'Graduated 4-Year (%)', 'Year']]
-new = pd.merge(grad, forecast, on=['DistName', 'Year'], how='inner')
-new2 = pd.merge(forecast1, new, on=['DistName', 'Year'], how='outer')
-new2 = new2.iloc[:, :16]
-new2 = new2[['DistName', 'RegnName_x', 'Year', 'ACT-Composite_x', 'ACT-Part_Rate_x', 'AP-11&12 Participating Students_x', 'AP-Total Exams_x', 'AP-Passed(%)_x', 'AP-Exams Taken Per Student_x',
-'Enrolled 4-Year_x', 'Total Graduated_x', 'Enrolled 4-Year (%)_x', 'SAT-Total_x', 'SAT-Part_Rate_x', 'Wealth/ADA_x', 'Graduated 4-Year (%)']]
-new2.columns = ['DistName', 'RegnName', 'Year', 'ACT-Composite', 'ACT-Part_Rate', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)', 'AP-Exams Taken Per Student',
-'Enrolled 4-Year', 'Total Graduated', 'Enrolled 4-Year (%)', 'SAT-Total', 'SAT-Part_Rate', 'Wealth/ADA', 'Graduated 4-Year (%)']
-new2.to_csv('Pre_Forecasted_Graduation.csv', index=False)
+# years = [2011, 2012, 2013, 2014]
+# forecast1 = pd.read_csv('Forecasted_Features.csv')
+# forecast = forecast1.loc[forecast1['Year'].isin(years)]
+# grad = pd.read_csv('Graduation_Historical.csv')
+# grad = grad[['DistName', 'Graduated 4-Year (%)', 'Year']]
+# new = pd.merge(grad, forecast, on=['DistName', 'Year'], how='inner')
+# new2 = pd.merge(forecast1, new, on=['DistName', 'Year'], how='outer')
+# new2 = new2.iloc[:, :16]
+# new2 = new2[['DistName', 'RegnName_x', 'Year', 'ACT-Composite_x', 'ACT-Part_Rate_x', 'AP-11&12 Participating Students_x', 'AP-Total Exams_x', 'AP-Passed(%)_x', 'AP-Exams Taken Per Student_x',
+# 'Enrolled 4-Year_x', 'Total Graduated_x', 'Enrolled 4-Year (%)_x', 'SAT-Total_x', 'SAT-Part_Rate_x', 'Wealth/ADA_x', 'Graduated 4-Year (%)']]
+# new2.columns = ['DistName', 'RegnName', 'Year', 'ACT-Composite', 'ACT-Part_Rate', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)', 'AP-Exams Taken Per Student',
+# 'Enrolled 4-Year', 'Total Graduated', 'Enrolled 4-Year (%)', 'SAT-Total', 'SAT-Part_Rate', 'Wealth/ADA', 'Graduated 4-Year (%)']
+# new2.to_csv('Pre_Forecasted_Graduation.csv', index=False)
+
+
+### Predicting Missing College Graduation (%) ###
+hist_forc = pd.read_csv('Pre_Forecasted_Graduation.csv')
+hist_forc = hist_forc.fillna('NaN')
+columns = list(hist_forc.columns[3:-1])
+print(columns)
+for idx, row in hist_forc.iterrows():
+    if row['Graduated 4-Year (%)'] == 'NaN':
+        features = [row[col] for col in columns]
+        features = np.array(features).reshape(1, -1)
+        hist_forc.loc[idx, 'Graduated 4-Year (%)'] = reg.predict(features)
+hist_forc.to_csv('Final_Forecast.csv', index=False)
