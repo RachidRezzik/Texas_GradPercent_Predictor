@@ -153,14 +153,42 @@ pd.set_option('display.width', 1000)
 # Total_Merged.to_csv('Seven_Year_Historical.csv', index=False)
 
 ### Getting School Districts With the Full Seven Years of Data ###
-seven = pd.read_csv('Seven_Year_Historical.csv')
-seven = seven[seven.columns[:-2]]
-print(seven.head(5))
-seven = seven.dropna()
-wanted_dfs = []
-for dist in list(seven['DistName'].unique()):
-    dist_df = seven.loc[seven['DistName'] == dist]
-    if len(dist_df) == 7:
-        wanted_dfs.append(dist_df)
-new = pd.concat(wanted_dfs)
-new.to_csv('Seven_Year_Historical_new.csv', index=False)
+# seven = pd.read_csv('Seven_Year_Historical.csv')
+# seven = seven[seven.columns[:-2]]
+# print(seven.head(5))
+# seven = seven.dropna()
+# wanted_dfs = []
+# for dist in list(seven['DistName'].unique()):
+#     dist_df = seven.loc[seven['DistName'] == dist]
+#     if len(dist_df) == 7:
+#         wanted_dfs.append(dist_df)
+# new = pd.concat(wanted_dfs)
+# new.to_csv('Seven_Year_Historical_new.csv', index=False)
+
+### Forecasting the next 3 years (2018, 2019, 2020) ###
+historical = pd.read_csv('Seven_Year_Historical_new.csv')
+new_dfs = []
+for dist in list(historical['DistName'].unique()):
+    regn = list(historical.loc[historical['DistName'] == dist]['RegnName'].values)[0]
+    columns = ['ACT-Composite', 'ACT-Part_Rate', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)',
+               'AP-Exams Taken Per Student', 'Enrolled 4-Year', 'Total Graduated', 'Enrolled 4-Year (%)', 'SAT-Total',
+               'SAT-Part_Rate', 'Wealth/ADA']
+    new_df = {'DistName': dist, 'RegnName': regn, 'Year': [2018, 2019, 2020]}
+    for col in columns:
+        dist_hist = historical.loc[historical['DistName'] == dist][[col, 'Year']]
+        X = dist_hist.drop(col, axis=1).values
+        y = dist_hist[col].values
+        reg = LinearRegression(fit_intercept=False)
+        reg.fit(X, y)
+        y_pred = reg.predict([[2018], [2019], [2020]])
+        new_df.update({col: y_pred})
+        predictions_df = pd.DataFrame(new_df)
+        hist = historical.loc[historical['DistName'] == dist][['DistName', 'RegnName', 'Year', 'ACT-Composite', 'ACT-Part_Rate', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)',
+               'AP-Exams Taken Per Student', 'Enrolled 4-Year', 'Total Graduated', 'Enrolled 4-Year (%)', 'SAT-Total',
+               'SAT-Part_Rate', 'Wealth/ADA']]
+        if col == columns[-1]:
+            new_df_forecast = hist.append(predictions_df)
+            new_dfs.append(new_df_forecast)
+Hist_Forecast = pd.concat(new_dfs).sort_values(['DistName', 'Year'])
+Hist_Forecast.to_csv('Forecasted_Features.csv', index=False)
+
