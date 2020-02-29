@@ -10,6 +10,8 @@ from functools import reduce
 from sklearn.linear_model import LinearRegression, Ridge, Lasso
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 #Setting Pandas DF options#
@@ -193,16 +195,16 @@ pd.set_option('display.width', 1000)
 # Hist_Forecast.to_csv('Forecasted_Features.csv', index=False)
 
 ### Model for Predicting College Graduation ###
-grad = pd.read_csv('Graduation_Historical.csv')
-grad = grad[grad.columns[3:]]
-X = grad.drop(['Graduated 4-Year (%)', 'Graduated 4-Year'], axis=1).values
-y = grad['Graduated 4-Year (%)'].values
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.25, random_state=42)
-for regression_model in [Ridge(), Lasso()]:
-    params = {'alpha': [.0001, .001, .01, .1]}
-    reg = GridSearchCV(regression_model, param_grid=params, cv=5)
-    reg.fit(X_train, y_train)
-    y_pred = reg.predict(X_test)
+# grad = pd.read_csv('Graduation_Historical.csv')
+# grad = grad[grad.columns[3:]]
+# X = grad.drop(['Graduated 4-Year (%)', 'Graduated 4-Year'], axis=1).values
+# y = grad['Graduated 4-Year (%)'].values
+# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.25, random_state=42)
+# for regression_model in [Ridge(), Lasso()]:
+#     params = {'alpha': [.0001, .001, .01, .1]}
+#     reg = GridSearchCV(regression_model, param_grid=params, cv=5)
+#     reg.fit(X_train, y_train)
+#     y_pred = reg.predict(X_test)
     # print(reg.score(X_test, y_test))
     # print(reg.best_score_)
     # print(reg.best_params_)
@@ -225,13 +227,68 @@ for regression_model in [Ridge(), Lasso()]:
 
 
 ### Predicting Missing College Graduation (%) ###
-hist_forc = pd.read_csv('Pre_Forecasted_Graduation.csv')
-hist_forc = hist_forc.fillna('NaN')
-columns = list(hist_forc.columns[3:-1])
-print(columns)
-for idx, row in hist_forc.iterrows():
-    if row['Graduated 4-Year (%)'] == 'NaN':
-        features = [row[col] for col in columns]
-        features = np.array(features).reshape(1, -1)
-        hist_forc.loc[idx, 'Graduated 4-Year (%)'] = reg.predict(features)
-hist_forc.to_csv('Final_Forecast.csv', index=False)
+# hist_forc = pd.read_csv('Pre_Forecasted_Graduation.csv')
+# hist_forc = hist_forc.fillna('NaN')
+# columns = list(hist_forc.columns[3:-1])
+# print(columns)
+# for idx, row in hist_forc.iterrows():
+#     if row['Graduated 4-Year (%)'] == 'NaN':
+#         features = [row[col] for col in columns]
+#         features = np.array(features).reshape(1, -1)
+#         hist_forc.loc[idx, 'Graduated 4-Year (%)'] = reg.predict(features)
+# hist_forc.to_csv('Final_Forecast.csv', index=False)
+
+### Function to provide top # of options for year and region ###
+# def top_5_options(year, region, options):
+#     total = pd.read_csv('Final_Forecast.csv')
+#     year_region = total.loc[(total['Year'] == year) & (total['RegnName'] == region)][['DistName', 'RegnName', 'Year', 'Graduated 4-Year (%)']]
+#     year_region = year_region.sort_values('Graduated 4-Year (%)', ascending=False).reset_index(drop=True)
+#     print(year_region.head(options))
+#
+# top_5_options(2020, 'Richardson', 6)
+
+### Function to look up forecast for specific district ###
+# def district_forecast(district, year):
+#     total = pd.read_csv('Final_Forecast.csv')
+#     district = total.loc[(total['DistName'] == district) & (total['Year'] == year)][['DistName', 'RegnName', 'Year', 'Graduated 4-Year (%)']].reset_index(drop=True)
+#     print(district)
+#
+# district_forecast('AUSTIN ISD', 2018)
+
+### New school district (has less than 7 years in existance, predict college grad % for students from certain class based on their features ###
+# def predict_col_grad(feature_list):
+#     district_features = np.array(feature_list).reshape(1, -1)
+#     forecasted_grad = reg.predict(district_features)
+#     print(forecasted_grad)
+#
+# predict_col_grad([24.4, 47, 350, 670, 73, 2.6, 70, 380, 20, 1108, 75, 700000])
+
+#### TRENDS ####
+# Wealth/ADA
+total = pd.read_csv('Final_Forecast.csv')
+# print(np.corrcoef(total['Wealth/ADA'], total['Graduated 4-Year (%)']))
+# print(np.corrcoef(total['Wealth/ADA'], total['Enrolled 4-Year (%)']))
+# plt.subplot(2,1,1)
+# sns.regplot(data=total, x=total['Wealth/ADA'], y=total['Graduated 4-Year (%)'], color='red')
+# plt.subplot(2,1,2)
+# sns.regplot(data=total, x=total['Wealth/ADA'], y=total['Enrolled 4-Year (%)'], color='blue')
+# plt.show()
+
+### SAT and ACT participation over the years ###
+# participation = pd.pivot_table(total, index='Year', values=['SAT-Part_Rate', 'ACT-Part_Rate'], aggfunc=np.mean)
+# print(participation)
+
+### AP Exams Taken Per Student | Wealth/ADA ###
+# print(np.corrcoef(total['Wealth/ADA'], total['AP-Exams Taken Per Student']))
+# sns.regplot(data=total, x=total['Wealth/ADA'], y=total['AP-Exams Taken Per Student'], color='red')
+# plt.show()
+
+### Regional Grad % (Yearly) ###
+# enrol_grad = pd.pivot_table(total, index=['Year', 'RegnName'], values='Graduated 4-Year (%)', aggfunc=np.mean)
+# enrol_grad = enrol_grad.sort_values(['Year', 'Graduated 4-Year (%)'], ascending=[True, False])
+# print(enrol_grad)
+
+# enrol_grad = pd.pivot_table(total, index=['Year', 'RegnName'], values=['Enrolled 4-Year (%)', 'Wealth/ADA'], aggfunc=np.mean)
+# enrol_grad = enrol_grad.sort_values(['Year', 'Wealth/ADA'], ascending=[True, False])
+# print(enrol_grad)
+
