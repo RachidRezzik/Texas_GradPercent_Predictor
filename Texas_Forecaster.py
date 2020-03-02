@@ -20,52 +20,52 @@ pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 
 ### Fixing College Enrollment DFs ###
-SAT = pd.read_csv('Total_SAT.csv')
-SAT = SAT[['DistName', 'RegnName', 'Year']]
+# SAT = pd.read_csv('Total_SAT.csv')
+# SAT = SAT[['DistName', 'RegnName', 'Year']]
 
 ### Fixing College Enrollment DFs ###
-path = 'College_Enrollment/*'
-enrol_files = glob.glob(path)
-fixed_enrol_dfs = []
-for file_name in enrol_files:
-    file = pd.read_csv(file_name)
-    file = file[['DistName', 'Students Enrolled in Texas Public 4-year Universities',
-                 'Total High School Graduates']]
-    file.columns = ['DistName', 'Enrolled 4-Year', 'Total Graduated']
-    col_list = file.columns[1:]
-    dist = list(file['DistName'])
-    dist = [str(i) for i in dist]
-    dist = [i[9:] for i in dist]
-    file['DistName'] = pd.Series(dist)
-    for col in col_list:
-        new_list = []
-        series_list = list(file[col].values)
-        for value in series_list:
-            if '*' in str(value):
-                value = str(value).replace('*', '')
-            elif ',' in str(value):
-                value = str(value).replace(',', '')
-            new_list.append(value)
-        file[col] = pd.Series(new_list)
-        file[col] = pd.to_numeric(file[col])
-    file['Enrolled 4-Year (%)'] = (file['Enrolled 4-Year'] / file['Total Graduated']) * 100
-    file['Year'] = int(file_name[19:23])
-    wanted_dists = []
-    for dist_name in list(file['DistName'].values):
-        if ' ISD' in dist_name:
-            wanted_dists.append(dist_name)
-    file = file.loc[file['DistName'].isin(wanted_dists)]
-    fixed_enrol_dfs.append(file)
-total_enrollment = pd.concat(fixed_enrol_dfs)
-SAT = pd.read_csv('Total_SAT.csv')
-SAT = SAT[['DistName', 'RegnName', 'Year']]
-test = pd.merge(SAT, total_enrollment, on=['DistName', 'Year'], how='inner')
-test = test.sort_values(['DistName', 'Year'])
-test.to_csv('Total_Enrollment.csv', index=False)
+# path = 'College_Enrollment/*'
+# enrol_files = glob.glob(path)
+# fixed_enrol_dfs = []
+# for file_name in enrol_files:
+#     file = pd.read_csv(file_name)
+#     file = file[['DistName', 'Students Enrolled in Texas Public 4-year Universities',
+#                  'Total High School Graduates']]
+#     file.columns = ['DistName', 'Enrolled 4-Year', 'Total Graduated']
+#     col_list = file.columns[1:]
+#     dist = list(file['DistName'])
+#     dist = [str(i) for i in dist]
+#     dist = [i[9:] for i in dist]
+#     file['DistName'] = pd.Series(dist)
+#     for col in col_list:
+#         new_list = []
+#         series_list = list(file[col].values)
+#         for value in series_list:
+#             if '*' in str(value):
+#                 value = str(value).replace('*', '')
+#             elif ',' in str(value):
+#                 value = str(value).replace(',', '')
+#             new_list.append(value)
+#         file[col] = pd.Series(new_list)
+#         file[col] = pd.to_numeric(file[col])
+#     file['Enrolled 4-Year (%)'] = (file['Enrolled 4-Year'] / file['Total Graduated']) * 100
+#     file['Year'] = int(file_name[19:23])
+#     wanted_dists = []
+#     for dist_name in list(file['DistName'].values):
+#         if ' ISD' in dist_name:
+#             wanted_dists.append(dist_name)
+#     file = file.loc[file['DistName'].isin(wanted_dists)]
+#     fixed_enrol_dfs.append(file)
+# total_enrollment = pd.concat(fixed_enrol_dfs)
+# SAT = pd.read_csv('Total_SAT.csv')
+# SAT = SAT[['DistName', 'RegnName', 'Year']]
+# test = pd.merge(SAT, total_enrollment, on=['DistName', 'Year'], how='inner')
+# test = test.sort_values(['DistName', 'Year'])
+# test.to_csv('Total_Enrollment.csv', index=False)
 
 ### SAT/ACT ###
 # tests = ['SAT', 'ACT']
-major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
+# major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
 # for test in tests:
 #     fixed_test_dfs = []
 #     path = test + '/*'
@@ -92,32 +92,32 @@ major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
 #     new_test_df.to_csv('Total_' + test + '.csv', index=False)
 
 ### AP ###
-fixed_AP_dfs = []
-path = 'AP/*'
-AP_files = glob.glob(path)
-for file_name in AP_files:
-    file = pd.read_csv(file_name)
-    cols = file.columns[7:]
-    for col in cols:
-        series_list = list(file[col].values)
-        value_list = []
-        for value in series_list:
-            if '<' in str(value):
-                value = int(str(value).replace('<', '')) * (1 - .1)
-            elif ',' in str(value):
-                value = int(str(value).replace(',', ''))
-            value_list.append(value)
-        file[col] = pd.Series(value_list)
-        file[col] = pd.to_numeric(file[col])
-#     file = file[['DistName', 'RegnName', 'Exnees_Mskd', 'Exams_Mskd', 'Exams_Above_Crit_Rate']]
-    file.columns = ['DistName', 'RegnName', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)']
-    file['AP-Exams Taken Per Student'] = file['AP-Total Exams'] / file['AP-11&12 Participating Students']
-    file['Year'] = int(file_name[3:7])
-    wanted_dists = []
-    for dist_name in list(file['DistName'].values):
-        if ' ISD' in dist_name:
-            wanted_dists.append(dist_name)
-    file = file.loc[(file['RegnName'].isin(major_regions)) & (file['DistName'].isin(wanted_dists)) & (file['AP-Total Exams'] > 50)]
+# fixed_AP_dfs = []
+# path = 'AP/*'
+# AP_files = glob.glob(path)
+# for file_name in AP_files:
+#     file = pd.read_csv(file_name)
+#     cols = file.columns[7:]
+#     for col in cols:
+#         series_list = list(file[col].values)
+#         value_list = []
+#         for value in series_list:
+#             if '<' in str(value):
+#                 value = int(str(value).replace('<', '')) * (1 - .1)
+#             elif ',' in str(value):
+#                 value = int(str(value).replace(',', ''))
+#             value_list.append(value)
+#         file[col] = pd.Series(value_list)
+#         file[col] = pd.to_numeric(file[col])
+# #     file = file[['DistName', 'RegnName', 'Exnees_Mskd', 'Exams_Mskd', 'Exams_Above_Crit_Rate']]
+#     file.columns = ['DistName', 'RegnName', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)']
+#     file['AP-Exams Taken Per Student'] = file['AP-Total Exams'] / file['AP-11&12 Participating Students']
+#     file['Year'] = int(file_name[3:7])
+#     wanted_dists = []
+#     for dist_name in list(file['DistName'].values):
+#         if ' ISD' in dist_name:
+#             wanted_dists.append(dist_name)
+#     file = file.loc[(file['RegnName'].isin(major_regions)) & (file['DistName'].isin(wanted_dists)) & (file['AP-Total Exams'] > 50)]
 #     fixed_AP_dfs.append(file)
 # new_AP_df = pd.concat(fixed_AP_dfs).sort_values('Year')
 # new_AP_df = new_AP_df.dropna()
@@ -152,18 +152,18 @@ for file_name in AP_files:
 # new_wealth.to_csv('Total_Wealth.csv', index=False)
 
 ### Merging SAT, ACT, AP, Enrollment, Wealth/ADA ###
-path = 'Total_*'
-file_names = glob.glob(path)
-dfs = [pd.read_csv(file) for file in file_names]
-Total_Merged = reduce(lambda x, y: pd.merge(x, y, on=['DistName', 'RegnName', 'Year'], how='inner'), dfs)
-Total_Merged = Total_Merged.sort_values(['DistName', 'Year'])
-wanted_dfs = []
-for dist in list(Total_Merged['DistName'].unique()):
-    dist_df = Total_Merged.loc[Total_Merged['DistName'] == dist]
-    if len(dist_df) == 7:
-        wanted_dfs.append(dist_df)
-Total_Merged = pd.concat(wanted_dfs)
-Total_Merged.to_csv('Seven_Year_Historical.csv', index=False)
+# path = 'Total_*'
+# file_names = glob.glob(path)
+# dfs = [pd.read_csv(file) for file in file_names]
+# Total_Merged = reduce(lambda x, y: pd.merge(x, y, on=['DistName', 'RegnName', 'Year'], how='inner'), dfs)
+# Total_Merged = Total_Merged.sort_values(['DistName', 'Year'])
+# wanted_dfs = []
+# for dist in list(Total_Merged['DistName'].unique()):
+#     dist_df = Total_Merged.loc[Total_Merged['DistName'] == dist]
+#     if len(dist_df) == 7:
+#         wanted_dfs.append(dist_df)
+# Total_Merged = pd.concat(wanted_dfs)
+# Total_Merged.to_csv('Seven_Year_Historical.csv', index=False)
 
 ### Getting School Districts With the Full Seven Years of Data ###
 # seven = pd.read_csv('Seven_Year_Historical.csv')
@@ -277,22 +277,66 @@ Total_Merged.to_csv('Seven_Year_Historical.csv', index=False)
 #### TRENDS ####
 # Wealth/ADA
 total = pd.read_csv('Final_Forecast.csv')
+years = [2011, 2012, 2013, 2014, 2015, 2016, 2017]
+total = total.loc[total['Year'].isin(years)]
+major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
+color_dict = dict({'Houston':'blue',
+                  'San Antonio':'orange',
+                  'Austin': 'green',
+                  'Richardson': 'red',
+                   'Fort Worth': 'purple'})
 # print(np.corrcoef(total['Wealth/ADA'], total['Graduated 4-Year (%)']))
 # print(np.corrcoef(total['Wealth/ADA'], total['Enrolled 4-Year (%)']))
-# plt.subplot(2,1,1)
-# sns.regplot(data=total, x=total['Wealth/ADA'], y=total['Graduated 4-Year (%)'], color='red')
-# plt.subplot(2,1,2)
-# sns.regplot(data=total, x=total['Wealth/ADA'], y=total['Enrolled 4-Year (%)'], color='blue')
+# # plt.subplot(2,1,1)
+# graph = sns.lmplot(x='Wealth/ADA', y='Graduated 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
+# sns.regplot(x='Wealth/ADA', y='Graduated 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
+# plt.title('Graduated 4-Year (%) vs. Wealth/ADA')
+# plt.xlabel('Wealth/ADA ($)')
 # plt.show()
 
-### SAT and ACT participation over the years ###
-# participation = pd.pivot_table(total, index='Year', values=['SAT-Part_Rate', 'ACT-Part_Rate'], aggfunc=np.mean)
-# print(participation)
+graph = sns.lmplot(x='Wealth/ADA', y='Enrolled 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
+sns.regplot(x='Wealth/ADA', y='Enrolled 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
+plt.title('Enrolled 4-Year (%) vs. Wealth/ADA')
+plt.xlabel('Wealth/ADA ($)')
+plt.show()
+
+
+### SAT and ACT participation, Regional trends, Distribution ###
+# participation = pd.pivot_table(total, columns='Year', values=['SAT-Part_Rate', 'ACT-Part_Rate'], aggfunc=np.mean)
+# for region in major_regions:
+#     region_total = total.loc[total['RegnName'] == region]
+#     sat_trend = pd.pivot_table(region_total, index='Year', values='AP-Passed(%)', aggfunc=np.mean)
+#     sat_trend = pd.DataFrame(sat_trend.to_records())
+#     plt.plot(sat_trend['Year'], sat_trend['AP-Passed(%)'], color=color_dict[region], marker='s', label=region)
+# plt.xlabel('Year')
+# plt.ylabel('AP-Passed (%)')
+# plt.title('Regional Average Percentage of Passed AP Exams (2011 - 2017)')
+# plt.legend(loc='center left', bbox_to_anchor=(1, .5))
+# plt.show()
+# plt.hist(total['AP-Passed(%)'], color='green', edgecolor='black')
+# plt.title('AP-Passed (%) Distribution (Major Regions: 2011 - 2017)')
+# plt.xlabel('AP-Passed (%)')
+# plt.ylabel('Count')
+# plt.show()
+
+
 
 ### AP Exams Taken Per Student | Wealth/ADA ###
+# exam_student = pd.pivot_table(total, columns='Year', index='RegnName', values=['AP-Exams Taken Per Student'], aggfunc=np.mean)
+# print(exam_student)
 # print(np.corrcoef(total['Wealth/ADA'], total['AP-Exams Taken Per Student']))
-# sns.regplot(data=total, x=total['Wealth/ADA'], y=total['AP-Exams Taken Per Student'], color='red')
+# sns.regplot(data=total, x=total['Wealth/ADA'], y=total['AP-Exams Taken Per Student'], color='red', hue='RegnName')
 # plt.show()
+# graph = sns.lmplot(x='Wealth/ADA', y='AP-Exams Taken Per Student', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
+# sns.regplot(x='Wealth/ADA', y='AP-Exams Taken Per Student', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
+# plt.title('AP Exams Taken Per Student vs. Wealth/ADA')
+# plt.xlabel('Wealth/ADA ($)')
+# plt.show()
+
+### Wealth/ADA ###
+# wealth = pd.pivot_table(total, index='RegnName', values=['Wealth/ADA'], aggfunc=np.mean)
+# print(wealth)
+
 
 ### Regional Grad % (Yearly) ###
 # enrol_grad = pd.pivot_table(total, index=['Year', 'RegnName'], values='Graduated 4-Year (%)', aggfunc=np.mean)
