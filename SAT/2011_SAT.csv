@@ -1,4 +1,4 @@
-Group,DISTRICT,DistName,cntyname,RegnName,REGION,Math,CritRd,Writing,Total,Above_Crit_Rate,Exnees_Mskd,Crit_Mskd,Part_Rate,Grads_Mskd
+Group,DISTRICT,DistName,cntyname,RegnName,REGION,Math,Reading,Writing,Total,Above_Crit_Rate,Exnees_Mskd,Crit_Mskd,Part_Rate,Grads_Mskd
 All Students,1902,Cayuga ISD,Anderson County,Kilgore,7,491,467,444,958,,19,<5,50,38
 All Students,1903,Elkhart ISD,Anderson County,Kilgore,7,499,480,465,978,24.1,29,7,45.3,64
 All Students,1904,Frankston ISD,Anderson County,Kilgore,7,490,446,413,936,,27,<10,56.3,48
