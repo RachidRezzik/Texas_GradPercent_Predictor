@@ -219,21 +219,20 @@ pd.set_option('display.width', 1000)
 ### Merging SAT, ACT, AP, Enrollment, Wealth/ADA ###
 # path = 'Total_*'
 # file_names = glob.glob(path)
-file_names = ['Total_ACT.csv', 'Total_AP.csv', 'Total_Enrollment.csv', 'Total_SATwithout2017.csv', 'Total_Wealth.csv']
-dfs = [pd.read_csv(file) for file in file_names]
-Total_Merged = reduce(lambda x, y: pd.merge(x, y, on=['DistName', 'RegnName', 'Year'], how='inner'), dfs)
-Total_Merged = Total_Merged.sort_values(['DistName', 'Year'])
-wanted_dfs = []
-for dist in list(Total_Merged['DistName'].unique()):
-    dist_df = Total_Merged.loc[Total_Merged['DistName'] == dist]
-    if len(dist_df) == 7:
-        wanted_dfs.append(dist_df)
-Total_Merged = pd.concat(wanted_dfs)
-Total_Merged.to_csv('Seven_Year_Historical2.csv', index=False)
+# file_names = ['Total_ACT.csv', 'Total_AP.csv', 'Total_Enrollment.csv', 'Total_SATwithout2017.csv', 'Total_Wealth.csv']
+# dfs = [pd.read_csv(file) for file in file_names]
+# Total_Merged = reduce(lambda x, y: pd.merge(x, y, on=['DistName', 'RegnName', 'Year'], how='inner'), dfs)
+# Total_Merged = Total_Merged.sort_values(['DistName', 'Year'])
+# wanted_dfs = []
+# for dist in list(Total_Merged['DistName'].unique()):
+#     dist_df = Total_Merged.loc[Total_Merged['DistName'] == dist]
+#     if len(dist_df) == 7:
+#         wanted_dfs.append(dist_df)
+# Total_Merged = pd.concat(wanted_dfs)
+# Total_Merged.to_csv('Seven_Year_Historical2.csv', index=False)
 
 ### Getting School Districts With the Full Seven Years of Data ###
-# seven = pd.read_csv('Seven_Year_Historical.csv')
-# seven = seven[seven.columns[:-2]]
+# seven = pd.read_csv('Seven_Year_Historical2.csv')
 # print(seven.head(5))
 # seven = seven.dropna()
 # wanted_dfs = []
@@ -242,10 +241,10 @@ Total_Merged.to_csv('Seven_Year_Historical2.csv', index=False)
 #     if len(dist_df) == 7:
 #         wanted_dfs.append(dist_df)
 # new = pd.concat(wanted_dfs)
-# new.to_csv('Seven_Year_Historical_new.csv', index=False)
+# new.to_csv('Seven_Year_Historical7.csv', index=False)
 
 ### Forecasting the next 3 years (2018, 2019, 2020) ###
-# historical = pd.read_csv('Seven_Year_Historical_new.csv')
+# historical = pd.read_csv('Seven_Year_Historical7.csv')
 # new_dfs = []
 # for dist in list(historical['DistName'].unique()):
 #     regn = list(historical.loc[historical['DistName'] == dist]['RegnName'].values)[0]
@@ -269,27 +268,36 @@ Total_Merged.to_csv('Seven_Year_Historical2.csv', index=False)
 #             new_df_forecast = hist.append(predictions_df)
 #             new_dfs.append(new_df_forecast)
 # Hist_Forecast = pd.concat(new_dfs).sort_values(['DistName', 'Year'])
-# Hist_Forecast.to_csv('Forecasted_Features.csv', index=False)
+# Hist_Forecast.to_csv('Forecasted_Features2.csv', index=False)
+
+### Getting new SAT into graduation historical ###
+# grad = pd.read_csv('Graduation_Historical.csv')
+# grad = grad.drop('SAT-Total', axis=1)
+# SAT = pd.read_csv('Total_SATwithout2017.csv')
+# SAT = SAT[['DistName', 'RegnName', 'Year', 'SAT-Total']]
+# newgrad = pd.merge(grad, SAT, on=['DistName', 'RegnName', 'Year'], how='inner')
+# newgrad.to_csv('Graduation_Historical2.csv', index=False)
+
 
 ### Model for Predicting College Graduation ###
-# grad = pd.read_csv('Graduation_Historical.csv')
-# grad = grad[grad.columns[3:]]
-# X = grad.drop(['Graduated 4-Year (%)', 'Graduated 4-Year'], axis=1).values
-# y = grad['Graduated 4-Year (%)'].values
-# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.25, random_state=42)
-# for regression_model in [Ridge(), Lasso()]:
-#     params = {'alpha': [.0001, .001, .01, .1]}
-#     reg = GridSearchCV(regression_model, param_grid=params, cv=5)
-#     reg.fit(X_train, y_train)
-#     y_pred = reg.predict(X_test)
-    # print(reg.score(X_test, y_test))
-    # print(reg.best_score_)
-    # print(reg.best_params_)
-    # print(reg.score(X_train, y_train))
+grad = pd.read_csv('Graduation_Historical2.csv')
+grad = grad[grad.columns[3:]]
+X = grad.drop(['Graduated 4-Year (%)', 'Graduated 4-Year'], axis=1).values
+y = grad['Graduated 4-Year (%)'].values
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.25, random_state=42)
+for regression_model in [Ridge(), Lasso()]:
+    params = {'alpha': [.0001, .001, .01, .1]}
+    reg = GridSearchCV(regression_model, param_grid=params, cv=5)
+    reg.fit(X_train, y_train)
+    y_pred = reg.predict(X_test)
+#     print(reg.score(X_test, y_test))
+#     print(reg.best_score_)
+#     print(reg.best_params_)
+#     print(reg.score(X_train, y_train))
 
 ### Merging Historical/Predicted Test Features with Historical College Grad ###
 # years = [2011, 2012, 2013, 2014]
-# forecast1 = pd.read_csv('Forecasted_Features.csv')
+# forecast1 = pd.read_csv('Forecasted_Features2.csv')
 # forecast = forecast1.loc[forecast1['Year'].isin(years)]
 # grad = pd.read_csv('Graduation_Historical.csv')
 # grad = grad[['DistName', 'Graduated 4-Year (%)', 'Year']]
@@ -300,20 +308,20 @@ Total_Merged.to_csv('Seven_Year_Historical2.csv', index=False)
 # 'Enrolled 4-Year_x', 'Total Graduated_x', 'Enrolled 4-Year (%)_x', 'SAT-Total_x', 'SAT-Part_Rate_x', 'Wealth/ADA_x', 'Graduated 4-Year (%)']]
 # new2.columns = ['DistName', 'RegnName', 'Year', 'ACT-Composite', 'ACT-Part_Rate', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)', 'AP-Exams Taken Per Student',
 # 'Enrolled 4-Year', 'Total Graduated', 'Enrolled 4-Year (%)', 'SAT-Total', 'SAT-Part_Rate', 'Wealth/ADA', 'Graduated 4-Year (%)']
-# new2.to_csv('Pre_Forecasted_Graduation.csv', index=False)
+# new2.to_csv('Pre_Forecasted_Graduation2.csv', index=False)
 
 
 ### Predicting Missing College Graduation (%) ###
-# hist_forc = pd.read_csv('Pre_Forecasted_Graduation.csv')
-# hist_forc = hist_forc.fillna('NaN')
-# columns = list(hist_forc.columns[3:-1])
-# print(columns)
-# for idx, row in hist_forc.iterrows():
-#     if row['Graduated 4-Year (%)'] == 'NaN':
-#         features = [row[col] for col in columns]
-#         features = np.array(features).reshape(1, -1)
-#         hist_forc.loc[idx, 'Graduated 4-Year (%)'] = reg.predict(features)
-# hist_forc.to_csv('Final_Forecast.csv', index=False)
+hist_forc = pd.read_csv('Pre_Forecasted_Graduation2.csv')
+hist_forc = hist_forc.fillna('NaN')
+columns = list(hist_forc.columns[3:-1])
+print(columns)
+for idx, row in hist_forc.iterrows():
+    if row['Graduated 4-Year (%)'] == 'NaN':
+        features = [row[col] for col in columns]
+        features = np.array(features).reshape(1, -1)
+        hist_forc.loc[idx, 'Graduated 4-Year (%)'] = reg.predict(features)
+hist_forc.to_csv('Final_Forecast2.csv', index=False)
 
 ### Function to provide top # of options for year and region ###
 # def top_5_options(year, region, options):
