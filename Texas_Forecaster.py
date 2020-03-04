@@ -353,9 +353,9 @@ pd.set_option('display.width', 1000)
 
 #### TRENDS ####
 total = pd.read_csv('Final_Forecast2.csv')
-years = [2011, 2012, 2013, 2014]
+years = [2011, 2012, 2013, 2014, 2015, 2016, 2017]
 years2 = [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
-total1 = total.loc[total['Year'].isin(years)]
+total = total.loc[total['Year'].isin(years)]
 total2 = total.loc[total['Year'].isin([2014, 2015, 2016, 2017, 2018, 2019, 2020])]
 major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
 color_dict = dict({'Houston':'blue',
@@ -365,22 +365,22 @@ color_dict = dict({'Houston':'blue',
                    'Fort Worth': 'purple'})
 
 ### Graph Showing Regional College Graduation Trends + Forecast ###
-for region in major_regions:
-    region_total = total1.loc[total['RegnName'] == region]
-    sat_trend = pd.pivot_table(region_total, index='Year', values='Graduated 4-Year (%)', aggfunc=np.mean)
-    sat_trend = pd.DataFrame(sat_trend.to_records())
-    plt.plot(sat_trend['Year'], sat_trend['Graduated 4-Year (%)'], color=color_dict[region], marker='s', label=region)
-for region in major_regions:
-    region_total = total2.loc[total['RegnName'] == region]
-    sat_trend = pd.pivot_table(region_total, index='Year', values='Graduated 4-Year (%)', aggfunc=np.mean)
-    sat_trend = pd.DataFrame(sat_trend.to_records())
-    plt.plot(sat_trend['Year'], sat_trend['Graduated 4-Year (%)'], color=color_dict[region], marker='s', linestyle='--', label=region)
-
-plt.xlabel('Year')
-plt.ylabel('Graduated 4-Year (%)')
-plt.title('Regional Average College Graduation (Hist:2011 - 2014, Forc:2015 - 2020)')
-plt.xticks(years2)
-plt.show()
+# for region in major_regions:
+#     region_total = total1.loc[total['RegnName'] == region]
+#     sat_trend = pd.pivot_table(region_total, index='Year', values='Graduated 4-Year (%)', aggfunc=np.mean)
+#     sat_trend = pd.DataFrame(sat_trend.to_records())
+#     plt.plot(sat_trend['Year'], sat_trend['Graduated 4-Year (%)'], color=color_dict[region], marker='s', label=region)
+# for region in major_regions:
+#     region_total = total2.loc[total['RegnName'] == region]
+#     sat_trend = pd.pivot_table(region_total, index='Year', values='Graduated 4-Year (%)', aggfunc=np.mean)
+#     sat_trend = pd.DataFrame(sat_trend.to_records())
+#     plt.plot(sat_trend['Year'], sat_trend['Graduated 4-Year (%)'], color=color_dict[region], marker='s', linestyle='--', label=region)
+#
+# plt.xlabel('Year')
+# plt.ylabel('Graduated 4-Year (%)')
+# plt.title('Regional Average College Graduation (Hist:2011 - 2014, Forc:2015 - 2020)')
+# plt.xticks(years2)
+# plt.show()
 
 
 # print(np.corrcoef(total['Wealth/ADA'], total['Graduated 4-Year (%)']))
@@ -401,16 +401,16 @@ plt.show()
 
 ### SAT and ACT participation, Regional trends, Distribution ###
 # participation = pd.pivot_table(total, columns='Year', values=['SAT-Part_Rate', 'ACT-Part_Rate'], aggfunc=np.mean)
-# for region in major_regions:
-#     region_total = total.loc[total['RegnName'] == region]
-#     sat_trend = pd.pivot_table(region_total, index='Year', values='ACT-Composite', aggfunc=np.mean)
-#     sat_trend = pd.DataFrame(sat_trend.to_records())
-#     plt.plot(sat_trend['Year'], sat_trend['ACT-Composite'], color=color_dict[region], marker='s', label=region)
-# plt.xlabel('Year')
-# plt.ylabel('ACT-Composite')
-# plt.title('Regional Average ACT-Composite (2011 - 2017)')
+for region in major_regions:
+    region_total = total.loc[total['RegnName'] == region]
+    sat_trend = pd.pivot_table(region_total, index='Year', values='Wealth/ADA', aggfunc=np.mean)
+    sat_trend = pd.DataFrame(sat_trend.to_records())
+    plt.plot(sat_trend['Year'], sat_trend['Wealth/ADA'], color=color_dict[region], marker='s', label=region)
+plt.xlabel('Year')
+plt.ylabel('Wealth/ADA')
+plt.title('Regional Average Wealth/ADA (2011 - 2017)')
 # plt.legend(loc='center left', bbox_to_anchor=(1, .5))
-# plt.show()
+plt.show()
 # plt.hist(total['SAT-Total'], color='red', edgecolor='black')
 # plt.title('SAT-Total Distribution (Major Regions: 2011 - 2017)')
 # plt.xlabel('SAT-Total')
