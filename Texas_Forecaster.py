@@ -280,16 +280,16 @@ pd.set_option('display.width', 1000)
 
 
 ### Model for Predicting College Graduation ###
-grad = pd.read_csv('Graduation_Historical2.csv')
-grad = grad[grad.columns[3:]]
-X = grad.drop(['Graduated 4-Year (%)', 'Graduated 4-Year'], axis=1).values
-y = grad['Graduated 4-Year (%)'].values
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.25, random_state=42)
-for regression_model in [Ridge(), Lasso()]:
-    params = {'alpha': [.0001, .001, .01, .1]}
-    reg = GridSearchCV(regression_model, param_grid=params, cv=5)
-    reg.fit(X_train, y_train)
-    y_pred = reg.predict(X_test)
+# grad = pd.read_csv('Graduation_Historical2.csv')
+# grad = grad[grad.columns[3:]]
+# X = grad.drop(['Graduated 4-Year (%)', 'Graduated 4-Year'], axis=1).values
+# y = grad['Graduated 4-Year (%)'].values
+# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.25, random_state=42)
+# for regression_model in [Ridge(), Lasso()]:
+#     params = {'alpha': [.0001, .001, .01, .1]}
+#     reg = GridSearchCV(regression_model, param_grid=params, cv=5)
+#     reg.fit(X_train, y_train)
+#     y_pred = reg.predict(X_test)
 #     print(reg.score(X_test, y_test))
 #     print(reg.best_score_)
 #     print(reg.best_params_)
@@ -312,16 +312,16 @@ for regression_model in [Ridge(), Lasso()]:
 
 
 ### Predicting Missing College Graduation (%) ###
-hist_forc = pd.read_csv('Pre_Forecasted_Graduation2.csv')
-hist_forc = hist_forc.fillna('NaN')
-columns = list(hist_forc.columns[3:-1])
-print(columns)
-for idx, row in hist_forc.iterrows():
-    if row['Graduated 4-Year (%)'] == 'NaN':
-        features = [row[col] for col in columns]
-        features = np.array(features).reshape(1, -1)
-        hist_forc.loc[idx, 'Graduated 4-Year (%)'] = reg.predict(features)
-hist_forc.to_csv('Final_Forecast2.csv', index=False)
+# hist_forc = pd.read_csv('Pre_Forecasted_Graduation2.csv')
+# hist_forc = hist_forc.fillna('NaN')
+# columns = list(hist_forc.columns[3:-1])
+# print(columns)
+# for idx, row in hist_forc.iterrows():
+#     if row['Graduated 4-Year (%)'] == 'NaN':
+#         features = [row[col] for col in columns]
+#         features = np.array(features).reshape(1, -1)
+#         hist_forc.loc[idx, 'Graduated 4-Year (%)'] = reg.predict(features)
+# hist_forc.to_csv('Final_Forecast2.csv', index=False)
 
 ### Function to provide top # of options for year and region ###
 # def top_5_options(year, region, options):
@@ -348,23 +348,47 @@ hist_forc.to_csv('Final_Forecast2.csv', index=False)
 #
 # predict_col_grad([24.4, 47, 350, 670, 73, 2.6, 70, 380, 20, 1108, 75, 700000])
 
+### Graph Showing Regional College Graduation Trends + Forecast ###
+
+
 #### TRENDS ####
-# Wealth/ADA
-# total = pd.read_csv('Final_Forecast.csv')
-# years = [2011, 2012, 2013, 2014, 2015, 2016, 2017]
-# total = total.loc[total['Year'].isin(years)]
-# major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
-# color_dict = dict({'Houston':'blue',
-#                   'San Antonio':'orange',
-#                   'Austin': 'green',
-#                   'Richardson': 'red',
-#                    'Fort Worth': 'purple'})
+total = pd.read_csv('Final_Forecast2.csv')
+years = [2011, 2012, 2013, 2014]
+years2 = [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+total1 = total.loc[total['Year'].isin(years)]
+total2 = total.loc[total['Year'].isin([2014, 2015, 2016, 2017, 2018, 2019, 2020])]
+major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
+color_dict = dict({'Houston':'blue',
+                  'San Antonio':'orange',
+                  'Austin': 'green',
+                  'Richardson': 'red',
+                   'Fort Worth': 'purple'})
+
+### Graph Showing Regional College Graduation Trends + Forecast ###
+for region in major_regions:
+    region_total = total1.loc[total['RegnName'] == region]
+    sat_trend = pd.pivot_table(region_total, index='Year', values='Graduated 4-Year (%)', aggfunc=np.mean)
+    sat_trend = pd.DataFrame(sat_trend.to_records())
+    plt.plot(sat_trend['Year'], sat_trend['Graduated 4-Year (%)'], color=color_dict[region], marker='s', label=region)
+for region in major_regions:
+    region_total = total2.loc[total['RegnName'] == region]
+    sat_trend = pd.pivot_table(region_total, index='Year', values='Graduated 4-Year (%)', aggfunc=np.mean)
+    sat_trend = pd.DataFrame(sat_trend.to_records())
+    plt.plot(sat_trend['Year'], sat_trend['Graduated 4-Year (%)'], color=color_dict[region], marker='s', linestyle='--', label=region)
+
+plt.xlabel('Year')
+plt.ylabel('Graduated 4-Year (%)')
+plt.title('Regional Average College Graduation (Hist:2011 - 2014, Forc:2015 - 2020)')
+plt.xticks(years2)
+plt.show()
+
+
 # print(np.corrcoef(total['Wealth/ADA'], total['Graduated 4-Year (%)']))
-# print(np.corrcoef(total['Wealth/ADA'], total['Enrolled 4-Year (%)']))
-# # plt.subplot(2,1,1)
+# # print(np.corrcoef(total['Wealth/ADA'], total['Enrolled 4-Year (%)']))
+# # # plt.subplot(2,1,1)
 # graph = sns.lmplot(x='Wealth/ADA', y='Graduated 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
 # sns.regplot(x='Wealth/ADA', y='Graduated 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
-# plt.title('Graduated 4-Year (%) vs. Wealth/ADA')
+# plt.title('Graduated 4-Year (%) vs. Wealth/ADA (2011 - 2014)')
 # plt.xlabel('Wealth/ADA ($)')
 # plt.show()
 
@@ -379,17 +403,17 @@ hist_forc.to_csv('Final_Forecast2.csv', index=False)
 # participation = pd.pivot_table(total, columns='Year', values=['SAT-Part_Rate', 'ACT-Part_Rate'], aggfunc=np.mean)
 # for region in major_regions:
 #     region_total = total.loc[total['RegnName'] == region]
-#     sat_trend = pd.pivot_table(region_total, index='Year', values='AP-Passed(%)', aggfunc=np.mean)
+#     sat_trend = pd.pivot_table(region_total, index='Year', values='ACT-Composite', aggfunc=np.mean)
 #     sat_trend = pd.DataFrame(sat_trend.to_records())
-#     plt.plot(sat_trend['Year'], sat_trend['AP-Passed(%)'], color=color_dict[region], marker='s', label=region)
+#     plt.plot(sat_trend['Year'], sat_trend['ACT-Composite'], color=color_dict[region], marker='s', label=region)
 # plt.xlabel('Year')
-# plt.ylabel('AP-Passed (%)')
-# plt.title('Regional Average Percentage of Passed AP Exams (2011 - 2017)')
+# plt.ylabel('ACT-Composite')
+# plt.title('Regional Average ACT-Composite (2011 - 2017)')
 # plt.legend(loc='center left', bbox_to_anchor=(1, .5))
 # plt.show()
-# plt.hist(total['AP-Passed(%)'], color='green', edgecolor='black')
-# plt.title('AP-Passed (%) Distribution (Major Regions: 2011 - 2017)')
-# plt.xlabel('AP-Passed (%)')
+# plt.hist(total['SAT-Total'], color='red', edgecolor='black')
+# plt.title('SAT-Total Distribution (Major Regions: 2011 - 2017)')
+# plt.xlabel('SAT-Total')
 # plt.ylabel('Count')
 # plt.show()
 
