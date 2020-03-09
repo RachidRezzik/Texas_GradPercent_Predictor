@@ -7,12 +7,16 @@ import pandas as pd
 import numpy as np
 import glob
 from functools import reduce
-from sklearn.linear_model import LinearRegression, Ridge, Lasso
+from sklearn.metrics import r2_score, mean_squared_error, make_scorer
+from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+from sklearn.pipeline import Pipeline, make_pipeline
+from sklearn.preprocessing import RobustScaler, MinMaxScaler, Normalizer, StandardScaler
+from statsmodels.stats.outliers_influence import variance_inflation_factor
+from statsmodels.tools.tools import add_constant
 
 #Setting Pandas DF options#
 pd.set_option('display.max_rows', 500)
@@ -280,20 +284,43 @@ pd.set_option('display.width', 1000)
 
 
 ### Model for Predicting College Graduation ###
-# grad = pd.read_csv('Graduation_Historical2.csv')
-# grad = grad[grad.columns[3:]]
-# X = grad.drop(['Graduated 4-Year (%)', 'Graduated 4-Year'], axis=1).values
-# y = grad['Graduated 4-Year (%)'].values
+
+grad = pd.read_csv('Graduation_Historical2.csv')
+grad_all_features = grad[grad.columns[3:-2]]
+# grad_less_features = grad[['ACT-Composite', 'AP-Passed(%)', 'Enrolled 4-Year (%)', 'SAT-Total', 'Wealth/ADA', 'Graduated 4-Year (%)']]
+# X = grad_all_features.drop(['Graduated 4-Year', 'Graduated 4-Year (%)'], axis=1).values
+# y = grad_all_features['Graduated 4-Year (%)'].values
+
+### VIF multicollinearity ###
+vif = pd.DataFrame()
+vif["VIF Factor"] = [variance_inflation_factor(grad_all_features.values, i) for i in range(grad_all_features.shape[1])]
+vif["features"] = grad_all_features.columns
+print(vif)
+vif2 = grad_all_features
+vif_cor = grad_all_features.corr()
+# new_vif = pd.DataFrame(np.linalg.inv(vif2.corr().values), index=vif_cor.index, columns=vif_cor.columns)
+# print(new_vif)
+vifs = pd.Series(np.linalg.inv(vif2.corr().values).diagonal(), index=vif_cor.index)
+print(grad_all_features.corr())
+
+
 # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.25, random_state=42)
-# for regression_model in [Ridge(), Lasso()]:
-#     params = {'alpha': [.0001, .001, .01, .1]}
-#     reg = GridSearchCV(regression_model, param_grid=params, cv=5)
-#     reg.fit(X_train, y_train)
-#     y_pred = reg.predict(X_test)
-#     print(reg.score(X_test, y_test))
-#     print(reg.best_score_)
-#     print(reg.best_params_)
-#     print(reg.score(X_train, y_train))
+# for regression_model in [Ridge(), Lasso(), ElasticNet()]:
+#     print('\n' + str(regression_model))
+#     for scaler in [RobustScaler(), MinMaxScaler(), Normalizer(), StandardScaler()]:
+#         steps = [('scaler', scaler), ('reg', regression_model)]
+#         pipeline = Pipeline(steps)
+#         params = {'reg__alpha': [.00001, .0001, .001, .01, .1]}
+#         reg = GridSearchCV(pipeline, param_grid=params, scoring=make_scorer(mean_squared_error), cv=5)
+#         reg.fit(X_train, y_train)
+#         y_pred = reg.predict(X_test)
+#         print('\n' + str(scaler))
+#         print(reg.best_score_, reg.best_params_, reg.score(X_test, y_test))
+# scaler = RobustScaler()
+# reg = ElasticNet(alpha=.0001)
+# pipeline = make_pipeline(scaler, reg)
+# reg.fit(X_train, y_train)
+# y_pred = reg.predict(X_test)
 
 ### Merging Historical/Predicted Test Features with Historical College Grad ###
 # years = [2011, 2012, 2013, 2014]
@@ -311,7 +338,7 @@ pd.set_option('display.width', 1000)
 # new2.to_csv('Pre_Forecasted_Graduation2.csv', index=False)
 
 
-### Predicting Missing College Graduation (%) ###
+# ### Predicting Missing College Graduation (%) ###
 # hist_forc = pd.read_csv('Pre_Forecasted_Graduation2.csv')
 # hist_forc = hist_forc.fillna('NaN')
 # columns = list(hist_forc.columns[3:-1])
@@ -348,21 +375,19 @@ pd.set_option('display.width', 1000)
 #
 # predict_col_grad([24.4, 47, 350, 670, 73, 2.6, 70, 380, 20, 1108, 75, 700000])
 
-### Graph Showing Regional College Graduation Trends + Forecast ###
-
 
 #### TRENDS ####
-total = pd.read_csv('Final_Forecast2.csv')
-years = [2011, 2012, 2013, 2014, 2015, 2016, 2017]
-years2 = [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
-total = total.loc[total['Year'].isin(years)]
-total2 = total.loc[total['Year'].isin([2014, 2015, 2016, 2017, 2018, 2019, 2020])]
-major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
-color_dict = dict({'Houston':'blue',
-                  'San Antonio':'orange',
-                  'Austin': 'green',
-                  'Richardson': 'red',
-                   'Fort Worth': 'purple'})
+# total = pd.read_csv('Final_Forecast2.csv')
+# years = [2011, 2012, 2013, 2014]
+# # years2 = [2015, 2016, 2017, 2018, 2019, 2020]
+# total1 = total.loc[total['Year'].isin(years)]
+# total2 = total.loc[total['Year'].isin([2014, 2015, 2016, 2017, 2018, 2019, 2020])]
+# major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
+# color_dict = dict({'Houston':'blue',
+#                   'San Antonio':'orange',
+#                   'Austin': 'green',
+#                   'Richardson': 'red',
+#                    'Fort Worth': 'purple'})
 
 ### Graph Showing Regional College Graduation Trends + Forecast ###
 # for region in major_regions:
@@ -379,7 +404,7 @@ color_dict = dict({'Houston':'blue',
 # plt.xlabel('Year')
 # plt.ylabel('Graduated 4-Year (%)')
 # plt.title('Regional Average College Graduation (Hist:2011 - 2014, Forc:2015 - 2020)')
-# plt.xticks(years2)
+# plt.xticks([2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020])
 # plt.show()
 
 
@@ -401,14 +426,14 @@ color_dict = dict({'Houston':'blue',
 
 ### SAT and ACT participation, Regional trends, Distribution ###
 # participation = pd.pivot_table(total, columns='Year', values=['SAT-Part_Rate', 'ACT-Part_Rate'], aggfunc=np.mean)
-for region in major_regions:
-    region_total = total.loc[total['RegnName'] == region]
-    sat_trend = pd.pivot_table(region_total, index='Year', values='Wealth/ADA', aggfunc=np.mean)
-    sat_trend = pd.DataFrame(sat_trend.to_records())
-    plt.plot(sat_trend['Year'], sat_trend['Wealth/ADA'], color=color_dict[region], marker='s', label=region)
-plt.xlabel('Year')
-plt.ylabel('Wealth/ADA')
-plt.title('Regional Average Wealth/ADA (2011 - 2017)')
+# for region in major_regions:
+#     region_total = total.loc[total['RegnName'] == region]
+#     sat_trend = pd.pivot_table(region_total, index='Year', values='Wealth/ADA', aggfunc=np.mean)
+#     sat_trend = pd.DataFrame(sat_trend.to_records())
+#     plt.plot(sat_trend['Year'], sat_trend['Wealth/ADA'], color=color_dict[region], marker='s', label=region)
+# plt.xlabel('Year')
+# plt.ylabel('Wealth/ADA')
+# plt.title('Regional Average Wealth/ADA (2011 - 2017)')
 # plt.legend(loc='center left', bbox_to_anchor=(1, .5))
 plt.show()
 # plt.hist(total['SAT-Total'], color='red', edgecolor='black')
