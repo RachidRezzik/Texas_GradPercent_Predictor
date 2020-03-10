@@ -28,212 +28,212 @@ pd.set_option('display.width', 1000)
 # SAT = SAT[['DistName', 'RegnName', 'Year']]
 
 ### Fixing College Enrollment DFs ###
-# path = 'College_Enrollment/*'
-# enrol_files = glob.glob(path)
-# fixed_enrol_dfs = []
-# for file_name in enrol_files:
-#     file = pd.read_csv(file_name)
-#     file = file[['DistName', 'Students Enrolled in Texas Public 4-year Universities',
-#                  'Total High School Graduates']]
-#     file.columns = ['DistName', 'Enrolled 4-Year', 'Total Graduated']
-#     col_list = file.columns[1:]
-#     dist = list(file['DistName'])
-#     dist = [str(i) for i in dist]
-#     dist = [i[9:] for i in dist]
-#     file['DistName'] = pd.Series(dist)
-#     for col in col_list:
-#         new_list = []
-#         series_list = list(file[col].values)
-#         for value in series_list:
-#             if '*' in str(value):
-#                 value = str(value).replace('*', '')
-#             elif ',' in str(value):
-#                 value = str(value).replace(',', '')
-#             new_list.append(value)
-#         file[col] = pd.Series(new_list)
-#         file[col] = pd.to_numeric(file[col])
-#     file['Enrolled 4-Year (%)'] = (file['Enrolled 4-Year'] / file['Total Graduated']) * 100
-#     file['Year'] = int(file_name[19:23])
-#     wanted_dists = []
-#     for dist_name in list(file['DistName'].values):
-#         if ' ISD' in dist_name:
-#             wanted_dists.append(dist_name)
-#     file = file.loc[file['DistName'].isin(wanted_dists)]
-#     fixed_enrol_dfs.append(file)
-# total_enrollment = pd.concat(fixed_enrol_dfs)
-# SAT = pd.read_csv('Total_SAT.csv')
-# SAT = SAT[['DistName', 'RegnName', 'Year']]
-# test = pd.merge(SAT, total_enrollment, on=['DistName', 'Year'], how='inner')
-# test = test.sort_values(['DistName', 'Year'])
-# test.to_csv('Total_Enrollment.csv', index=False)
+path = 'College_Enrollment/*'
+enrol_files = glob.glob(path)
+fixed_enrol_dfs = []
+for file_name in enrol_files:
+    file = pd.read_csv(file_name)
+    file = file[['DistName', 'Students Enrolled in Texas Public 4-year Universities',
+                 'Total High School Graduates']]
+    file.columns = ['DistName', 'Enrolled 4-Year', 'Total Graduated']
+    col_list = file.columns[1:]
+    dist = list(file['DistName'])
+    dist = [str(i) for i in dist]
+    dist = [i[9:] for i in dist]
+    file['DistName'] = pd.Series(dist)
+    for col in col_list:
+        new_list = []
+        series_list = list(file[col].values)
+        for value in series_list:
+            if '*' in str(value):
+                value = str(value).replace('*', '')
+            elif ',' in str(value):
+                value = str(value).replace(',', '')
+            new_list.append(value)
+        file[col] = pd.Series(new_list)
+        file[col] = pd.to_numeric(file[col])
+    file['Enrolled 4-Year (%)'] = (file['Enrolled 4-Year'] / file['Total Graduated']) * 100
+    file['Year'] = int(file_name[19:23])
+    wanted_dists = []
+    for dist_name in list(file['DistName'].values):
+        if ' ISD' in dist_name:
+            wanted_dists.append(dist_name)
+    file = file.loc[file['DistName'].isin(wanted_dists)]
+    fixed_enrol_dfs.append(file)
+total_enrollment = pd.concat(fixed_enrol_dfs)
+SAT = pd.read_csv('Total_SAT.csv')
+SAT = SAT[['DistName', 'RegnName', 'Year']]
+test = pd.merge(SAT, total_enrollment, on=['DistName', 'Year'], how='inner')
+test = test.sort_values(['DistName', 'Year'])
+test.to_csv('Total_Enrollment.csv', index=False)
 
 
 ### SAT/ACT ###
-# tests = ['SAT', 'ACT']
-# major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
-# for test in tests:
-#     fixed_test_dfs = []
-#     path = test + '/*'
-#     enrol_files = glob.glob(path)
-#     for file_name in enrol_files:
-#         if file_name in enrol_files[:-1] and 'SAT' in file_name:
-#             file = pd.read_csv(file_name)
-#             file = file[['DistName', 'RegnName', 'Math', 'Reading', 'Writing', 'Part_Rate']]
-#             file['SAT-Total'] = 0
-#             file['ERW'] = 0
-#             for idx, row in file.iterrows():
-#                 if 300 < row['Math'] < 320:
-#                     previous_score = file.loc[idx, 'Math']
-#                     file.loc[idx, 'Math'] = previous_score + 50
-#                 elif 320 <= row['Math'] < 480:
-#                     previous_score = file.loc[idx, 'Math']
-#                     file.loc[idx, 'Math'] = previous_score + 40
-#                 elif 480 <= row['Math'] < 550:
-#                     previous_score = file.loc[idx, 'Math']
-#                     file.loc[idx, 'Math'] = previous_score + 30
-#                 elif 550 <= row['Math'] < 660:
-#                     previous_score = file.loc[idx, 'Math']
-#                     file.loc[idx, 'Math'] = previous_score + 20
-#                 elif 660 <= row['Math'] < 730:
-#                     previous_score = file.loc[idx, 'Math']
-#                     file.loc[idx, 'Math'] = previous_score + 30
-#             for idx, row in file.iterrows():
-#                 if 590 <= (row['Writing'] + row['Reading']) < 610:
-#                     file.loc[idx, 'SAT-Total'] = 350 + row['Math']
-#                 elif 610 <= (row['Writing'] + row['Reading']) < 640:
-#                     file.loc[idx, 'SAT-Total'] = 360 + row['Math']
-#                 elif 640 <= (row['Writing'] + row['Reading']) < 660:
-#                     file.loc[idx, 'SAT-Total'] = 370 + row['Math']
-#                 elif 660 <= (row['Writing'] + row['Reading']) < 840:
-#                     first_score = 380
-#                     scores = [660 + (i * 20) for i in range(10)]
-#                     for previous, current in zip(scores, scores[1:]):
-#                         if previous <= (row['Writing'] + row['Reading']) < current:
-#                             file.loc[idx, 'SAT-Total'] = first_score + row['Math']
-#                         first_score += 10
-#                 elif 840 <= (row['Writing'] + row['Reading']) < 850:
-#                     file.loc[idx, 'SAT-Total'] = 470 + row['Math']
-#                 elif 850 <= (row['Writing'] + row['Reading']) < 930:
-#                     first_score = 480
-#                     scores = [850 + (i * 20) for i in range(5)]
-#                     for previous, current in zip(scores, scores[1:]):
-#                         if previous <= (row['Writing'] + row['Reading']) < current:
-#                             file.loc[idx, 'SAT-Total'] = first_score + row['Math']
-#                         first_score += 10
-#                 elif 930 <= (row['Writing'] + row['Reading']) < 940:
-#                     file.loc[idx, 'SAT-Total'] = 520 + row['Math']
-#                 elif 940 <= (row['Writing'] + row['Reading']) < 1180:
-#                     first_score = 530
-#                     scores = [940 + (i * 20) for i in range(13)]
-#                     for previous, current in zip(scores, scores[1:]):
-#                         if previous <= (row['Writing'] + row['Reading']) < current:
-#                             file.loc[idx, 'SAT-Total'] = first_score + row['Math']
-#                         first_score += 10
-#                 elif 1180 <= (row['Writing'] + row['Reading']) < 1210:
-#                     file.loc[idx, 'SAT-Total'] = 650 + row['Math']
-#                 elif 1210 <= (row['Writing'] + row['Reading']) < 1250:
-#                     first_score = 660
-#                     scores = [1210 + (i * 20) for i in range(3)]
-#                     for previous, current in zip(scores, scores[1:]):
-#                         if previous < (row['Writing'] + row['Reading']) < current:
-#                             file.loc[idx, 'SAT-Total'] = first_score + row['Math']
-#                         first_score += 10
-#             file = file[['DistName', 'RegnName', 'SAT-Total', 'Part_Rate']]
-#             file.columns = ['DistName', 'RegnName', 'SAT-Total', 'SAT-Part_Rate']
-#         elif file_name == enrol_files[-1] and 'SAT' in file_name:
-#             file = pd.read_csv(file_name)
-#             file = file[['DistName', 'RegnName', 'Total', 'Part_Rate']]
-#             file.columns = ['DistName', 'RegnName', 'SAT-Total', 'SAT-Part_Rate']
-#         else:
-#             file = pd.read_csv(file_name)
-#             file = file[['DistName', 'RegnName', 'Compos', 'Part_Rate']]
-#             file.columns = ['DistName', 'RegnName', 'ACT-Composite', 'ACT-Part_Rate']
-#         wanted_dists = []
-#         for dist_name in list(file['DistName'].values):
-#             if ' ISD' in dist_name:
-#                 wanted_dists.append(dist_name)
-#         file = file.loc[(file['DistName'].isin(wanted_dists)) & (file['RegnName'].isin(major_regions))]
-#         file['Year'] = int(file_name[4:8])
-#         file['DistName'] = file['DistName'].str.upper()
-#         fixed_test_dfs.append(file)
-#     new_test_df = pd.concat(fixed_test_dfs)
-#     new_test_df = new_test_df.dropna()
-#     new_test_df.to_csv('Total_' + test + 'without2017.csv', index=False)
+tests = ['SAT', 'ACT']
+major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
+for test in tests:
+    fixed_test_dfs = []
+    path = test + '/*'
+    enrol_files = glob.glob(path)
+    for file_name in enrol_files:
+        if file_name in enrol_files[:-1] and 'SAT' in file_name:
+            file = pd.read_csv(file_name)
+            file = file[['DistName', 'RegnName', 'Math', 'Reading', 'Writing', 'Part_Rate']]
+            file['SAT-Total'] = 0
+            file['ERW'] = 0
+            for idx, row in file.iterrows():
+                if 300 < row['Math'] < 320:
+                    previous_score = file.loc[idx, 'Math']
+                    file.loc[idx, 'Math'] = previous_score + 50
+                elif 320 <= row['Math'] < 480:
+                    previous_score = file.loc[idx, 'Math']
+                    file.loc[idx, 'Math'] = previous_score + 40
+                elif 480 <= row['Math'] < 550:
+                    previous_score = file.loc[idx, 'Math']
+                    file.loc[idx, 'Math'] = previous_score + 30
+                elif 550 <= row['Math'] < 660:
+                    previous_score = file.loc[idx, 'Math']
+                    file.loc[idx, 'Math'] = previous_score + 20
+                elif 660 <= row['Math'] < 730:
+                    previous_score = file.loc[idx, 'Math']
+                    file.loc[idx, 'Math'] = previous_score + 30
+            for idx, row in file.iterrows():
+                if 590 <= (row['Writing'] + row['Reading']) < 610:
+                    file.loc[idx, 'SAT-Total'] = 350 + row['Math']
+                elif 610 <= (row['Writing'] + row['Reading']) < 640:
+                    file.loc[idx, 'SAT-Total'] = 360 + row['Math']
+                elif 640 <= (row['Writing'] + row['Reading']) < 660:
+                    file.loc[idx, 'SAT-Total'] = 370 + row['Math']
+                elif 660 <= (row['Writing'] + row['Reading']) < 840:
+                    first_score = 380
+                    scores = [660 + (i * 20) for i in range(10)]
+                    for previous, current in zip(scores, scores[1:]):
+                        if previous <= (row['Writing'] + row['Reading']) < current:
+                            file.loc[idx, 'SAT-Total'] = first_score + row['Math']
+                        first_score += 10
+                elif 840 <= (row['Writing'] + row['Reading']) < 850:
+                    file.loc[idx, 'SAT-Total'] = 470 + row['Math']
+                elif 850 <= (row['Writing'] + row['Reading']) < 930:
+                    first_score = 480
+                    scores = [850 + (i * 20) for i in range(5)]
+                    for previous, current in zip(scores, scores[1:]):
+                        if previous <= (row['Writing'] + row['Reading']) < current:
+                            file.loc[idx, 'SAT-Total'] = first_score + row['Math']
+                        first_score += 10
+                elif 930 <= (row['Writing'] + row['Reading']) < 940:
+                    file.loc[idx, 'SAT-Total'] = 520 + row['Math']
+                elif 940 <= (row['Writing'] + row['Reading']) < 1180:
+                    first_score = 530
+                    scores = [940 + (i * 20) for i in range(13)]
+                    for previous, current in zip(scores, scores[1:]):
+                        if previous <= (row['Writing'] + row['Reading']) < current:
+                            file.loc[idx, 'SAT-Total'] = first_score + row['Math']
+                        first_score += 10
+                elif 1180 <= (row['Writing'] + row['Reading']) < 1210:
+                    file.loc[idx, 'SAT-Total'] = 650 + row['Math']
+                elif 1210 <= (row['Writing'] + row['Reading']) < 1250:
+                    first_score = 660
+                    scores = [1210 + (i * 20) for i in range(3)]
+                    for previous, current in zip(scores, scores[1:]):
+                        if previous < (row['Writing'] + row['Reading']) < current:
+                            file.loc[idx, 'SAT-Total'] = first_score + row['Math']
+                        first_score += 10
+            file = file[['DistName', 'RegnName', 'SAT-Total', 'Part_Rate']]
+            file.columns = ['DistName', 'RegnName', 'SAT-Total', 'SAT-Part_Rate']
+        elif file_name == enrol_files[-1] and 'SAT' in file_name:
+            file = pd.read_csv(file_name)
+            file = file[['DistName', 'RegnName', 'Total', 'Part_Rate']]
+            file.columns = ['DistName', 'RegnName', 'SAT-Total', 'SAT-Part_Rate']
+        else:
+            file = pd.read_csv(file_name)
+            file = file[['DistName', 'RegnName', 'Compos', 'Part_Rate']]
+            file.columns = ['DistName', 'RegnName', 'ACT-Composite', 'ACT-Part_Rate']
+        wanted_dists = []
+        for dist_name in list(file['DistName'].values):
+            if ' ISD' in dist_name:
+                wanted_dists.append(dist_name)
+        file = file.loc[(file['DistName'].isin(wanted_dists)) & (file['RegnName'].isin(major_regions))]
+        file['Year'] = int(file_name[4:8])
+        file['DistName'] = file['DistName'].str.upper()
+        fixed_test_dfs.append(file)
+    new_test_df = pd.concat(fixed_test_dfs)
+    new_test_df = new_test_df.dropna()
+    new_test_df.to_csv('Total_' + test + 'without2017.csv', index=False)
 
 ### AP ###
-# fixed_AP_dfs = []
-# path = 'AP/*'
-# AP_files = glob.glob(path)
-# for file_name in AP_files:
-#     file = pd.read_csv(file_name)
-#     cols = file.columns[7:]
-#     for col in cols:
-#         series_list = list(file[col].values)
-#         value_list = []
-#         for value in series_list:
-#             if '<' in str(value):
-#                 value = int(str(value).replace('<', '')) * (1 - .1)
-#             elif ',' in str(value):
-#                 value = int(str(value).replace(',', ''))
-#             value_list.append(value)
-#         file[col] = pd.Series(value_list)
-#         file[col] = pd.to_numeric(file[col])
-# #     file = file[['DistName', 'RegnName', 'Exnees_Mskd', 'Exams_Mskd', 'Exams_Above_Crit_Rate']]
-#     file.columns = ['DistName', 'RegnName', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)']
-#     file['AP-Exams Taken Per Student'] = file['AP-Total Exams'] / file['AP-11&12 Participating Students']
-#     file['Year'] = int(file_name[3:7])
-#     wanted_dists = []
-#     for dist_name in list(file['DistName'].values):
-#         if ' ISD' in dist_name:
-#             wanted_dists.append(dist_name)
-#     file = file.loc[(file['RegnName'].isin(major_regions)) & (file['DistName'].isin(wanted_dists)) & (file['AP-Total Exams'] > 50)]
-#     fixed_AP_dfs.append(file)
-# new_AP_df = pd.concat(fixed_AP_dfs).sort_values('Year')
-# new_AP_df = new_AP_df.dropna()
+fixed_AP_dfs = []
+path = 'AP/*'
+AP_files = glob.glob(path)
+for file_name in AP_files:
+    file = pd.read_csv(file_name)
+    cols = file.columns[7:]
+    for col in cols:
+        series_list = list(file[col].values)
+        value_list = []
+        for value in series_list:
+            if '<' in str(value):
+                value = int(str(value).replace('<', '')) * (1 - .1)
+            elif ',' in str(value):
+                value = int(str(value).replace(',', ''))
+            value_list.append(value)
+        file[col] = pd.Series(value_list)
+        file[col] = pd.to_numeric(file[col])
+#     file = file[['DistName', 'RegnName', 'Exnees_Mskd', 'Exams_Mskd', 'Exams_Above_Crit_Rate']]
+    file.columns = ['DistName', 'RegnName', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)']
+    file['AP-Exams Taken Per Student'] = file['AP-Total Exams'] / file['AP-11&12 Participating Students']
+    file['Year'] = int(file_name[3:7])
+    wanted_dists = []
+    for dist_name in list(file['DistName'].values):
+        if ' ISD' in dist_name:
+            wanted_dists.append(dist_name)
+    file = file.loc[(file['RegnName'].isin(major_regions)) & (file['DistName'].isin(wanted_dists)) & (file['AP-Total Exams'] > 50)]
+    fixed_AP_dfs.append(file)
+new_AP_df = pd.concat(fixed_AP_dfs).sort_values('Year')
+new_AP_df = new_AP_df.dropna()
 # new_AP_df.to_csv('Total_AP.csv', index=False)
 
 # AP = pd.read_csv('Total_AP.csv')
-# AP['DistName'] = AP['DistName'].str.upper()
-# AP.to_csv('Total_AP.csv', index=False)
+AP['DistName'] = AP['DistName'].str.upper()
+AP.to_csv('Total_AP.csv', index=False)
 
 ### Fixing Wealth Per ADA ###
-# wealth = pd.read_csv('Wealth_Original.csv')
-# years = ['2011', '2012', '2013', '2014', '2015', '2016', '2017']
-# yearly_wealth = []
-# for year in years:
-#     yearly_df = wealth[['DistName', year]]
-#     yearly_df.columns = ['DistName', 'Wealth/ADA']
-#     yearly_df['Year'] = int(year)
-#     wanted_dists = []
-#     for dist_name in list(yearly_df['DistName'].values):
-#         if ' ISD' in dist_name:
-#             wanted_dists.append(dist_name)
-#     yearly_df = yearly_df.loc[yearly_df['DistName'].isin(wanted_dists)]
-#     yearly_wealth.append(yearly_df)
-# Total_wealth = pd.concat(yearly_wealth)
+wealth = pd.read_csv('Wealth_Original.csv')
+years = ['2011', '2012', '2013', '2014', '2015', '2016', '2017']
+yearly_wealth = []
+for year in years:
+    yearly_df = wealth[['DistName', year]]
+    yearly_df.columns = ['DistName', 'Wealth/ADA']
+    yearly_df['Year'] = int(year)
+    wanted_dists = []
+    for dist_name in list(yearly_df['DistName'].values):
+        if ' ISD' in dist_name:
+            wanted_dists.append(dist_name)
+    yearly_df = yearly_df.loc[yearly_df['DistName'].isin(wanted_dists)]
+    yearly_wealth.append(yearly_df)
+Total_wealth = pd.concat(yearly_wealth)
 
 ### Adding Regions to Wealth Per ADA ###
 # SAT = pd.read_csv('Total_SAT.csv')
 # SAT = SAT[['DistName', 'RegnName', 'Year']]
 # Wealth = pd.read_csv('Total_Wealth.csv')
-# new_wealth = pd.merge(Wealth, SAT, on=['DistName', 'Year'], how='inner')
-# new_wealth = new_wealth.sort_values(['DistName', 'Year'])
-# new_wealth.to_csv('Total_Wealth.csv', index=False)
+new_wealth = pd.merge(Wealth, SAT, on=['DistName', 'Year'], how='inner')
+new_wealth = new_wealth.sort_values(['DistName', 'Year'])
+new_wealth.to_csv('Total_Wealth.csv', index=False)
 
 ### Merging SAT, ACT, AP, Enrollment, Wealth/ADA ###
-# path = 'Total_*'
-# file_names = glob.glob(path)
-# file_names = ['Total_ACT.csv', 'Total_AP.csv', 'Total_Enrollment.csv', 'Total_SATwithout2017.csv', 'Total_Wealth.csv']
-# dfs = [pd.read_csv(file) for file in file_names]
-# Total_Merged = reduce(lambda x, y: pd.merge(x, y, on=['DistName', 'RegnName', 'Year'], how='inner'), dfs)
-# Total_Merged = Total_Merged.sort_values(['DistName', 'Year'])
-# wanted_dfs = []
-# for dist in list(Total_Merged['DistName'].unique()):
-#     dist_df = Total_Merged.loc[Total_Merged['DistName'] == dist]
-#     if len(dist_df) == 7:
-#         wanted_dfs.append(dist_df)
-# Total_Merged = pd.concat(wanted_dfs)
-# Total_Merged.to_csv('Seven_Year_Historical2.csv', index=False)
+path = 'Total_*'
+file_names = glob.glob(path)
+file_names = ['Total_ACT.csv', 'Total_AP.csv', 'Total_Enrollment.csv', 'Total_SATwithout2017.csv', 'Total_Wealth.csv']
+dfs = [pd.read_csv(file) for file in file_names]
+Total_Merged = reduce(lambda x, y: pd.merge(x, y, on=['DistName', 'RegnName', 'Year'], how='inner'), dfs)
+Total_Merged = Total_Merged.sort_values(['DistName', 'Year'])
+wanted_dfs = []
+for dist in list(Total_Merged['DistName'].unique()):
+    dist_df = Total_Merged.loc[Total_Merged['DistName'] == dist]
+    if len(dist_df) == 7:
+        wanted_dfs.append(dist_df)
+Total_Merged = pd.concat(wanted_dfs)
+Total_Merged.to_csv('Seven_Year_Historical2.csv', index=False)
 
 ### Getting School Districts With the Full Seven Years of Data ###
 # seven = pd.read_csv('Seven_Year_Historical2.csv')
