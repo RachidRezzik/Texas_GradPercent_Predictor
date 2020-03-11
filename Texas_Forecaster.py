@@ -322,21 +322,6 @@ pd.set_option('display.width', 1000)
 # reg.fit(X_train, y_train)
 # y_pred = reg.predict(X_test)
 
-### Merging Historical/Predicted Test Features with Historical College Grad ###
-# years = [2011, 2012, 2013, 2014]
-# forecast1 = pd.read_csv('Forecasted_Features2.csv')
-# forecast = forecast1.loc[forecast1['Year'].isin(years)]
-# grad = pd.read_csv('Graduation_Historical.csv')
-# grad = grad[['DistName', 'Graduated 4-Year (%)', 'Year']]
-# new = pd.merge(grad, forecast, on=['DistName', 'Year'], how='inner')
-# new2 = pd.merge(forecast1, new, on=['DistName', 'Year'], how='outer')
-# new2 = new2.iloc[:, :16]
-# new2 = new2[['DistName', 'RegnName_x', 'Year', 'ACT-Composite_x', 'ACT-Part_Rate_x', 'AP-11&12 Participating Students_x', 'AP-Total Exams_x', 'AP-Passed(%)_x', 'AP-Exams Taken Per Student_x',
-# 'Enrolled 4-Year_x', 'Total Graduated_x', 'Enrolled 4-Year (%)_x', 'SAT-Total_x', 'SAT-Part_Rate_x', 'Wealth/ADA_x', 'Graduated 4-Year (%)']]
-# new2.columns = ['DistName', 'RegnName', 'Year', 'ACT-Composite', 'ACT-Part_Rate', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)', 'AP-Exams Taken Per Student',
-# 'Enrolled 4-Year', 'Total Graduated', 'Enrolled 4-Year (%)', 'SAT-Total', 'SAT-Part_Rate', 'Wealth/ADA', 'Graduated 4-Year (%)']
-# new2.to_csv('Pre_Forecasted_Graduation2.csv', index=False)
-
 
 # ### Predicting Missing College Graduation (%) ###
 # hist_forc = pd.read_csv('Pre_Forecasted_Graduation2.csv')
@@ -377,96 +362,96 @@ pd.set_option('display.width', 1000)
 
 
 #### TRENDS ####
-total = pd.read_csv('Final_Forecast.csv')
-years = [2011, 2012, 2013, 2014, 2015, 2016, 2017]
-years2 = [2011, 2012, 2013, 2014]
-total = total.loc[total['Year'].isin(years2)]
-# total2 = total.loc[total['Year'].isin([2014, 2015, 2016, 2017, 2018, 2019, 2020])]
-major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
-color_dict = dict({'Houston':'blue',
-                  'San Antonio':'orange',
-                  'Austin': 'green',
-                  'Richardson': 'red',
-                   'Fort Worth': 'purple'})
-
-### Graph Showing Regional College Graduation Trends + Forecast ###
-for region in major_regions:
-    region_total = total1.loc[total['RegnName'] == region]
-    sat_trend = pd.pivot_table(region_total, index='Year', values='Graduated 4-Year (%)', aggfunc=np.mean)
-    sat_trend = pd.DataFrame(sat_trend.to_records())
-    plt.plot(sat_trend['Year'], sat_trend['Graduated 4-Year (%)'], color=color_dict[region], marker='s', label=region)
+# total = pd.read_csv('Final_Forecast.csv')
+# years = [2011, 2012, 2013, 2014, 2015, 2016, 2017]
+# years2 = [2011, 2012, 2013, 2014]
+# total = total.loc[total['Year'].isin(years2)]
+# # total2 = total.loc[total['Year'].isin([2014, 2015, 2016, 2017, 2018, 2019, 2020])]
+# major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
+# color_dict = dict({'Houston':'blue',
+#                   'San Antonio':'orange',
+#                   'Austin': 'green',
+#                   'Richardson': 'red',
+#                    'Fort Worth': 'purple'})
+#
+# ### Graph Showing Regional College Graduation Trends + Forecast ###
 # for region in major_regions:
-#     region_total = total2.loc[total['RegnName'] == region]
+#     region_total = total1.loc[total['RegnName'] == region]
 #     sat_trend = pd.pivot_table(region_total, index='Year', values='Graduated 4-Year (%)', aggfunc=np.mean)
 #     sat_trend = pd.DataFrame(sat_trend.to_records())
-#     plt.plot(sat_trend['Year'], sat_trend['Graduated 4-Year (%)'], color=color_dict[region], marker='s', linestyle='--', label=region)
+#     plt.plot(sat_trend['Year'], sat_trend['Graduated 4-Year (%)'], color=color_dict[region], marker='s', label=region)
+# # for region in major_regions:
+# #     region_total = total2.loc[total['RegnName'] == region]
+# #     sat_trend = pd.pivot_table(region_total, index='Year', values='Graduated 4-Year (%)', aggfunc=np.mean)
+# #     sat_trend = pd.DataFrame(sat_trend.to_records())
+# #     plt.plot(sat_trend['Year'], sat_trend['Graduated 4-Year (%)'], color=color_dict[region], marker='s', linestyle='--', label=region)
+# #
+# # plt.xlabel('Year')
+# # plt.ylabel('Graduated 4-Year (%)')
+# # plt.title('Regional Average College Graduation (Hist:2011 - 2014, Forc:2015 - 2020)')
+# # plt.xticks([2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020])
+# # plt.show()
 #
+#
+# print(np.corrcoef(total['Wealth/ADA'], total['Graduated 4-Year (%)']))
+# # print(np.corrcoef(total['Wealth/ADA'], total['Enrolled 4-Year (%)']))
+# # # # plt.subplot(2,1,1)
+# # graph = sns.lmplot(x='Wealth/ADA', y='Graduated 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
+# # sns.regplot(x='Wealth/ADA', y='Graduated 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
+# # plt.title('Graduated 4-Year (%) vs. Wealth/ADA (2011 - 2014)')
+# # plt.xlabel('Wealth/ADA ($)')
+# # plt.show()
+#
+# # graph = sns.lmplot(x='Wealth/ADA', y='Enrolled 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
+# # sns.regplot(x='Wealth/ADA', y='Enrolled 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
+# # plt.title('Enrolled 4-Year (%) vs. Wealth/ADA')
+# # plt.xlabel('Wealth/ADA ($)')
+# # plt.show()
+#
+#
+# ### SAT and ACT participation, Regional trends, Distribution ###
+# participation = pd.pivot_table(total, columns='Year', values=['SAT-Part_Rate', 'ACT-Part_Rate'], aggfunc=np.mean)
+# # for region in major_regions:
+# #     region_total = total.loc[total['RegnName'] == region]
+# #     sat_trend = pd.pivot_table(region_total, index='Year', values='Wealth/ADA', aggfunc=np.mean)
+# #     sat_trend = pd.DataFrame(sat_trend.to_records())
+# #     plt.plot(sat_trend['Year'], sat_trend['Wealth/ADA'], color=color_dict[region], marker='s', label=region)
 # plt.xlabel('Year')
-# plt.ylabel('Graduated 4-Year (%)')
-# plt.title('Regional Average College Graduation (Hist:2011 - 2014, Forc:2015 - 2020)')
-# plt.xticks([2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020])
+# plt.ylabel('Wealth/ADA ($)')
+# plt.title('Regional Average Wealth/ADA (2011 - 2017)')
+# # plt.legend(loc='center left', bbox_to_anchor=(1, .5))
 # plt.show()
-
-
-print(np.corrcoef(total['Wealth/ADA'], total['Graduated 4-Year (%)']))
-# print(np.corrcoef(total['Wealth/ADA'], total['Enrolled 4-Year (%)']))
-# # # plt.subplot(2,1,1)
-# graph = sns.lmplot(x='Wealth/ADA', y='Graduated 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
-# sns.regplot(x='Wealth/ADA', y='Graduated 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
-# plt.title('Graduated 4-Year (%) vs. Wealth/ADA (2011 - 2014)')
-# plt.xlabel('Wealth/ADA ($)')
-# plt.show()
-
-# graph = sns.lmplot(x='Wealth/ADA', y='Enrolled 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
-# sns.regplot(x='Wealth/ADA', y='Enrolled 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
-# plt.title('Enrolled 4-Year (%) vs. Wealth/ADA')
-# plt.xlabel('Wealth/ADA ($)')
-# plt.show()
-
-
-### SAT and ACT participation, Regional trends, Distribution ###
-participation = pd.pivot_table(total, columns='Year', values=['SAT-Part_Rate', 'ACT-Part_Rate'], aggfunc=np.mean)
-# for region in major_regions:
-#     region_total = total.loc[total['RegnName'] == region]
-#     sat_trend = pd.pivot_table(region_total, index='Year', values='Wealth/ADA', aggfunc=np.mean)
-#     sat_trend = pd.DataFrame(sat_trend.to_records())
-#     plt.plot(sat_trend['Year'], sat_trend['Wealth/ADA'], color=color_dict[region], marker='s', label=region)
-plt.xlabel('Year')
-plt.ylabel('Wealth/ADA ($)')
-plt.title('Regional Average Wealth/ADA (2011 - 2017)')
-# plt.legend(loc='center left', bbox_to_anchor=(1, .5))
-plt.show()
-# plt.hist(total['SAT-Total'], color='red', edgecolor='black')
-# plt.title('SAT-Total Distribution (Major Regions: 2011 - 2017)')
-# plt.xlabel('SAT-Total')
-# plt.ylabel('Count')
-# plt.show()
-
-
-
-### AP Exams Taken Per Student | Wealth/ADA ###
-# exam_student = pd.pivot_table(total, columns='Year', index='RegnName', values=['AP-Exams Taken Per Student'], aggfunc=np.mean)
-# print(exam_student)
-# print(np.corrcoef(total1['AP-Exams Taken Per Student'], total1['Wealth/ADA']))
-# print(np.corrcoef(total['Wealth/ADA'], total['AP-Exams Taken Per Student']))
-# sns.regplot(data=total, x=total['Wealth/ADA'], y=total['AP-Exams Taken Per Student'], color='red', hue='RegnName')
-# plt.show()
-# graph = sns.lmplot(x='Wealth/ADA', y='AP-Exams Taken Per Student', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
-# sns.regplot(x='Wealth/ADA', y='AP-Exams Taken Per Student', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
-# plt.title('AP Exams Taken Per Student vs. Wealth/ADA')
-# plt.xlabel('Wealth/ADA ($)')
-# plt.show()
-
-### Wealth/ADA ###
-# wealth = pd.pivot_table(total, index='RegnName', values=['Graduated 4-Year (%)'], aggfunc=np.mean)
-# print(wealth.sort_values('Graduated 4-Year (%)', ascending=False))
-
-# plt.hist(total['Wealth/ADA'], color='purple', edgecolor='black')
-# plt.title('Wealth/ADA Distribution (Major Regions: 2011 - 2017)')
-# plt.xlabel('Wealth/ADA ($)')
-# plt.ylabel('Count')
-# plt.show()
-
+# # plt.hist(total['SAT-Total'], color='red', edgecolor='black')
+# # plt.title('SAT-Total Distribution (Major Regions: 2011 - 2017)')
+# # plt.xlabel('SAT-Total')
+# # plt.ylabel('Count')
+# # plt.show()
+#
+#
+#
+# ### AP Exams Taken Per Student | Wealth/ADA ###
+# # exam_student = pd.pivot_table(total, columns='Year', index='RegnName', values=['AP-Exams Taken Per Student'], aggfunc=np.mean)
+# # print(exam_student)
+# # print(np.corrcoef(total1['AP-Exams Taken Per Student'], total1['Wealth/ADA']))
+# # print(np.corrcoef(total['Wealth/ADA'], total['AP-Exams Taken Per Student']))
+# # sns.regplot(data=total, x=total['Wealth/ADA'], y=total['AP-Exams Taken Per Student'], color='red', hue='RegnName')
+# # plt.show()
+# # graph = sns.lmplot(x='Wealth/ADA', y='AP-Exams Taken Per Student', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
+# # sns.regplot(x='Wealth/ADA', y='AP-Exams Taken Per Student', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
+# # plt.title('AP Exams Taken Per Student vs. Wealth/ADA')
+# # plt.xlabel('Wealth/ADA ($)')
+# # plt.show()
+#
+# ### Wealth/ADA ###
+# # wealth = pd.pivot_table(total, index='RegnName', values=['Graduated 4-Year (%)'], aggfunc=np.mean)
+# # print(wealth.sort_values('Graduated 4-Year (%)', ascending=False))
+#
+# # plt.hist(total['Wealth/ADA'], color='purple', edgecolor='black')
+# # plt.title('Wealth/ADA Distribution (Major Regions: 2011 - 2017)')
+# # plt.xlabel('Wealth/ADA ($)')
+# # plt.ylabel('Count')
+# # plt.show()
+#
 
 ### Regional Grad % (Yearly) ###
 # enrol_grad = pd.pivot_table(total, index=['Year', 'RegnName'], values='Graduated 4-Year (%)', aggfunc=np.mean)
