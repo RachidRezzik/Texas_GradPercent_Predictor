@@ -23,6 +23,8 @@ pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 
+###########___________________DATA WRANGLING__________________________________________________________##########
+
 ### Fixing College Enrollment DFs ###
 # # SAT = pd.read_csv('Total_SAT.csv')
 # # SAT = SAT[['DistName', 'RegnName', 'Year']]
@@ -220,10 +222,9 @@ pd.set_option('display.width', 1000)
 # new_wealth = new_wealth.sort_values(['DistName', 'Year'])
 # new_wealth.to_csv('Total_Wealth.csv', index=False)
 #
-# ### Merging SAT, ACT, AP, Enrollment, Wealth/ADA ###
+### Merging SAT, ACT, AP, Enrollment, Wealth/ADA ###
 # path = 'Total_*'
 # file_names = glob.glob(path)
-# file_names = ['Total_ACT.csv', 'Total_AP.csv', 'Total_Enrollment.csv', 'Total_SATwithout2017.csv', 'Total_Wealth.csv']
 # dfs = [pd.read_csv(file) for file in file_names]
 # Total_Merged = reduce(lambda x, y: pd.merge(x, y, on=['DistName', 'RegnName', 'Year'], how='inner'), dfs)
 # Total_Merged = Total_Merged.sort_values(['DistName', 'Year'])
@@ -233,36 +234,139 @@ pd.set_option('display.width', 1000)
 #     if len(dist_df) == 7:
 #         wanted_dfs.append(dist_df)
 # Total_Merged = pd.concat(wanted_dfs)
-# Total_Merged.to_csv('Seven_Year_Historical2.csv', index=False)
+# Total_Merged.to_csv('Feature_Target_Data.csv', index=False)
 
-### Getting School Districts With the Full Seven Years of Data ###
-# seven = pd.read_csv('Seven_Year_Historical2.csv')
-# print(seven.head(5))
-# seven = seven.dropna()
-# wanted_dfs = []
-# for dist in list(seven['DistName'].unique()):
-#     dist_df = seven.loc[seven['DistName'] == dist]
-#     if len(dist_df) == 7:
-#         wanted_dfs.append(dist_df)
-# new = pd.concat(wanted_dfs)
-# new.to_csv('Seven_Year_Historical7.csv', index=False)
+##########___________________________DATA ANALYSIS___________________________________________________##############
 
-### Forecasting the next 3 years (2018, 2019, 2020) ###
-# historical = pd.read_csv('Seven_Year_Historical7.csv')
+#### TRENDS ####
+total = pd.read_csv('Feature_Target_Data.csv')
+years = [2011, 2012, 2013, 2014, 2015, 2016, 2017]
+years2 = [2011, 2012, 2013, 2014]
+total = total.loc[total['Year'].isin(years)]
+# total2 = total.loc[total['Year'].isin([2014, 2015, 2016, 2017, 2018, 2019, 2020])]
+major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
+color_dict = dict({'Houston':'blue',
+                  'San Antonio':'orange',
+                  'Austin': 'green',
+                  'Richardson': 'red',
+                   'Fort Worth': 'purple'})
+#
+# ### Graph Showing Regional College Graduation Trends + Forecast (2018) ###
+# for region in major_regions:
+#     region_total = total1.loc[total['RegnName'] == region]
+#     sat_trend = pd.pivot_table(region_total, index='Year', values='Graduated 4-Year (%)', aggfunc=np.mean)
+#     sat_trend = pd.DataFrame(sat_trend.to_records())
+#     plt.plot(sat_trend['Year'], sat_trend['Graduated 4-Year (%)'], color=color_dict[region], marker='s', label=region)
+# # for region in major_regions:
+# #     region_total = total2.loc[total['RegnName'] == region]
+# #     sat_trend = pd.pivot_table(region_total, index='Year', values='Graduated 4-Year (%)', aggfunc=np.mean)
+# #     sat_trend = pd.DataFrame(sat_trend.to_records())
+# #     plt.plot(sat_trend['Year'], sat_trend['Graduated 4-Year (%)'], color=color_dict[region], marker='s', linestyle='--', label=region)
+# #
+# # plt.xlabel('Year')
+# # plt.ylabel('Graduated 4-Year (%)')
+# # plt.title('Regional Average College Graduation (Hist:2011 - 2014, Forc:2018)')
+# # plt.xticks([2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018])
+# # plt.show()
+#
+#### Graduated 4-Year vs Wealth/ADA #####
+
+# # graph = sns.lmplot(x='Wealth/ADA', y='Graduated 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
+# # sns.regplot(x='Wealth/ADA', y='Graduated 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
+# # plt.title('Graduated 4-Year (%) vs. Wealth/ADA (2011 - 2014)')
+# # plt.xlabel('Wealth/ADA ($)')
+# # plt.show()
+# print(np.corrcoef(total['Wealth/ADA'], total['Graduated 4-Year (%)']))
+
+#### College Enrollment vs. Wealth/ADA ####
+# # graph = sns.lmplot(x='Wealth/ADA', y='Enrolled 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
+# # sns.regplot(x='Wealth/ADA', y='Enrolled 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
+# # plt.title('Enrolled 4-Year (%) vs. Wealth/ADA')
+# # plt.xlabel('Wealth/ADA ($)')
+# # plt.show()
+# # print(np.corrcoef(total['Wealth/ADA'], total['Enrolled 4-Year (%)']))
+#
+#
+# ### Regional trends and Distribution ###
+
+# # for region in major_regions:
+# #     region_total = total.loc[total['RegnName'] == region]
+# #     sat_trend = pd.pivot_table(region_total, index='Year', values='Wealth/ADA', aggfunc=np.mean)
+# #     sat_trend = pd.DataFrame(sat_trend.to_records())
+# #     plt.plot(sat_trend['Year'], sat_trend['Wealth/ADA'], color=color_dict[region], marker='s', label=region)
+# plt.xlabel('Year')
+# plt.ylabel('Wealth/ADA ($)')
+# plt.title('Regional Average Wealth/ADA (2011 - 2017)')
+# # plt.legend(loc='center left', bbox_to_anchor=(1, .5))
+# plt.show()
+# # plt.hist(total['SAT-Total'], color='red', edgecolor='black')
+# # plt.title('SAT-Total Distribution (Major Regions: 2011 - 2017)')
+# # plt.xlabel('SAT-Total')
+# # plt.ylabel('Count')
+# # plt.show()
+#
+##### SAT/ACT Participation #####
+# participation = pd.pivot_table(total, columns='Year', values=['SAT-Part_Rate', 'ACT-Part_Rate'], aggfunc=np.mean)
+graph = sns.lmplot(x='ACT-Part_Rate', y='Enrolled 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
+sns.regplot(x='ACT-Part_Rate', y='Enrolled 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
+plt.title('Enrolled 4-Year (%) vs. ACT Participation Percentage')
+plt.xlabel('ACT-Part_Rate (%)')
+plt.show()
+print(np.corrcoef(total['ACT-Part_Rate'], total['Enrolled 4-Year (%)']))
+
+
+# ### AP Exams Taken Per Student | Wealth/ADA ###
+# # exam_student = pd.pivot_table(total, columns='Year', index='RegnName', values=['AP-Exams Taken Per Student'], aggfunc=np.mean)
+# # print(exam_student)
+# # print(np.corrcoef(total1['AP-Exams Taken Per Student'], total1['Wealth/ADA']))
+# # print(np.corrcoef(total['Wealth/ADA'], total['AP-Exams Taken Per Student']))
+# # sns.regplot(data=total, x=total['Wealth/ADA'], y=total['AP-Exams Taken Per Student'], color='red', hue='RegnName')
+# # plt.show()
+# # graph = sns.lmplot(x='Wealth/ADA', y='AP-Exams Taken Per Student', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
+# # sns.regplot(x='Wealth/ADA', y='AP-Exams Taken Per Student', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
+# # plt.title('AP Exams Taken Per Student vs. Wealth/ADA')
+# # plt.xlabel('Wealth/ADA ($)')
+# # plt.show()
+#
+# ### Wealth/ADA ###
+# # wealth = pd.pivot_table(total, index='RegnName', values=['Graduated 4-Year (%)'], aggfunc=np.mean)
+# # print(wealth.sort_values('Graduated 4-Year (%)', ascending=False))
+#
+# # plt.hist(total['Wealth/ADA'], color='purple', edgecolor='black')
+# # plt.title('Wealth/ADA Distribution (Major Regions: 2011 - 2017)')
+# # plt.xlabel('Wealth/ADA ($)')
+# # plt.ylabel('Count')
+# # plt.show()
+#
+
+
+
+
+
+
+
+
+
+
+
+#########_________________________MACHINE LEARNING___________________________________________________###############
+
+### Forecasting the next year (2018) ###
+# historical = pd.read_csv('Feature_Target_Data.csv')
 # new_dfs = []
 # for dist in list(historical['DistName'].unique()):
 #     regn = list(historical.loc[historical['DistName'] == dist]['RegnName'].values)[0]
 #     columns = ['ACT-Composite', 'ACT-Part_Rate', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)',
 #                'AP-Exams Taken Per Student', 'Enrolled 4-Year', 'Total Graduated', 'Enrolled 4-Year (%)', 'SAT-Total',
 #                'SAT-Part_Rate', 'Wealth/ADA']
-#     new_df = {'DistName': dist, 'RegnName': regn, 'Year': [2018, 2019, 2020]}
+#     new_df = {'DistName': dist, 'RegnName': regn, 'Year': [2018]}
 #     for col in columns:
 #         dist_hist = historical.loc[historical['DistName'] == dist][[col, 'Year']]
 #         X = dist_hist.drop(col, axis=1).values
 #         y = dist_hist[col].values
 #         reg = LinearRegression(fit_intercept=False)
 #         reg.fit(X, y)
-#         y_pred = reg.predict([[2018], [2019], [2020]])
+#         y_pred = reg.predict([2018])
 #         new_df.update({col: y_pred})
 #         predictions_df = pd.DataFrame(new_df)
 #         hist = historical.loc[historical['DistName'] == dist][['DistName', 'RegnName', 'Year', 'ACT-Composite', 'ACT-Part_Rate', 'AP-11&12 Participating Students', 'AP-Total Exams', 'AP-Passed(%)',
@@ -273,14 +377,6 @@ pd.set_option('display.width', 1000)
 #             new_dfs.append(new_df_forecast)
 # Hist_Forecast = pd.concat(new_dfs).sort_values(['DistName', 'Year'])
 # Hist_Forecast.to_csv('Forecasted_Features2.csv', index=False)
-
-### Getting new SAT into graduation historical ###
-# grad = pd.read_csv('Graduation_Historical.csv')
-# grad = grad.drop('SAT-Total', axis=1)
-# SAT = pd.read_csv('Total_SATwithout2017.csv')
-# SAT = SAT[['DistName', 'RegnName', 'Year', 'SAT-Total']]
-# newgrad = pd.merge(grad, SAT, on=['DistName', 'RegnName', 'Year'], how='inner')
-# newgrad.to_csv('Graduation_Historical2.csv', index=False)
 
 
 ### Model for Predicting College Graduation ###
