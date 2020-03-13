@@ -337,6 +337,20 @@ pd.set_option('display.width', 1000)
 # # plt.ylabel('Count')
 # # plt.show()
 
+#### Identify Highly Correlated Features ###
+grad = pd.read_csv('Feature_Target_Data.csv')
+years = [2011, 2012, 2013, 2014]
+grad = grad.loc[grad['Year'].isin(years)]
+grad = grad[grad.columns[3:-1]]
+corr_matrix = grad.corr().abs()
+print(corr_matrix)
+upper = corr_matrix.where(np.triu(np.ones(corr_matrix.shape), k=1).astype(np.bool))
+print(upper)
+to_drop = [column for column in upper.columns if any(upper[column] > 0.85)]
+print(to_drop)
+
+
+
 # ### VIF multicollinearity ###
 # vif = pd.DataFrame()
 # vif["VIF Factor"] = [variance_inflation_factor(grad_all_features.values, i) for i in range(grad_all_features.shape[1])]
@@ -382,28 +396,34 @@ pd.set_option('display.width', 1000)
 
 ########## Model for Predicting College Graduation ############
 
-def mean_absolute_percentage_error(y_true, y_pred):
-    y_true, y_pred = np.array(y_true), np.array(y_pred)
-    return np.mean(np.abs((y_true - y_pred) / y_true)) * 100
+# def mean_absolute_percentage_error(y_true, y_pred):
+#     y_true, y_pred = np.array(y_true), np.array(y_pred)
+#     return np.mean(np.abs((y_true - y_pred) / y_true)) * 100
 
-grad = pd.read_csv('Feature_Target_Data.csv')
-years = [2011, 2012, 2013, 2014]
-grad = grad.loc[grad['Year'].isin(years)]
-grad = grad[grad.columns[3:]]
-X = grad.drop('Graduated 4-Year (%)', axis=1).values
-y = grad['Graduated 4-Year (%)'].values
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.25, random_state=42)
-linear_reg = LinearRegression()
-linear_reg.fit(X_train, y_train)
-y_pred_test = linear_reg.predict(X_test)
-y_pred_train = linear_reg.predict(X_train)
-print('Training RMSE:', np.sqrt(mean_squared_error(y_pred_train, y_train)), '\nTesting RMSE:', np.sqrt(mean_squared_error(y_pred_test, y_test)))
-print('\nTraining R2: ', linear_reg.score(X_train, y_train), '\nTesting R2: ', linear_reg.score(X_test, y_test))
-print('\nTraining MAPE: ', mean_absolute_percentage_error(y_train, y_pred_train), '\nTesting MAPE: ', mean_absolute_percentage_error(y_test, y_pred_test))
-
-
-
-
+### Linear Regression ###
+# grad = pd.read_csv('Feature_Target_Data.csv')
+# years = [2011, 2012, 2013, 2014]
+# grad = grad.loc[grad['Year'].isin(years)]
+# grad = grad[grad.columns[3:]]
+# X = grad.drop('Graduated 4-Year (%)', axis=1).values
+# y = grad['Graduated 4-Year (%)'].values
+# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.25, random_state=42)
+# linear_reg = LinearRegression()
+# linear_reg.fit(X_train, y_train)
+# y_pred_test = linear_reg.predict(X_test)
+# y_pred_train = linear_reg.predict(X_train)
+# print('Training RMSE:', np.sqrt(mean_squared_error(y_train, y_pred_train)), '\nTesting RMSE:', np.sqrt(mean_squared_error(y_test, y_pred_test)))
+# print('\nTraining R2: ', linear_reg.score(X_train, y_train), '\nTesting R2: ', linear_reg.score(X_test, y_test))
+# print('\nTraining MAPE: ', mean_absolute_percentage_error(y_train, y_pred_train), '\nTesting MAPE: ', mean_absolute_percentage_error(y_test, y_pred_test))
+# print(linear_reg.coef_)
+# ### Interpreting Coefficients, Stats Model OLS ###
+# from statsmodels.api import OLS
+# X = grad[grad.columns[:-1]]
+# y = grad[grad.columns[-1]]
+# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.25, random_state=42)
+# olsreg = OLS(y_train, X_train)
+# olsreg = olsreg.fit()
+# print(olsreg.summary())
 
 
 
