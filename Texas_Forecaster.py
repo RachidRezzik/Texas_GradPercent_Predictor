@@ -234,8 +234,15 @@ pd.set_option('display.width', 1000)
 #     if len(dist_df) == 7:
 #         wanted_dfs.append(dist_df)
 # Total_Merged = pd.concat(wanted_dfs)
-# Total_Merged.to_csv('Feature_Target_Data.csv', index=False)
+# print(Total_Merged.head(20))
+# Total_Merged.to_csv('Feature_Target_Data2.csv', index=False)
 
+
+### Fixing Feature_Target_Data to include missing Wealth/ADA ####
+f_t_data = pd.read_csv('Feature_Target_Data.csv')
+wealth = pd.read_csv('Total_Wealth.csv')
+new = pd.merge(f_t_data, wealth, on=['DistName', 'RegnName', 'Year'], how='inner')
+new.to_csv('Feature_Target_Data2.csv', index=False)
 ##########___________________________DATA ANALYSIS___________________________________________________##############
 
 #### TRENDS ####
@@ -425,52 +432,52 @@ pd.set_option('display.width', 1000)
 # olsreg = olsreg.fit()
 # print(olsreg.summary())
 
-
-def mean_absolute_percentage_error(y_true, y_pred):
-    y_true, y_pred = np.array(y_true), np.array(y_pred)
-    return np.mean(np.abs((y_true - y_pred) / y_true)) * 100
-
-for test_size in [.275, .25, .225, .2]:
-    rmse_all = []
-    r2_all = []
-    mape_all = []
-    rmse_drop = []
-    r2_drop = []
-    mape_drop = []
-    print('\n***Test Size: ', test_size, '***')
-    for i in range(1000):
-        grad = pd.read_csv('Feature_Target_Data.csv')
-        years = [2011, 2012, 2013, 2014]
-        grad = grad.loc[grad['Year'].isin(years)]
-        grad = grad[grad.columns[3:]]
-        X = grad.drop('Graduated 4-Year (%)', axis=1).values
-        y = grad['Graduated 4-Year (%)'].values
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=i)
-        linear_reg = LinearRegression()
-        linear_reg.fit(X_train, y_train)
-        y_pred_test = linear_reg.predict(X_test)
-        y_pred_train = linear_reg.predict(X_train)
-        rmse_all.append(np.sqrt(mean_squared_error(y_test, y_pred_test)))
-        r2_all.append(linear_reg.score(X_test, y_test))
-        mape_all.append(mean_absolute_percentage_error(y_test, y_pred_test))
-        r2_max_index = r2_all.index(np.max(r2_all)
-
-### After Dropping Features Causing Mulicollinearity ###
-        X = grad.drop(['Graduated 4-Year (%)', 'AP-Total Exams', 'Enrolled 4-Year', 'Total Graduated', 'AP-11&12 Participating Students', 'SAT-Total', 'Wealth/ADA'], axis=1).values
-        y = grad['Graduated 4-Year (%)'].values
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=i)
-        linear_reg = LinearRegression()
-        linear_reg.fit(X_train, y_train)
-        y_pred_test = linear_reg.predict(X_test)
-        y_pred_train = linear_reg.predict(X_train)
-        rmse_drop.append(np.sqrt(mean_squared_error(y_test, y_pred_test)))
-        r2_drop.append(linear_reg.score(X_test, y_test))
-        mape_drop.append(mean_absolute_percentage_error(y_test, y_pred_test))
-    print('All Features: Performance on Test Set')
-    print('RMSE: ', np.mean(rmse_all), 'r2: ', np.mean(r2_all), 'MAPE: ', np.mean(mape_all))
-    print('\nAfter Dropping Features: Performance on Test Set')
-    print('RMSE: ', np.mean(rmse_drop), 'r2: ', np.mean(r2_drop), 'MAPE: ', np.mean(mape_drop))
-    print('Best r2: ', r2_all[r2_max_index], 'Random State: ', r2_max_index)
+#
+# def mean_absolute_percentage_error(y_true, y_pred):
+#     y_true, y_pred = np.array(y_true), np.array(y_pred)
+#     return np.mean(np.abs((y_true - y_pred) / y_true)) * 100
+#
+# for test_size in [.275, .25, .225, .2]:
+#     rmse_all = []
+#     r2_all = []
+#     mape_all = []
+#     rmse_drop = []
+#     r2_drop = []
+#     mape_drop = []
+#     print('\n***Test Size: ', test_size, '***')
+#     for i in range(1000):
+#         grad = pd.read_csv('Feature_Target_Data.csv')
+#         years = [2011, 2012, 2013, 2014]
+#         grad = grad.loc[grad['Year'].isin(years)]
+#         grad = grad[grad.columns[3:]]
+#         X = grad.drop('Graduated 4-Year (%)', axis=1).values
+#         y = grad['Graduated 4-Year (%)'].values
+#         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=i)
+#         linear_reg = LinearRegression()
+#         linear_reg.fit(X_train, y_train)
+#         y_pred_test = linear_reg.predict(X_test)
+#         y_pred_train = linear_reg.predict(X_train)
+#         rmse_all.append(np.sqrt(mean_squared_error(y_test, y_pred_test)))
+#         r2_all.append(linear_reg.score(X_test, y_test))
+#         mape_all.append(mean_absolute_percentage_error(y_test, y_pred_test))
+#         r2_max_index = r2_all.index(np.max(r2_all)
+#
+# ### After Dropping Features Causing Mulicollinearity ###
+#         X = grad.drop(['Graduated 4-Year (%)', 'AP-Total Exams', 'Enrolled 4-Year', 'Total Graduated', 'AP-11&12 Participating Students', 'SAT-Total', 'Wealth/ADA'], axis=1).values
+#         y = grad['Graduated 4-Year (%)'].values
+#         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=i)
+#         linear_reg = LinearRegression()
+#         linear_reg.fit(X_train, y_train)
+#         y_pred_test = linear_reg.predict(X_test)
+#         y_pred_train = linear_reg.predict(X_train)
+#         rmse_drop.append(np.sqrt(mean_squared_error(y_test, y_pred_test)))
+#         r2_drop.append(linear_reg.score(X_test, y_test))
+#         mape_drop.append(mean_absolute_percentage_error(y_test, y_pred_test))
+#     print('All Features: Performance on Test Set')
+#     print('RMSE: ', np.mean(rmse_all), 'r2: ', np.mean(r2_all), 'MAPE: ', np.mean(mape_all))
+#     print('\nAfter Dropping Features: Performance on Test Set')
+#     print('RMSE: ', np.mean(rmse_drop), 'r2: ', np.mean(r2_drop), 'MAPE: ', np.mean(mape_drop))
+#     print('Best r2: ', r2_all[r2_max_index], 'Random State: ', r2_max_index)
 
 
 
