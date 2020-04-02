@@ -239,24 +239,24 @@ pd.set_option('display.width', 1000)
 
 
 ### Fixing Feature_Target_Data to include missing Wealth/ADA ####
-f_t_data = pd.read_csv('Feature_Target_Data.csv')
-wealth = pd.read_csv('Total_Wealth.csv')
-new = pd.merge(f_t_data, wealth, on=['DistName', 'RegnName', 'Year'], how='inner')
-new.to_csv('Feature_Target_Data2.csv', index=False)
+# f_t_data = pd.read_csv('Feature_Target_Data.csv')
+# wealth = pd.read_csv('Total_Wealth.csv')
+# new = pd.merge(f_t_data, wealth, on=['DistName', 'RegnName', 'Year'], how='inner')
+# new.to_csv('Feature_Target_Data2.csv', index=False)
 ##########___________________________DATA ANALYSIS___________________________________________________##############
 
 #### TRENDS ####
-# total = pd.read_csv('Feature_Target_Data.csv')
-# years = [2011, 2012, 2013, 2014, 2015, 2016, 2017]
-# years2 = [2011, 2012, 2013, 2014]
-# total = total.loc[total['Year'].isin(years)]
+total = pd.read_csv('Feature_Target_Data.csv')
+years = [2011, 2012, 2013, 2014, 2015, 2016, 2017]
+years2 = [2011, 2012, 2013, 2014]
+total = total.loc[total['Year'].isin(years2)]
 # total2 = total.loc[total['Year'].isin([2014, 2015, 2016, 2017, 2018, 2019, 2020])]
-# major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
-# color_dict = dict({'Houston':'blue',
-#                   'San Antonio':'orange',
-#                   'Austin': 'green',
-#                   'Richardson': 'red',
-#                    'Fort Worth': 'purple'})
+major_regions = ['Houston', 'San Antonio', 'Austin', 'Richardson', 'Fort Worth']
+color_dict = dict({'Houston':'blue',
+                  'San Antonio':'orange',
+                  'Austin': 'green',
+                  'Richardson': 'red',
+                   'Fort Worth': 'purple'})
 #
 # ### Graph Showing Regional College Graduation Trends + Forecast (2018) ###
 # for region in major_regions:
@@ -278,20 +278,19 @@ new.to_csv('Feature_Target_Data2.csv', index=False)
 #
 #### Graduated 4-Year vs Wealth/ADA #####
 
-# # graph = sns.lmplot(x='Wealth/ADA', y='Graduated 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
-# # sns.regplot(x='Wealth/ADA', y='Graduated 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
-# # plt.title('Graduated 4-Year (%) vs. Wealth/ADA (2011 - 2014)')
-# # plt.xlabel('Wealth/ADA ($)')
-# # plt.show()
-# print(np.corrcoef(total['Wealth/ADA'], total['Graduated 4-Year (%)']))
-
+graph = sns.lmplot(x='Wealth/ADA', y='Graduated 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
+sns.regplot(x='Wealth/ADA', y='Graduated 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
+plt.title('Graduated 4-Year (%) vs. Wealth/ADA (2011 - 2014)')
+plt.xlabel('Wealth/ADA ($)')
+print(np.corrcoef(total['Wealth/ADA'], total['Graduated 4-Year (%)']))
+plt.show()
 #### College Enrollment vs. Wealth/ADA ####
-# # graph = sns.lmplot(x='Wealth/ADA', y='Enrolled 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
-# # sns.regplot(x='Wealth/ADA', y='Enrolled 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
-# # plt.title('Enrolled 4-Year (%) vs. Wealth/ADA')
-# # plt.xlabel('Wealth/ADA ($)')
-# # plt.show()
-# # print(np.corrcoef(total['Wealth/ADA'], total['Enrolled 4-Year (%)']))
+graph = sns.lmplot(x='Wealth/ADA', y='Enrolled 4-Year (%)', hue='RegnName', palette=color_dict, data=total, fit_reg=False)
+sns.regplot(x='Wealth/ADA', y='Enrolled 4-Year (%)', data=total, scatter=False, ax=graph.axes[0, 0], line_kws={"color":"black"})
+plt.title('Enrolled 4-Year (%) vs. Wealth/ADA')
+plt.xlabel('Wealth/ADA ($)')
+print(np.corrcoef(total['Wealth/ADA'], total['Enrolled 4-Year (%)']))
+plt.show()
 #
 #
 # ### Regional trends and Distribution ###
